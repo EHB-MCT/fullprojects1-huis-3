@@ -1,7 +1,30 @@
 /* BUTTONS */
 
 .btn-primary {
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-family: "roca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn-secondary {
+    background-color: #F8AD3B;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+    margin-left: 20px;
+    ;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-family: "roca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
