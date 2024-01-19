@@ -1,5 +1,12 @@
 /* BASE LAYOUT FLEXBOX */
-
 body {
-	margin: 0;
+	margin-left: 20%;
+}
+
+.doek {
+	width: 300px;
+}
+
+.flex {
+	display: flex;
 }
