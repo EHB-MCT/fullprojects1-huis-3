@@ -13,22 +13,44 @@ body {
 
 .navigation {
 	width: 100%;
+	flex: 3;
 	display: flex;
 	justify-content: left;
+	align-items: center;
+}
+
+.navigation-2 {
+	width: 100%;
+	flex: 1;
+	display: flex;
+	justify-content: right;
 	align-items: center;
 }
 
 .navigation-text ul li {
 	display: inline-block;
 	margin-right: 50px;
-	color: red;
 	font-family: "anago", sans-serif;
 	font-weight: 500;
 	font-style: normal;
+	font-size: 24px;
 }
 
 .navigation-text ul li a {
 	text-decoration: none;
 	color: black;
-	font-size: ;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.navigation-text ul li a.vacatuur {
+	background-color: #e60000;
+	padding: 18px 25px;
+	color: #fcb723;
+	border-radius: 30px;
 }
