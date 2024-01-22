@@ -1,0 +1,34 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f6e8ab;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.navigation {
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.navigation-text ul li {
+	display: inline-block;
+	margin-right: 50px;
+	color: red;
+	font-family: "anago", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.navigation-text ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: ;
+}
