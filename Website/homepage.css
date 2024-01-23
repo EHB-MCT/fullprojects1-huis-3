@@ -1,18 +1,113 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
 body {
-    background-color: rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #f6e8ab;
 }
 
-@media screen and (min-width:430px) {
-    body {
-
-        background-color: rgb(0, 0, 255);
-
-
-    }
+.flex {
+    display: flex;
 }
 
-@media screen and (min-width) {
-    header {
-        display: inline;
-    }
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 70;
+    flex: 10;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navigation-2 {
+    width: 100%;
+    flex: 4;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navigation-text ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: "anago", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.navigation-text ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-text ul li a.vacatuur {
+    background-color: #fcb723;
+    padding: 18px 25px;
+    color: black;
+    border-radius: 30px;
+}
+
+.navigation-text ul li a.vacatuur:hover {
+    background-color: #ef9a1b;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.foto-1 {
+    justify-content: flex-end;
+    background-color: aqua;
+    height: 836px;
+    margin-right: 40px;
+
+
+}
+
+.intro .Titel {
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 80px;
+    font-family: "anago";
+    text-align: center;
+}
+
+.h1 {
+    color: "red";
+}
+
+.WieZijnWe {
+    background-color: #FFFFD1;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 190px;
+    margin-top: 90px;
+    border-radius: 30px;
+    width: 1643.08px;
+    height: 771, 91px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto-2 img {
+    flex-direction: column;
+    background-color: red;
+    width: 520px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.WieZijnWe-text h2 {
+    color: #833938;
+    font-family: "anago";
+    font-size: 40px;
 }
