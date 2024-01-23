@@ -92,8 +92,28 @@ h3{
     color: #833938;
 }
 
+.AanbodEnProfiel{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Profiel{
+    width: 48%;
+    background-color: #FFFFD1;
+    border: 2px solid #ef9a1b;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.Profiel:nth-child(2){
+    border-radius: 0px 20px 20px 0px;
+}
+
+.Profiel p{
+    margin-left: 5px;
+}
+
 .Profiel p:first-child{
-    margin-top: 5%;
     color: #833938;
 }
 
@@ -101,4 +121,22 @@ h3{
     display: list-item;
     position: absolute;
     list-style: circle;
+}
+
+/*Footer*/
+footer{
+    background-color: #FCB723;
+    height: 100%;
+    text-align: right;
+}
+
+footer img{
+    margin-right: 15%;
+}
+
+footer img:first-child{
+    width: 30%;
+}
+
+footer img:nth-child(3){
 }
