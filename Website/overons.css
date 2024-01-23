@@ -2,7 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f6e8ab;
-	font-family: "anago", sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0;
 }
 
 .wrapper {
@@ -29,10 +33,6 @@ body {
 .navigation-text ul li {
 	display: inline-block;
 	margin-right: 50px;
-	font-family: "anago", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 24px;
 }
 
 .navigation-text ul li a {
@@ -62,6 +62,18 @@ body {
 	margin: 0 auto;
 }
 
+.flex2 {
+	padding-bottom: 100px;
+}
+
+.flex3 {
+	padding-bottom: 100px;
+}
+
+.flex4 {
+	padding-bottom: 100px;
+}
+
 .historiek {
 	width: 100%;
 	height: 900px;
@@ -71,16 +83,12 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: start;
-	margin-top: 100px;
+	margin-top: 50px;
 	font-size: 300%;
 	color: #833938;
-}
-
-h2 {
-	font-family: "anago", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 65px;
+	padding-bottom: 100px;
+	position: relative;
+	text-align: center;
 }
 
 .lijn {
@@ -100,14 +108,10 @@ h2 {
 .support {
 	width: 0;
 	height: 10px;
-	margin-top: 50px;
 	border-left: 50px solid;
-	border-top: 50px;
-}
-
-.historiek p {
-	font-size: 43px;
-	margin: 0;
+	position: absolute;
+	left: 50%;
+	bottom: 70%;
 }
 
 .support2 {
@@ -115,4 +119,92 @@ h2 {
 	height: 10px;
 	margin-top: 100px;
 	border-right: 50px solid #833938;
+	position: absolute;
+	left: 46%;
+	bottom: 60%;
+}
+
+.support3 {
+	width: 0;
+	height: 10px;
+	border-left: 50px solid;
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+}
+
+.support4 {
+	width: 0;
+	height: 10px;
+	margin-top: 100px;
+	border-right: 50px solid #833938;
+	position: absolute;
+	left: 46%;
+	bottom: 40%;
+}
+
+.support5 {
+	width: 0;
+	height: 10px;
+	border-left: 50px solid;
+	position: absolute;
+	left: 50%;
+	bottom: 30%;
+}
+
+.card-group {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 0.5rem;
+	align-items: flex-start;
+}
+
+.card {
+	background-color: #ffffd1;
+	padding: 1rem;
+	border: 1px solid #ffffd1;
+	border-radius: 40px;
+}
+
+h2 {
+	justify-content: center;
+	text-align: center;
+}
+
+.cutoff-text {
+	--max-lines: 3;
+
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: var(--max-lines);
+	text-align: center;
+}
+
+.expand-btn {
+	appearance: none;
+	background-color: #fcb723;
+	padding: 18px 25px;
+	color: black;
+	border-radius: 30px;
+	margin-left: 43%;
+}
+
+.expand-btn:hover {
+	background-color: #ef9a1b;
+}
+
+.expand-btn::before {
+	content: "Lees Meer";
+	font-size: 155%;
+	font-weight: 700;
+}
+.expand-btn:checked::before {
+	content: "Lees Minder";
+	font-size: 155%;
+	font-weight: 700;
+}
+
+.cutoff-text:has(+ .expand-btn:checked) {
+	--max-lines: auto;
 }

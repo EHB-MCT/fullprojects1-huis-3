@@ -5,28 +5,28 @@ h1 {
 	font-family: "anago", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 87pt;
+	font-size: 87px;
 }
 
 h2 {
 	font-family: "anago", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 65pt;
+	font-size: 65px;
 }
 
 h3 {
 	font-family: "anago", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 43pt;
+	font-size: 43px;
 }
 
 h4 {
 	font-family: "anago", sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 24pt;
+	font-size: 43px;
 }
 
 h5 {
@@ -39,12 +39,12 @@ p {
 	font-family: "anago", sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 34pt;
+	font-size: 34px;
 }
 
 a {
 	font-family: "anago", sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	font-style: normal;
-	font-size: 43pt;
+	font-size: 24px;
 }

@@ -1,11 +1,162 @@
 body {
 	margin: 0;
+	padding: 0;
+	background-color: #f6e8ab;
+	color: black;
 }
 
-.arrow {
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 30px solid #333;
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.navigation {
+	width: 100%;
+	flex: 10;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.navigation-2 {
+	width: 100%;
+	flex: 4;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.navigation-text ul li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.navigation-text ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.navigation-text ul li a.vacatuur {
+	background-color: #fcb723;
+	padding: 18px 25px;
+	color: black;
+	border-radius: 30px;
+}
+
+.navigation-text ul li a.vacatuur:hover {
+	background-color: #ef9a1b;
+}
+
+.wrapper2 {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.card-group {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 0.5rem;
+	align-items: flex-start;
+}
+
+.card {
+	background-color: #ffffd1;
+	padding: 1rem;
+	border: 1px solid #ffffd1;
+	border-radius: 40px;
+}
+
+h2 {
+	margin-bottom: 10%;
+	justify-content: center;
+	text-align: center;
+}
+
+.cutoff-text {
+	--max-lines: 3;
+
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: var(--max-lines);
+	text-align: center;
+}
+
+.expand-btn {
+	appearance: none;
+	background-color: #fcb723;
+	padding: 18px 25px;
+	color: black;
+	border-radius: 30px;
+	margin-left: 35%;
+}
+
+.expand-btn:hover {
+	background-color: #ef9a1b;
+}
+
+.expand-btn::before {
+	content: "Lees Meer";
+	font-size: 155%;
+	font-weight: 700;
+}
+.expand-btn:checked::before {
+	content: "Lees Minder";
+	font-size: 155%;
+	font-weight: 700;
+}
+
+.cutoff-text:has(+ .expand-btn:checked) {
+	--max-lines: auto;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+/* Top left text */
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+/* Top right text */
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+	position: absolute;
+	right: 25%;
+}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.flex3 {
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
