@@ -1,0 +1,142 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f6e8ab; 
+}
+ 
+ 
+.Navbar{
+    position: relative;
+    display: inline-flex; 
+    margin-left: 9%; 
+    width: 100%;
+}
+
+.Navbar img{
+    width: 10%;
+    height: 10%;
+}
+
+li:first-child{
+    margin-left: -10px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+a {
+	font-family: "anago", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px; 
+    color: black;
+    text-decoration: none;
+
+}
+ 
+.ul2{
+    margin-left: 500px;
+    display: inline-block;
+}
+
+.ul2 li:first-child{
+    margin-right: 30px;
+}
+
+.Vacatuur li{
+    background-color: #fcb723;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.Vacatuur:hover li{ 
+	background-color: #ef9a1b;
+}
+
+/*Midden*/
+h3{
+	font-family: "anago", sans-serif;
+    font-size: 43pt;
+    text-align: center;
+    color: #833938;
+}
+
+.paragraaf{
+	font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: #833938;
+    background-color: #FFFFD1;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 20px;
+    box-shadow: gray 3px 3px 5px;
+}
+
+.Omschrijving{
+    width: 80%;
+    margin-left: 10%;
+	font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+
+.Taakomschrijving p:first-child{
+    color: #833938;
+}
+
+.AanbodEnProfiel{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Profiel{
+    width: 48%;
+    background-color: #FFFFD1;
+    border: 2px solid #ef9a1b;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.Profiel:nth-child(2){
+    border-radius: 0px 40px 40px 0px;
+}
+
+.Profiel p{
+    margin-left: 5px;
+}
+
+.Profiel p:first-child{
+    color: #833938;
+}
+
+.Profiel ul{
+    display: list-item;
+    position: absolute;
+    list-style: circle;
+}
+
+/*Footer*/
+footer{
+    background-color: #FCB723;
+    height: 100%;
+    text-align: right;
+}
+
+footer img{
+    margin-right: 15%;
+}
+
+footer img:first-child{
+    width: 30%;
+}
+
+footer img:nth-child(3){
+}
