@@ -2,11 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f6e8ab;
-}
-
-p {
-	margin: 0;
-	padding: 0;
+	color: black;
 }
 
 .wrapper {
@@ -62,96 +58,6 @@ p {
 	margin: 0 auto;
 }
 
-.flex2 {
-	padding-bottom: 100px;
-}
-
-.flex3 {
-	padding-bottom: 100px;
-}
-
-.flex4 {
-	padding-bottom: 100px;
-}
-
-.historiek {
-	width: 100%;
-	height: 900px;
-	border-radius: 40px;
-	background-color: #ffffd1;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: start;
-	margin-top: 50px;
-	font-size: 300%;
-	color: #833938;
-	padding-bottom: 100px;
-	position: relative;
-	text-align: center;
-}
-
-.lijn {
-	width: 15px;
-	height: 65%;
-	background-color: #833938;
-}
-
-.arrow {
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 30px solid #833938;
-}
-
-.support {
-	width: 0;
-	height: 10px;
-	border-left: 50px solid;
-	position: absolute;
-	left: 50%;
-	bottom: 70%;
-}
-
-.support2 {
-	width: 0;
-	height: 10px;
-	margin-top: 100px;
-	border-right: 50px solid #833938;
-	position: absolute;
-	left: 46%;
-	bottom: 60%;
-}
-
-.support3 {
-	width: 0;
-	height: 10px;
-	border-left: 50px solid;
-	position: absolute;
-	left: 50%;
-	bottom: 50%;
-}
-
-.support4 {
-	width: 0;
-	height: 10px;
-	margin-top: 100px;
-	border-right: 50px solid #833938;
-	position: absolute;
-	left: 46%;
-	bottom: 40%;
-}
-
-.support5 {
-	width: 0;
-	height: 10px;
-	border-left: 50px solid;
-	position: absolute;
-	left: 50%;
-	bottom: 30%;
-}
-
 .card-group {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -167,6 +73,7 @@ p {
 }
 
 h2 {
+	margin-bottom: 10%;
 	justify-content: center;
 	text-align: center;
 }
@@ -187,7 +94,7 @@ h2 {
 	padding: 18px 25px;
 	color: black;
 	border-radius: 30px;
-	margin-left: 43%;
+	margin-left: 35%;
 }
 
 .expand-btn:hover {
@@ -207,4 +114,49 @@ h2 {
 
 .cutoff-text:has(+ .expand-btn:checked) {
 	--max-lines: auto;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+/* Top left text */
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+/* Top right text */
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+	position: absolute;
+	right: 25%;
+}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.flex3 {
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
