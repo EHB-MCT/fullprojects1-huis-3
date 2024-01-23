@@ -1,0 +1,50 @@
+/* TYPOGRAPHY */
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+h1 {
+	font-family: "anago", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87pt;
+}
+
+h2 {
+	font-family: "anago", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65pt;
+}
+
+h3 {
+	font-family: "anago", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 43pt;
+}
+
+h4 {
+	font-family: "anago", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 24pt;
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+	font-family: "anago", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 34pt;
+}
+
+a {
+	font-family: "anago", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 43pt;
+}
