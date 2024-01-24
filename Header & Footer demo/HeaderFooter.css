@@ -1,0 +1,125 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white; 
+}
+ 
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FCB723;
+  }
+  
+  .logo img {
+    max-height: 10%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul:first-of-type{
+    margin-right: 30%;
+  }
+  
+  nav li {
+    margin-right: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: white;
+  }
+  
+  nav a:hover {
+    text-decoration: underline solid 2px brown;
+  }
+
+  .uBentHier{
+    font-weight: bold;
+  }
+
+  .Vacatuur{
+    border: solid 2px black;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+  }
+
+  .Vacatuur:hover{
+	background-color: #ef9a1b;
+    text-decoration: none;
+  }
+
+
+
+
+/*Footer*/
+.SkylinesFooter{
+    background-image: url(images/Path\ 1.png);
+    height: 250px;
+    display: flex;
+}
+
+.Adres, .ContactUs{
+    color: white;
+    margin-top: 100px;
+    margin-left: 225px;
+    font-size: 16px;
+    font-family: "anago", sans-serif;
+    font-size: 15pt;
+}
+
+
+
+footer{
+    background-color: #FCB723;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div img{
+    width: 5%;
+}
+
+footer div p{
+    font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: black;
+    margin-top: 4%;
+}
+
+.HuisVanVrede{
+    width: 20%;
+    height: 20%;
+    display: flex;
+}
+
+footer div img:first-child{
+    width: 30%;
+}
+
+footer div img:last-child{
+    width: 20%;
+}

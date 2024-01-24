@@ -135,16 +135,39 @@ h3{
 footer{
     background-color: #FCB723;
     height: 100%;
+    width: 100%;
     text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
-footer img{
-    margin-right: 15%;
+footer div{
+    display: flex;
+    justify-content: space-between;
 }
 
-footer img:first-child{
+footer div img{
+    width: 5%;
+}
+
+footer div p{
+    font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: black;
+    margin-top: 4%;
+}
+
+.HuisVanVrede{
+    width: 20%;
+    height: 20%;
+    display: flex;
+}
+
+footer div img:first-child{
     width: 30%;
 }
 
-footer img:nth-child(3){
+footer div img:last-child{
+    width: 20%;
 }
