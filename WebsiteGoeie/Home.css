@@ -257,6 +257,10 @@ footer div p {
 	display: flex;
 }
 
+.HuisVanVrede img {
+	margin-top: 20px;
+}
+
 .HuisVanVrede p {
 	margin-right: 20.5%;
 	margin-top: 13%;
