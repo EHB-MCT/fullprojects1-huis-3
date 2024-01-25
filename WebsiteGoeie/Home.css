@@ -199,7 +199,7 @@ p{
   width: 98%;
   margin-right: 0.1%;
   border: #833938 solid 3px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 100px 0px 0px 10px;
   border-right: none;
 }
 
@@ -277,4 +277,45 @@ footer div img:last-child{
     width: 20%;
     height: 20%;
     margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------RESPONSIVE---------------------------*/
+
+
+@media only screen and (max-width: 767px) {
+
 }
