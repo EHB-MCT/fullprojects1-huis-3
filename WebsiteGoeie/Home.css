@@ -67,9 +67,13 @@ nav {
 /*First Impression*/
 
 .FirstImpression{
-    margin-left: 10%;
-    margin-top: 2%;
+    padding-left: 10%;
+    margin-top: 1%;
     display: flex;
+    background-image: url(images/Path\ 188.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+
 }
 
 h1{
@@ -83,6 +87,12 @@ p{
     font-size: 34px;
 }
 
+.TitelFoto{
+    scale: 90%;
+    margin-bottom: 30px;
+    margin-right: -50px;
+}
+
 
 
 
@@ -93,13 +103,20 @@ p{
     display: flex;
 }
 
-.Adres, .ContactUs{
+.Adres p, .ContactUs p{
     color: white;
-    margin-top: 100px;
     margin-left: 225px;
     font-size: 16px;
     font-family: "anago", sans-serif;
     font-size: 15pt;
+}
+
+.Adres p:first-child{
+  margin-top: 30%;
+}
+
+.ContactUs p:first-child{
+  margin-top: 22%;
 }
 
 
@@ -133,7 +150,13 @@ footer div p{
 .HuisVanVrede{
     width: 20%;
     height: 20%;
+    margin-top: 2%;
     display: flex;
+}
+
+.HuisVanVrede p{
+  margin-right: 20.5%;
+  margin-top: 13%;
 }
 
 footer div img:first-child{
@@ -142,4 +165,6 @@ footer div img:first-child{
 
 footer div img:last-child{
     width: 20%;
+    height: 20%;
+    margin-right: 2%;
 }

@@ -67,58 +67,74 @@ nav {
 
 /*Footer*/
 .SkylinesFooter{
-    background-image: url(images/Path\ 1.png);
-    height: 250px;
-    display: flex;
+  background-image: url(images/Path\ 1.png);
+  height: 250px;
+  display: flex;
 }
 
-.Adres, .ContactUs{
-    color: white;
-    margin-top: 100px;
-    margin-left: 225px;
-    font-size: 16px;
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
+.Adres p, .ContactUs p{
+  color: white;
+  margin-left: 225px;
+  font-size: 16px;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+}
+
+.Adres p:first-child{
+margin-top: 30%;
+}
+
+.ContactUs p:first-child{
+margin-top: 22%;
 }
 
 
 
 footer{
-    background-color: #FCB723;
-    height: 100%;
-    width: 100%;
-    text-align: right;
-    padding-left: 20px;
-    padding-right: 20px;
+  background-color: #FCB723;
+  height: 100%;
+  width: 100%;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 footer div{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer div img{
-    width: 5%;
+  width: 5%;
 }
 
 footer div p{
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
-    color: black;
-    margin-top: 4%;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 4%;
 }
 
 .HuisVanVrede{
-    width: 20%;
-    height: 20%;
-    display: flex;
+  width: 20%;
+  height: 20%;
+  margin-top: 2%;
+  display: flex;
+}
+
+.HuisVanVrede p{
+margin-right: 20.5%;
+margin-top: 13%;
 }
 
 footer div img:first-child{
-    width: 30%;
+  width: 30%;
 }
 
 footer div img:last-child{
-    width: 20%;
+  width: 20%;
+  height: 20%;
+  margin-top: 1.5%;
+  margin-right: 2%;
 }
