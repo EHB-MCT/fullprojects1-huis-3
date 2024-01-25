@@ -1,0 +1,364 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.Mobile {
+  display: none;
+}
+
+.Desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #FCB723;
+}
+
+.logo img {
+  max-height: 80px;
+}
+
+nav .Desktop ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul:first-of-type {
+  margin-right: 30%;
+}
+
+nav li {
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+  font-weight: bold;
+}
+
+
+
+/* start*/
+
+.intro {
+  display: flex;
+}
+
+.intro img {
+  margin-top: 250px;
+  margin-left: -10px;
+  height: 611px;
+}
+
+.intro-text h2 {
+  font-family: "Anago";
+  color: #833938;
+  font-size: 34px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.intro-text p {
+  margin-left: 120px;
+  font-family: "anago";
+  font-size: 20px;
+}
+
+.intro-text h1 {
+  margin-top: 110px;
+  margin-left: -620px;
+  font-size: 67px;
+  color: #833938;
+  font-family: "anago";
+}
+
+.skyline img {
+  transform: scaleX(-1);
+  margin-top: -120px;
+  width: 100%;
+}
+
+.kookvrijwilleger {
+  margin-top: 40px;
+  background-color: #FFF0D2;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+}
+
+.kookvrijwilleger img {
+  width: 656px;
+  margin-right: 0%;
+}
+
+.kookvrijwilleger-text h2 {
+  font-family: "anago";
+  margin-right: 490px;
+  font-size: 34px;
+  ;
+  color: #833938;
+}
+
+.kookvrijwilleger-text p {
+  font-family: "anago";
+  font-size: 20px;
+}
+
+.assistent {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.assistent img {
+  width: 811px;
+}
+
+.assistent-text {
+  margin-top: 250px;
+  margin-left: 240px;
+}
+
+.assistent-text h2 {
+  font-family: "anago";
+
+  font-size: 34px;
+  ;
+  color: #833938;
+
+}
+
+.assistent-text P {
+  font-family: "anago";
+  font-size: 20px;
+}
+
+.assistent img {
+  width: 710px;
+}
+
+.vrijwillig {
+  background-color: #FFF0D2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 130px;
+}
+
+.vrijwillig img {
+  width: 740px;
+}
+
+.vrijwillig-text h2 {
+  font-family: "anago";
+  font-size: 34px;
+  ;
+  color: #833938;
+}
+
+.vrijwillig-text p {
+  font-family: "anago";
+  font-size: 20px;
+}
+
+.vrijwillig-text {
+  margin-top: 250px;
+  margin-right: 310px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.Mobile {
+  display: none;
+}
+
+.Desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #fcb723;
+}
+
+.logo img {
+  max-height: 80px;
+}
+
+nav .Desktop ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul:first-of-type {
+  margin-right: 30%;
+}
+
+nav li {
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+  font-weight: bold;
+}
+
+.Vacatuur {
+  border: solid 2px black;
+  border-radius: 15px;
+  color: black;
+  padding: 5px;
+}
+
+.Vacatuur:hover {
+  background-color: #ef9a1b;
+  text-decoration: none;
+}
+
+/*Footer*/
+.SkylinesFooter {
+  background-image: url(images/Path\ 1.png);
+  height: 250px;
+  display: flex;
+
+}
+
+.Adres p,
+.ContactUs p {
+  color: black;
+  margin-left: 225px;
+  font-size: 16px;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+}
+
+.Adres p:first-child {
+  margin-top: 30%;
+}
+
+.ContactUs p:first-child {
+  margin-top: 22%;
+}
+
+footer {
+
+  background-color: #fcb723;
+  height: 100%;
+
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div img {
+  width: 5%;
+}
+
+footer div p {
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 4%;
+}
+
+.HuisVanVrede {
+  width: 20%;
+  height: 20%;
+  margin-top: 2%;
+  display: flex;
+}
+
+.HuisVanVrede img {
+  margin-top: 20px;
+}
+
+.HuisVanVrede p {
+  margin-right: 20.5%;
+  margin-top: 13%;
+}
+
+footer div img:first-child {
+  height: 30%;
+  width: 20%;
+  margin-top: 20px;
+}
+
+footer div img:last-child {
+  width: 18%;
+  height: 100px;
+  margin-top: 1.5%;
+  margin-right: 2%;
+}
+
+.commissie {
+  width: 10px;
+}
+
+.solliciteer {
+  font-family: "anago";
+  background-color: #FCB723;
+  padding: 12px 24px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 120px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.solliciteer-2 {
+  font-family: "anago";
+  background-color: #FCB723;
+  padding: 12px 24px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+}

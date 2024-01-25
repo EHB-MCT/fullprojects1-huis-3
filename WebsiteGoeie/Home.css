@@ -96,6 +96,7 @@ h1{
 	font-style: normal;
 	font-size: 87px;
     color: #833938;
+    text-indent: 13%;
 }
 
 p{
@@ -461,6 +462,7 @@ footer div img:last-child{
 h1{
   font-size: 40pt;
   text-align: center;
+  text-indent: 0%;
 }
 
 .FirstImpression{
