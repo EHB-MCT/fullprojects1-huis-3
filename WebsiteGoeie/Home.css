@@ -6,7 +6,17 @@ body {
 	background-color: white; 
     font-family: "anago", sans-serif;
 }
+
+.Lijn{
+  background-color: #FCB723;
+  width: 100%;
+  color: #FCB723;
+  font-size: 4px;
+  margin-top: 5%;
+}
  
+
+/*Navigatie*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -73,13 +83,15 @@ nav {
     background-image: url(images/Path\ 188.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
+    margin-right: 0.1%;
+    padding-bottom: 4%;
 
 }
 
 h1{
 	font-weight: 700;
 	font-style: normal;
-	font-size: 87pt;
+	font-size: 87px;
     color: #833938;
 }
 
@@ -93,6 +105,95 @@ p{
     margin-right: -50px;
 }
 
+.Titel p{
+  padding-bottom: 5%;
+}
+
+.Titel a{
+  background-color: #FCB723;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+
+/*Wie zijn we?*/
+.WieZijnWe{
+  display: flex;
+  margin-top: 2%;
+}
+
+.WieZijnWeTekst{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.WieZijnWeTekst h2{
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65px;
+  color: #833938;
+}
+
+.WieZijnWeTekst p{
+  padding-bottom: 60px;
+}
+
+.WieZijnWeTekst a{
+  background-color: #FCB723;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+/*Contacteer Ons!*/
+.ContacteerOns{
+  display: flex;
+  margin-top: 5%;
+}
+
+.ContacteerOnsTekst{
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 90%;
+}
+
+.ContacteerOnsTekst h2{
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65px;
+  color: #833938;
+}
+
+.ContacteerOnsTekst p{
+  padding-bottom: 5%;
+}
+
+.ContacteerOnsTekst a{
+  background-color: #FCB723;
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px; 
+}
+
+.ContacteerOns img{
+  width: 98%;
+  margin-right: 0.1%;
+  border: #FCB723 solid 3px;
+  border-radius: 10px 0px 0px 10px;
+}
 
 
 
@@ -101,10 +202,11 @@ p{
     background-image: url(images/Path\ 1.png);
     height: 250px;
     display: flex;
+    margin-top: 3%;
 }
 
 .Adres p, .ContactUs p{
-    color: white;
+    color: b;
     margin-left: 225px;
     font-size: 16px;
     font-family: "anago", sans-serif;
@@ -124,7 +226,7 @@ p{
 footer{
     background-color: #FCB723;
     height: 100%;
-    width: 100%;
+    width: 97.9%;
     text-align: right;
     padding-left: 20px;
     padding-right: 20px;
