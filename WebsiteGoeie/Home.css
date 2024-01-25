@@ -59,6 +59,7 @@ nav {
 
   .uBentHier{
     font-weight: bold;
+    font-size: 135%;
   }
 
   .Vacatuur{
@@ -66,11 +67,17 @@ nav {
     border-radius: 15px;
     color: black;
     padding: 5px;
+    transition: 0.2s;
   }
 
   .Vacatuur:hover{
-	background-color: #ef9a1b;
+	  background-color: #ef9a1b;
     text-decoration: none;
+  }
+
+  .Vacatuur:active{
+    box-shadow: 0px 0px 8px #833938;
+    color: #833938;
   }
 
 
@@ -191,8 +198,9 @@ p{
 .ContacteerOns img{
   width: 98%;
   margin-right: 0.1%;
-  border: #FCB723 solid 3px;
+  border: #833938 solid 3px;
   border-radius: 10px 0px 0px 10px;
+  border-right: none;
 }
 
 
