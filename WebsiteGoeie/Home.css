@@ -12,7 +12,7 @@ body {
   width: 100%;
   color: #FCB723;
   font-size: 4px;
-  margin-top: 5%;
+  margin-top: 3%;
 }
  
 
@@ -127,7 +127,10 @@ p{
 /*Wie zijn we?*/
 .WieZijnWe{
   display: flex;
-  margin-top: 2%;
+  margin-top: 0%;
+  background-color: #FFF0D2;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .WieZijnWeTekst{
@@ -160,7 +163,7 @@ p{
 /*Contacteer Ons!*/
 .ContacteerOns{
   display: flex;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .ContacteerOnsTekst{
@@ -315,19 +318,19 @@ footer div img:last-child{
 
 @media only screen and (max-width: 480px) {
 
-  .Desktop{
-    display: none;
-  }
+ .Desktop{
+   display: none;
+ }
 
-  .Mobile{
-    display: flex;
-    background-color: #FCB723;
-  }
+.Mobile{
+   display: flex;
+   background-color: #FCB723;
+ }
   
   
 .logoMobile img{
   max-height: 80px;
-  margin-left: 200%;
+  margin-left: 190%;
 }
 
  .Mobile .menuToggle
@@ -460,7 +463,103 @@ footer div img:last-child{
 }
 
 
-/*Adres & Contact*/
+/*First Impression Mobile*/
+h1{
+  font-size: 40pt;
+  text-align: center;
+}
+
+.FirstImpression{
+  display: block;
+  padding-left: -10%;
+  margin-left: -10%;
+}
+
+.Titel p{
+  text-align: center;
+  font-size: 15pt;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.Titel a{
+  margin-left: 37%;
+}
+
+.TitelFoto img{
+  margin-top: 5%;
+  width: 83%;
+  border: #FCB723 3px solid;
+  border-radius: 20%;
+  margin-bottom: 12%;
+  margin-left: 3%;
+}
+
+
+/*Wie zijn we? Mobile*/
+.WieZijnWe{
+  display: block;
+}
+
+.WieZijnWe img{
+  width: 80%;
+  margin-left: 10%;
+  border: #FCB723 3px solid;
+  border-radius: 20%;
+  padding-right: -50px;
+}
+
+.WieZijnWeTekst{
+  text-align: center;
+}
+
+.WieZijnWeTekst h2{
+  font-size: 30pt;
+}
+
+.WieZijnWeTekst p{
+  font-size: 15pt;
+  padding-bottom: 20px;
+}
+
+.WieZijnWeTekst a{
+  margin-bottom: -5%;
+}
+
+
+.Lijn{
+  margin-top: 12%;
+}
+
+
+/*Contact Mobile*/
+
+.ContacteerOns{
+  display: block;
+}
+
+.ContacteerOnsTekst{
+  text-align: center;
+}
+
+.ContacteerOnsTekst h2{
+  font-size: 30pt;
+}
+
+.ContacteerOnsTekst p{
+  font-size: 15pt;
+}
+
+.ContacteerOns img{
+  border: 3px solid #FCB723;
+  border-radius: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: -50%;
+}
+
+/*Adres & Contact Mobile*/
 .SkylinesFooter{
   margin-top: 50%;
   padding-top: 7%;
@@ -472,7 +571,7 @@ footer div img:last-child{
 .Adres p, .ContactUs p{
   margin-left: 0px;
   color: black;
-  font-size: 13pt;
+  font-size: 10pt;
 }
 
 .Adres p:first-child{
@@ -498,8 +597,8 @@ footer div img:last-child{
 
 /*Footer Mobile*/
 footer{
-  border-top: 2px solid #ef9a1b;
-  width: 91%;
+  width: 90.8%;
+  padding-right: -10%;
 }
 
 footer div{
@@ -534,6 +633,8 @@ footer div img:first-child{
 footer div img:last-child{
   width: 70%;
   margin-top: 2%;
-  margin-right: 20%;
+  margin-right: 12%;
 }
+
+
 }
