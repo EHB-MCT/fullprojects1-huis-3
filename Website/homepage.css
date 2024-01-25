@@ -1,0 +1,272 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6e8ab;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 70;
+    flex: 4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navigation-2 {
+    width: 100%;
+    flex: 4;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navigation-text ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: "anago", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.navigation-text ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-text ul li a.vacatuur {
+    background-color: #fcb723;
+    padding: 18px 25px;
+    color: black;
+    border-radius: 30px;
+}
+
+.navigation-text ul li a.vacatuur:hover {
+    background-color: #ef9a1b;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.foto-1 {
+    justify-content: flex-end;
+    height: 836px;
+    margin-top: 90px;
+    margin-right: -170px;
+    box-shadow: gray 3px 3px 5px;
+    border-radius: 55px;
+}
+
+.Titel {
+    color: #833938;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+    margin-top: 190px;
+    font-family: "anago";
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.WieZijnWe {
+    background-color: #FFFFD1;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 130px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: gray 3px 3px 5px;
+}
+
+.WieZijnWe-text a {
+    margin-left: -450px;
+    display: inline-block;
+    font-family: "anago", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 42px;
+    text-decoration: none;
+    background-color: #fcb723;
+    padding: 18px 25px;
+    color: black;
+    border-radius: 30px;
+
+}
+
+.WieZijnWe-text a:hover {
+    background-color: #ef9a1b;
+
+}
+
+.WieZijnWe img {
+    flex-direction: column;
+    width: 30%;
+    padding-top: 70px;
+    padding-bottom: 110px;
+    margin-left: -160px;
+
+}
+
+.WieZijnWe-text h2 {
+    color: #833938;
+    display: inline-flex;
+    font-family: "anago";
+    font-size: 40px;
+    margin-left: -450px;
+    margin-top: 90px;
+}
+
+.WieZijnWe-text p {
+    display: flex;
+    font-size: 25px;
+    font-family: "anago";
+    color: #833938;
+    margin-left: -450px;
+}
+
+.einde {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Sponsor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #FFFFD1;
+    width: 700px;
+    height: 900px;
+    margin-right: 90px;
+    margin-top: 130px;
+    box-shadow: gray 3px 3px 5px;
+}
+
+.Sponsor img {
+    display: flex;
+    align-items: center;
+    max-width: 453px;
+    max-height: 540px;
+    margin-left: 65px;
+    margin-top: 90px;
+    margin-right: 72px;
+}
+
+.Sponsor h2 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 65px;
+    margin-top: 40px;
+    font-family: "anago";
+    line-height: 50px;
+
+}
+
+.Sponsor a {
+    display: inline-block;
+    font-family: "anago", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 42px;
+    text-decoration: none;
+
+    background-color: #fcb723;
+    padding: 18px 25px;
+    color: black;
+    border-radius: 30px;
+}
+
+.Sponsor a:hover {
+    background-color: #ef9a1b;
+}
+
+.bestanden {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: #FFFFD1;
+    width: 700px;
+    height: 900px;
+    margin-left: 90px;
+    margin-top: 130px;
+    box-shadow: gray 3px 3px 5px;
+}
+
+.bestanden img {
+    display: flex;
+    align-items: center;
+    max-width: 453px;
+    max-height: 540px;
+    margin-left: 65px;
+    margin-top: 90px;
+    margin-right: 72px;
+
+}
+
+.bestanden h2 {
+    display: flex;
+    align-items: flex-start;
+    font-size: 65px;
+    margin-top: 40px;
+    font-family: "anago";
+    line-height: 50px;
+
+}
+
+.bestanden a {
+    display: inline-block;
+    font-family: "anago", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 42px;
+    text-decoration: none;
+
+    background-color: #fcb723;
+    padding: 18px 25px;
+    color: black;
+    border-radius: 30px;
+}
+
+.bestanden a:hover {
+    background-color: #ef9a1b;
+}
+
+/*Footer*/
+footer {
+
+    background-color: #FCB723;
+    height: 100%;
+    text-align: right;
+}
+
+footer img {
+    margin-right: 15%;
+}
+
+footer img:first-child {
+    width: 30%;
+
+}
+
+footer img:nth-child(3) {}
