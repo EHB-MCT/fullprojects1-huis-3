@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+
+.row1 {
+	background-color: yellow;
+	height: 40px;
+}
+
+.row2 {
+	background-color: pink;
+	height: 250px;
+	margin-top: 50px;
+}
+
+.row3 {
+	background-color: red;
+	height: 250px;
+	margin-top: 50px;
+}
+
+.row4 {
+	background-color: red;
+	height: 250px;
+	margin-top: 10px;
+}
+
+.row5 {
+	background-color: yellow;
+	height: 100px;
+	margin-top: 50px;
+}
