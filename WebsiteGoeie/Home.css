@@ -12,13 +12,16 @@ body {
   width: 100%;
   color: #FCB723;
   font-size: 4px;
-  margin-top: 5%;
+  margin-top: 3%;
 }
  
 
-/*Navigatie*/
-nav {
-    display: flex;
+.Mobile{
+  display: none;
+}
+ 
+.Desktop {
+  display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10%;
@@ -30,7 +33,7 @@ nav {
     max-height: 80px;
   }
   
-  nav ul {
+  nav .Desktop ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -50,7 +53,7 @@ nav {
     font-size: 16px;
     font-family: "anago", sans-serif;
     font-size: 15pt;
-    color: white;
+    color: black;
   }
   
   nav a:hover {
@@ -59,7 +62,6 @@ nav {
 
   .uBentHier{
     font-weight: bold;
-    font-size: 135%;
   }
 
   .Vacatuur{
@@ -67,17 +69,11 @@ nav {
     border-radius: 15px;
     color: black;
     padding: 5px;
-    transition: 0.2s;
   }
 
   .Vacatuur:hover{
-	  background-color: #ef9a1b;
+	background-color: #ef9a1b;
     text-decoration: none;
-  }
-
-  .Vacatuur:active{
-    box-shadow: 0px 0px 8px #833938;
-    color: #833938;
   }
 
 
@@ -100,6 +96,7 @@ h1{
 	font-style: normal;
 	font-size: 87px;
     color: #833938;
+    text-indent: 13%;
 }
 
 p{
@@ -131,7 +128,10 @@ p{
 /*Wie zijn we?*/
 .WieZijnWe{
   display: flex;
-  margin-top: 2%;
+  margin-top: 0%;
+  background-color: #FFF0D2;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .WieZijnWeTekst{
@@ -164,7 +164,7 @@ p{
 /*Contacteer Ons!*/
 .ContacteerOns{
   display: flex;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .ContacteerOnsTekst{
@@ -198,91 +198,87 @@ p{
 .ContacteerOns img{
   width: 98%;
   margin-right: 0.1%;
-  border: #833938 solid 3px;
-  border-radius: 100px 0px 0px 10px;
-  border-right: none;
 }
 
 
 
 /*Footer*/
 .SkylinesFooter{
-    background-image: url(images/Path\ 1.png);
-    height: 250px;
-    display: flex;
-    margin-top: 3%;
+  background-image: url(images/Path\ 1.png);
+  height: 250px;
+  display: flex;
 }
 
 .Adres p, .ContactUs p{
-    color: b;
-    margin-left: 225px;
-    font-size: 16px;
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
+  color: black;
+  margin-left: 225px;
+  font-size: 16px;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
 }
 
 .Adres p:first-child{
-  margin-top: 30%;
+margin-top: 30%;
 }
 
 .ContactUs p:first-child{
-  margin-top: 22%;
+margin-top: 22%;
 }
 
 
 
 footer{
-    background-color: #FCB723;
-    height: 100%;
-    width: 97.9%;
-    text-align: right;
-    padding-left: 20px;
-    padding-right: 20px;
+  background-color: #FCB723;
+  height: 100%;
+  padding-left: 20px;
+  
 
 }
 
 footer div{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer div img{
-    width: 5%;
+  width: 5%;
 }
 
 footer div p{
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
-    color: black;
-    margin-top: 4%;
+  font-family: "anago", sans-serif;
+  font-size: 15pt;
+  color: black;
+  margin-top: 4%;
 }
 
 .HuisVanVrede{
-    width: 20%;
-    height: 20%;
-    margin-top: 2%;
-    display: flex;
+  width: 20%;
+  height: 20%;
+  margin-top: 2%;
+  display: flex;
+}
+
+.HuisVanVrede img{
+  margin-top: 20px;
 }
 
 .HuisVanVrede p{
-  margin-right: 20.5%;
-  margin-top: 13%;
+margin-right: 20.5%;
+margin-top: 13%;
 }
 
 footer div img:first-child{
-    width: 30%;
+  height: 30%;
+  width: 20%;
+  margin-top: 20px;
 }
 
 footer div img:last-child{
-    width: 20%;
-    height: 20%;
-    margin-right: 2%;
+  width: 18%;
+  height: 100px;
+  margin-top: 1.5%;
+  margin-right: 5%;
 }
-
-
-
-
-
 
 
 
@@ -316,6 +312,328 @@ footer div img:last-child{
 /*----------------------------RESPONSIVE---------------------------*/
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
+ .Desktop{
+   display: none;
+ }
+
+.Mobile{
+   display: flex;
+   background-color: #FCB723;
+ }
+  
+  
+.logoMobile img{
+  max-height: 80px;
+  margin-left: 190%;
+}
+
+ .Mobile .menuToggle
+{
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.Mobile .menuToggle a
+{
+  text-decoration: none;
+  color: white;
+  
+  transition: color 0.3s ease;
+}
+
+.Mobile .menuToggle a:hover
+{
+  color: black;
+}
+
+.Mobile .menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0;
+  z-index: 2;
+  
+  -webkit-touch-callout: none;
+}
+
+ .Mobile .menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: black;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.Mobile .menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.Mobile .menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+ .Mobile .menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+}
+
+ .Mobile .menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+ .Mobile .menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+ .Mobile .menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ef9a1b;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  border-radius: 0px 0px 50px 0px;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  text-align: center;
+}
+
+.Mobile .menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+  border-bottom: 2px solid white;
+}
+
+.menu li.SteunMobile{
+  border-bottom: 2px solid #ef9a1b;
+}
+
+ .Mobile .menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+/*First Impression Mobile*/
+h1{
+  font-size: 40pt;
+  text-align: center;
+  text-indent: 0%;
+}
+
+.FirstImpression{
+  display: block;
+  padding-left: -10%;
+  margin-left: -10%;
+}
+
+.Titel p{
+  text-align: center;
+  font-size: 15pt;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.Titel a{
+  margin-left: 37%;
+}
+
+.TitelFoto{
+  margin-right: 0px;
+}
+
+.TitelFoto img{
+  margin-top: 5%;
+  width: 90%;
+  border: #FCB723 3px solid;
+  border-radius: 20%;
+  margin-bottom: 12%;
+  margin-left: 3%;
+}
+
+
+/*Wie zijn we? Mobile*/
+.WieZijnWe{
+  display: block;
+}
+
+.WieZijnWe img{
+  width: 80%;
+  margin-left: 10%;
+  border: #FCB723 3px solid;
+  border-radius: 20%;
+}
+
+.WieZijnWeTekst{
+  text-align: center;
+}
+
+.WieZijnWeTekst h2{
+  font-size: 30pt;
+}
+
+.WieZijnWeTekst p{
+  font-size: 15pt;
+  padding-bottom: 20px;
+}
+
+.WieZijnWeTekst a{
+  margin-bottom: -5%;
+}
+
+
+.Lijn{
+  margin-top: 12%;
+}
+
+
+/*Contact Mobile*/
+
+.ContacteerOns{
+  display: block;
+}
+
+.ContacteerOnsTekst{
+  text-align: center;
+}
+
+.ContacteerOnsTekst h2{
+  font-size: 30pt;
+}
+
+.ContacteerOnsTekst p{
+  font-size: 15pt;
+}
+
+.ContacteerOns img{
+  border: 3px solid #FCB723;
+  border-radius: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: -50%;
+}
+
+/*Adres & Contact Mobile*/
+.SkylinesFooter{
+  margin-top: 50%;
+  padding-top: 7%;
+  width: 100%;
+  background-position: -180px;
+  background-repeat: no-repeat;
+}
+
+.Adres p, .ContactUs p{
+  margin-left: 0px;
+  color: black;
+  font-size: 12pt;
+}
+
+.Adres p:first-child{
+  margin-top: 0px;
+  margin-top: 68%;
+}
+
+.Adres p{
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.ContactUs p:first-child{
+  margin-top: 50%;
+}
+
+.ContactUs p{
+  margin-top: -10px;
+  margin-left: 50%;
+  margin-right: -40px;
+  padding-right: -50px;
+}
+
+
+/*Footer Mobile*/
+footer{
+  padding-right: -20%;
+}
+
+footer div{
+  display: block;
+}
+
+footer div img{
+  width: 100%;
+  justify-content: left;
+  margin-left: 13px;
+}
+.HuisVanVrede{
+  width: 100%;
+  text-align: center;
+}
+
+.HuisVanVrede img{
+  max-width: 100px;
+  margin-left: 60px;
+}
+
+.HuisVanVrede p{
+  font-size: 10pt;
+  margin-right: 18%;
+}
+
+footer div img:first-child{
+  width: 90%;
+  margin-right: 7%;
+}
+
+footer div img:last-child{
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
 
 }
