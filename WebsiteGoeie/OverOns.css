@@ -1,0 +1,75 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "anago", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FCB723;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul:first-of-type {
+    margin-right: 30%;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+    font-weight: bold;
+}
+.intro{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.intro img {
+    width: 895px;
+    margin-top: 80px;
+}
+
+.intro-text h1{
+    color: #833938;
+    font-size: 60px;
+
+}
+.intro-text{
+    margin-right:80px;
+    margin-top: 270px;
+    line-height: 30px;
+    
+}
+.intro-text p{
+    font-size: 24px;
+}
