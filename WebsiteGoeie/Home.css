@@ -197,9 +197,6 @@ p{
 .ContacteerOns img{
   width: 98%;
   margin-right: 0.1%;
-  border: #833938 solid 3px;
-  border-radius: 100px 0px 0px 10px;
-  border-right: none;
 }
 
 
@@ -232,10 +229,8 @@ margin-top: 22%;
 footer{
   background-color: #FCB723;
   height: 100%;
-  width: 100%;
-  text-align: right;
   padding-left: 20px;
-  padding-right: 20px;
+  
 
 }
 
@@ -281,7 +276,7 @@ footer div img:last-child{
   width: 18%;
   height: 100px;
   margin-top: 1.5%;
-  margin-right: 2%;
+  margin-right: 5%;
 }
 
 
@@ -317,7 +312,6 @@ footer div img:last-child{
 
 
 @media only screen and (max-width: 480px) {
-
  .Desktop{
    display: none;
  }
@@ -486,9 +480,13 @@ h1{
   margin-left: 37%;
 }
 
+.TitelFoto{
+  margin-right: 0px;
+}
+
 .TitelFoto img{
   margin-top: 5%;
-  width: 83%;
+  width: 90%;
   border: #FCB723 3px solid;
   border-radius: 20%;
   margin-bottom: 12%;
@@ -597,8 +595,7 @@ h1{
 
 /*Footer Mobile*/
 footer{
-  width: 90.8%;
-  padding-right: -10%;
+  padding-right: -20%;
 }
 
 footer div{
@@ -617,7 +614,7 @@ footer div img{
 
 .HuisVanVrede img{
   max-width: 100px;
-  margin-left: 90px;
+  margin-left: 60px;
 }
 
 .HuisVanVrede p{
@@ -633,7 +630,7 @@ footer div img:first-child{
 footer div img:last-child{
   width: 70%;
   margin-top: 2%;
-  margin-right: 12%;
+  margin-left: 15%;
 }
 
 
