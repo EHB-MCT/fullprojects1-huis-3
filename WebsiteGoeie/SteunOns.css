@@ -150,3 +150,29 @@ footer div img:last-child {
 	height: 20%;
 	margin-right: 2%;
 }
+
+/*headings*/
+
+h1 {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87px;
+	color: #833938;
+}
+
+h2 {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65px;
+	color: #833938;
+}
+
+p {
+	font-size: 34px;
+}
+
+/*vrijwilligers*/
+
+.vrijwilligers {
+	background-color: #fff2d3;
+}
