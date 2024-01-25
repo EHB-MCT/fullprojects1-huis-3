@@ -3,319 +3,276 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: white; 
-    font-family: "anago", sans-serif;
+	background-color: white;
+	font-family: "anago", sans-serif;
 }
 
-.Lijn{
-  background-color: #FCB723;
-  width: 100%;
-  color: #FCB723;
-  font-size: 4px;
-  margin-top: 5%;
+.Lijn {
+	background-color: #fcb723;
+	width: 100%;
+	color: #fcb723;
+	font-size: 4px;
+	margin-top: 5%;
 }
- 
 
 /*Navigatie*/
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #FCB723;
-  }
-  
-  .logo img {
-    max-height: 80px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-  }
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
+}
 
-  nav ul:first-of-type{
-    margin-right: 30%;
-  }
-  
-  nav li {
-    margin-right: 50px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
-    color: white;
-  }
-  
-  nav a:hover {
-    text-decoration: underline solid 2px brown;
-  }
+.logo img {
+	max-height: 80px;
+}
 
-  .uBentHier{
-    font-weight: bold;
-    font-size: 135%;
-  }
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
 
-  .Vacatuur{
-    border: solid 2px black;
-    border-radius: 15px;
-    color: black;
-    padding: 5px;
-    transition: 0.2s;
-  }
+nav ul:first-of-type {
+	margin-right: 30%;
+}
 
-  .Vacatuur:hover{
-	  background-color: #ef9a1b;
-    text-decoration: none;
-  }
+nav li {
+	margin-right: 50px;
+}
 
-  .Vacatuur:active{
-    box-shadow: 0px 0px 8px #833938;
-    color: #833938;
-  }
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: white;
+}
 
+nav a:hover {
+	text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+	font-weight: bold;
+	font-size: 135%;
+}
+
+.Vacatuur {
+	border: solid 2px black;
+	border-radius: 15px;
+	color: black;
+	padding: 5px;
+	transition: 0.2s;
+}
+
+.Vacatuur:hover {
+	background-color: #ef9a1b;
+	text-decoration: none;
+}
+
+.Vacatuur:active {
+	box-shadow: 0px 0px 8px #833938;
+	color: #833938;
+}
 
 /*First Impression*/
 
-.FirstImpression{
-    padding-left: 10%;
-    margin-top: 1%;
-    display: flex;
-    background-image: url(images/Path\ 188.png);
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    margin-right: 0.1%;
-    padding-bottom: 4%;
-
+.FirstImpression {
+	padding-left: 10%;
+	margin-top: 1%;
+	display: flex;
+	background-image: url(images/Path\ 188.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	margin-right: 0.1%;
+	padding-bottom: 4%;
 }
 
-h1{
+h1 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: 87px;
-    color: #833938;
+	color: #833938;
 }
 
-p{
-    font-size: 34px;
+p {
+	font-size: 34px;
 }
 
-.TitelFoto{
-    scale: 90%;
-    margin-bottom: 30px;
-    margin-right: -50px;
+.TitelFoto {
+	scale: 90%;
+	margin-bottom: 30px;
+	margin-right: -50px;
 }
 
-.Titel p{
-  padding-bottom: 5%;
+.Titel p {
+	padding-bottom: 5%;
 }
 
-.Titel a{
-  background-color: #FCB723;
-  text-decoration: none;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  margin-left: 40%;
+.Titel a {
+	background-color: #fcb723;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	margin-left: 40%;
 }
 
 /*Wie zijn we?*/
-.WieZijnWe{
-  display: flex;
-  margin-top: 2%;
+.WieZijnWe {
+	display: flex;
+	margin-top: 2%;
 }
 
-.WieZijnWeTekst{
-  margin-left: 5%;
-  margin-top: 3%;
+.WieZijnWeTekst {
+	margin-left: 5%;
+	margin-top: 3%;
 }
 
-.WieZijnWeTekst h2{
+.WieZijnWeTekst h2 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: 65px;
-  color: #833938;
+	color: #833938;
 }
 
-.WieZijnWeTekst p{
-  padding-bottom: 60px;
+.WieZijnWeTekst p {
+	padding-bottom: 60px;
 }
 
-.WieZijnWeTekst a{
-  background-color: #FCB723;
-  text-decoration: none;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
+.WieZijnWeTekst a {
+	background-color: #fcb723;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
 }
 
 /*Contacteer Ons!*/
-.ContacteerOns{
-  display: flex;
-  margin-top: 5%;
+.ContacteerOns {
+	display: flex;
+	margin-top: 5%;
 }
 
-.ContacteerOnsTekst{
-  margin-left: 5%;
-  margin-top: 3%;
-  width: 90%;
+.ContacteerOnsTekst {
+	margin-left: 5%;
+	margin-top: 3%;
+	width: 90%;
 }
 
-.ContacteerOnsTekst h2{
+.ContacteerOnsTekst h2 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: 65px;
-  color: #833938;
+	color: #833938;
 }
 
-.ContacteerOnsTekst p{
-  padding-bottom: 5%;
+.ContacteerOnsTekst p {
+	padding-bottom: 5%;
 }
 
-.ContacteerOnsTekst a{
-  background-color: #FCB723;
-  text-decoration: none;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px; 
+.ContacteerOnsTekst a {
+	background-color: #fcb723;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
 }
 
-.ContacteerOns img{
-  width: 98%;
-  margin-right: 0.1%;
-  border: #833938 solid 3px;
-  border-radius: 100px 0px 0px 10px;
-  border-right: none;
+.ContacteerOns img {
+	width: 98%;
+	margin-right: 0.1%;
+	border: #833938 solid 3px;
+	border-radius: 100px 0px 0px 10px;
+	border-right: none;
 }
-
-
 
 /*Footer*/
-.SkylinesFooter{
-    background-image: url(images/Path\ 1.png);
-    height: 250px;
-    display: flex;
-    margin-top: 3%;
+.SkylinesFooter {
+	background-image: url(images/Path\ 1.png);
+	height: 250px;
+	display: flex;
+	margin-top: 3%;
 }
 
-.Adres p, .ContactUs p{
-    color: b;
-    margin-left: 225px;
-    font-size: 16px;
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
+.Adres p,
+.ContactUs p {
+	color: b;
+	margin-left: 225px;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
 }
 
-.Adres p:first-child{
-  margin-top: 30%;
+.Adres p:first-child {
+	margin-top: 30%;
 }
 
-.ContactUs p:first-child{
-  margin-top: 22%;
+.ContactUs p:first-child {
+	margin-top: 22%;
 }
 
-
-
-footer{
-    background-color: #FCB723;
-    height: 100%;
-    width: 97.9%;
-    text-align: right;
-    padding-left: 20px;
-    padding-right: 20px;
-
+footer {
+	background-color: #fcb723;
+	height: 100%;
+	width: 97.9%;
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-footer div{
-    display: flex;
-    justify-content: space-between;
+footer div {
+	display: flex;
+	justify-content: space-between;
 }
 
-footer div img{
-    width: 5%;
+footer div img {
+	width: 5%;
 }
 
-footer div p{
-    font-family: "anago", sans-serif;
-    font-size: 15pt;
-    color: black;
-    margin-top: 4%;
+footer div p {
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+	margin-top: 4%;
 }
 
-.HuisVanVrede{
-    width: 20%;
-    height: 20%;
-    margin-top: 2%;
-    display: flex;
+.HuisVanVrede {
+	width: 20%;
+	height: 20%;
+	margin-top: 2%;
+	display: flex;
 }
 
-.HuisVanVrede p{
-  margin-right: 20.5%;
-  margin-top: 13%;
+.HuisVanVrede p {
+	margin-right: 20.5%;
+	margin-top: 13%;
 }
 
-footer div img:first-child{
-    width: 30%;
+footer div img:first-child {
+	width: 30%;
 }
 
-footer div img:last-child{
-    width: 20%;
-    height: 20%;
-    margin-right: 2%;
+footer div img:last-child {
+	width: 20%;
+	height: 20%;
+	margin-right: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*----------------------------RESPONSIVE---------------------------*/
 
-
 @media only screen and (max-width: 767px) {
-
 }
