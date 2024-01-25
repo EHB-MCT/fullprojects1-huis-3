@@ -1,0 +1,144 @@
+/*header*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.navigation {
+	width: 100%;
+	flex: 10;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.navigation-2 {
+	width: 100%;
+	flex: 4;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.navigation-text ul li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.navigation-text ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.overOns {
+	border-bottom: 5px solid #833938;
+}
+
+.background-color {
+	background-color: #fcb723;
+}
+
+/*title*/
+
+.event {
+	margin-top: 1%;
+	text-align: center;
+	color: #833938;
+}
+
+/*calender*/
+
+.evo-calendar.calendar-initialized {
+	margin-top: 5%;
+}
+
+/*footer*/
+
+.SkylinesFooter {
+	background-image: url(image/Path\ 1.png);
+	display: flex;
+	margin-top: 45%;
+}
+
+.Adres p,
+.ContactUs p {
+	color: b;
+	margin-left: 225px;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+}
+
+.Adres p:first-child {
+	margin-top: 30%;
+}
+
+.ContactUs p:first-child {
+	margin-top: 22%;
+}
+
+footer {
+	background-color: #fcb723;
+	height: 98%;
+	width: 100%;
+	text-align: right;
+}
+
+footer div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img {
+	width: 5%;
+}
+
+footer div p {
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+	margin-top: 4%;
+}
+
+.HuisVanVrede {
+	width: 20%;
+	height: 20%;
+	margin-top: 2%;
+	display: flex;
+}
+
+.HuisVanVrede p {
+	margin-right: 20.5%;
+	margin-top: 13%;
+}
+
+footer div img:first-child {
+	width: 30%;
+}
+
+footer div img:last-child {
+	width: 20%;
+	height: 20%;
+	margin-right: 2%;
+}
