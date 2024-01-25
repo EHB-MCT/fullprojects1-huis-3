@@ -1,0 +1,188 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+.body {}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white; 
+}
+
+.Mobile{
+  display: none;
+}
+ 
+.Desktop {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FCB723;
+  }
+  
+  .logo img {
+    max-height: 80px;
+  }
+  
+  nav .Desktop ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul:first-of-type{
+    margin-right: 30%;
+  }
+  
+  nav li {
+    margin-right: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "anago", sans-serif;
+    font-size: 15pt;
+    color: white;
+  }
+  
+  nav a:hover {
+    text-decoration: underline solid 2px brown;
+  }
+
+  .uBentHier{
+    font-weight: bold;
+  }
+
+  .Vacatuur{
+    border: solid 2px black;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+  }
+
+  .Vacatuur:hover{
+	background-color: #ef9a1b;
+    text-decoration: none;
+  }
+
+
+/* start*/
+
+.intro {
+    display: flex;
+}
+
+.intro img {
+    margin-top: 250px;
+    margin-left: -10px;
+    height: 611px;
+}
+
+.intro-text h2 {
+    font-family: "Anago";
+    color: #833938;
+    font-size: 34px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.intro-text p {
+    margin-left: 120px;
+    font-family: "anago";
+    font-size: 20px;
+}
+
+.intro-text h1 {
+    margin-top: 110px;
+    margin-left: -620px;
+    font-size:67px;
+    color:#833938;
+    font-family: "anago";
+}
+
+.skyline img{
+    transform: scaleX(-1);
+    margin-top :-120px;
+}
+
+.kookvrijwilleger{
+    margin-top: 40px;
+    background-color: #FFF0D2;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+.kookvrijwilleger img{
+    width: 656px;
+    margin-right: -10px;
+}
+.kookvrijwilleger-text h2{
+    font-family: "anago";
+    margin-right: 500px;
+    font-size :34px; ;
+    color: #833938;
+}
+
+.kookvrijwilleger-text p{
+    font-family: "anago";
+    font-size: 20px;
+}
+
+.assistent{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.assistent img{
+    width: 811px;
+}
+
+.assistent-text{
+    margin-top: 250px;
+    margin-left: 240px;
+}
+
+.assistent-text h2{
+    font-family: "anago";
+    
+    font-size :34px; ;
+    color: #833938;
+    
+}
+.assistent-text P{
+    font-family: "anago";
+    font-size: 20px;
+}
+
+.assistent img{
+    width: 710px;
+}
+
+.vrijwillig{
+  background-color: #FFF0D2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.vrijwillig img{
+  width: 740px;
+}
+.vrijwillig-text h2{
+  font-family: "anago";
+  font-size :34px; ;
+  color: #833938;
+}
+
+.vrijwillig-text p{
+  font-family: "anago";
+  font-size: 20px;
+}
+.vrijwillig-text{
+  margin-top: 250px;
+  margin-right: 310px;
+}
+
