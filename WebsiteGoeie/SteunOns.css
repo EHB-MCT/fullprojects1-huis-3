@@ -175,7 +175,7 @@ p {
 
 .vrijwilligers {
 	background-color: #fff2d3;
-	padding: 20px;
+	padding: 30px;
 }
 
 .onderkantpagina a {
@@ -191,15 +191,16 @@ p {
 
 .onderkantpagina {
 	display: flex;
+	justify-content: center;
+	gap: 150px;
+	margin-bottom: 200px;
 }
 
-.bovenkantpagina h1,
-p {
+.bovenkantpagina {
 	text-align: center;
 }
 
-.middenstuk h2,
-p {
+.middenstuk {
 	text-align: center;
 }
 
