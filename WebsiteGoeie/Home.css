@@ -568,12 +568,12 @@ h1{
 .Adres p, .ContactUs p{
   margin-left: 0px;
   color: black;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .Adres p:first-child{
   margin-top: 0px;
-  margin-top: 72%;
+  margin-top: 68%;
 }
 
 .Adres p{
@@ -605,7 +605,7 @@ footer div{
 footer div img{
   width: 100%;
   justify-content: left;
-  margin-left: 0px;
+  margin-left: 13px;
 }
 .HuisVanVrede{
   width: 100%;
