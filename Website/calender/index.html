@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calendar</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="evo-calendar.min.css" />
+		<link rel="stylesheet" href="evo-calendar.midnight-blue.min.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/tvm5hyw.css" />
+		<link rel="stylesheet" href="typo.css" />
+		<link rel="stylesheet" href="heading.css" />
+	</head>
+	<body>
+		<div class="background-color">
+			<div class="wrapper">
+				<div class="flex">
+					<div class="navigation">
+						<div class="logo">
+							<img src="image/Rectangle 143.png" alt="vzw-logo" />
+						</div>
+						<div class="navigation-text">
+							<ul>
+								<li><a href="#" class="home">Home</a></li>
+								<li><a href="#" class="overOns">Over ons</a></li>
+								<li><a href="#" class="contactOns">Contact ons</a></li>
+								<li><a href="#" class="archief">Archief</a></li>
+								<li><a href="#" class="steun Ons">Steun Ons</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="navigation-2">
+						<div class="navigation-text">
+							<ul>
+								<li><a href="#" class="taal">FR/NL</a></li>
+								<li><a href="#" class="vacatuur">Vacatuur</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="event">
+			<h1>Event Calender</h1>
+		</div>
+		<div class="hero">
+			<div id="calendar"></div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+		<script src="evo-calendar.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#calendar").evoCalendar({
+					calendarEvents: [
+						{
+							id: "event1", // Event's ID (required)
+							name: "nieuwe jaar", // Event name (required)
+							date: "January/1/2020", // Event date (required)
+							description: "Test een twee",
+							type: "holiday", // Event type (required)
+							everyYear: true, // Same event every year (optional)
+						},
+						{
+							id: "event2", // Event's ID (required)
+							name: "caca", // Event name (required)
+							date: "January/2/2020", // Event date (required)
+							description: "Join us caca now",
+							type: "holiday", // Event type (required)
+							everyYear: true, // Same event every year (optional)
+						},
+						{
+							id: "event3", // Event's ID (required)
+							name: "Week van Brusselse thuislozen zorg", // Event name (required)
+							date: ["November/13/2023", "November/15/2023"], // Event date (required)
+							description:
+								"Huis van vrede zet hun deurenyjfyu open voor andere organisaties binnen het zelfde veld.",
+							type: "holiday", // Event type (required)
+							everyYear: true, // Same event every year (optional)
+						},
+						{
+							id: "event4", // Event's ID (required)
+							name: "Jaarlijkse vakantie", // Event name (required)
+							date: ["August/8/2023", "August/11/2023"], // Event date (required)
+							description:
+								"Jaarlijkse vakantie waar de begeleiders samen met de deelnemers op 4-daag(of langer) op vakantie gaan.",
+							type: "holiday", // Event type (required)
+							everyYear: true, // Same event every year (optional)
+						},
+						{
+							id: "event5", // Event's ID (required)
+							name: "Jaarverslagen", // Event name (required)
+							date: "February/13/2020", // Event date (required)
+							description: "jaarlijkse recap van het jaar",
+							type: "event", // Event type (required)
+							everyYear: true, // Same event every year (optional)
+						},
+						{
+							id: "event6", // Event's ID (required)
+							name: "Kerstbrunch", // Event name (required)
+							date: "December/27/2020", // Event date (required)
+							description: "27 december kerstbrunch met de leden van puerto",
+							type: "holiday", // Event type (required)
+							everyYear: true, // Same event every year (optional)
+						},
+						{
+							name: "Vacation Leave",
+							badge: "02/13 - 02/15", // Event badge (optional)
+							date: ["February/13/2020", "February/15/2020"], // Date range
+							description: "Vacation leave for 4 days.", // Event description (optional)
+							type: "event",
+							color: "#63d867", // Event custom color (optional)
+						},
+						{
+							name: "Vacation Leave",
+							badge: "02/20 - 02/25", // Event badge (optional)
+							date: ["February/20/2020", "February/25/2020"], // Date range
+							description: "Vacation leave for 5 days.", // Event description (optional)
+							type: "event",
+							color: "#63d867", // Event custom color (optional)
+						},
+					],
+				});
+			});
+		</script>
+		<div class="SkylinesFooter">
+			<div class="Adres">
+				<p>Adres:</p>
+				<p>Varkensmarkt 23</p>
+				<p>1000 Brussel</p>
+			</div>
+			<div class="ContactUs">
+				<p>Contact us:</p>
+				<p>Tel.: 02 455 17 95</p>
+				<p>
+					Email:
+					<a href="mailto:puerto@huisvanvrede.be">puerto@huisvanvrede.be</a>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<div>
+				<img src="image/Comissie.png" alt="" />
+				<div class="HuisVanVrede">
+					<img src="image/Rectangle 143.png" alt="" />
+					<p>Huis van Vrede vzw</p>
+				</div>
+				<img src="image/Caritas.png" alt="" />
+			</div>
+		</footer>
+	</body>
+</html>
