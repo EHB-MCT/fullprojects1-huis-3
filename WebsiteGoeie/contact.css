@@ -372,3 +372,50 @@ select {
 	border-radius: 10px;
 	height: 80px;
 }
+
+.bovenstuk {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.bovenstuk img {
+	width: 50%;
+	align-self: center;
+}
+
+h1 {
+	font-family: "anago", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87px;
+	color: #833938;
+}
+
+h2 {
+	font-family: "anago", sans-serif;
+
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65px;
+	color: #833938;
+}
+
+p {
+	font-family: "anago", sans-serif;
+
+	font-size: 34px;
+}
+
+.map {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.map iframe {
+	align-self: center;
+	margin-bottom: 100px;
+}
