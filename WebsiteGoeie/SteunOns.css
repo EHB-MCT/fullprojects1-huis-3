@@ -202,11 +202,16 @@ p {
 
 .middenstuk {
 	text-align: center;
+	margin-bottom: 150px;
 }
 
 .afbeeldingenvw {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 60px;
+}
+
+.afbeeldingenvw img {
+	width: 100%;
 }
