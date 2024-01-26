@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.navigation {
+	width: 100%;
+	flex: 10;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.navigation-2 {
+	width: 100%;
+	flex: 4;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.navigation-text ul li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.navigation-text ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.overOns {
+	border-bottom: 5px solid #833938;
+}
+
+.background-color {
+	background-color: #fcb723;
+}
+
+.flex2 {
+	display: flex;
+}
+
+.flex2 img {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 40%;
+	flex: 5;
+}
+
+.text {
+	flex: 7;
+	margin-top: 10%;
+}
+
+.skyline img {
+	position: absolute;
+	top: 68%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.background-color2 {
+	background-color: #fcb72342;
+}
+
+.flex3 {
+	display: flex;
+	margin-top: 18%;
+}
+
+.flex3 img {
+	width: 40%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.text {
+	padding: 10%;
+	margin: 0;
+}
+
+.image {
+	width: 100%;
+	padding-top: 4%;
+	margin-bottom: 10%;
+}
+
+.image img {
+	padding-left: 10%;
+}
+
+/*Footer*/
+
+.SkylinesFooter {
+	background-image: url(image-overons/Path\ 1.png);
+	height: 250px;
+	display: flex;
+	width: 100%;
+}
+
+.Adres p,
+.ContactUs p {
+	color: black;
+	margin-left: 225px;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+}
+
+.Adres p:first-child {
+	margin-top: 30%;
+}
+
+.ContactUs p:first-child {
+	margin-top: 22%;
+}
+
+footer {
+	background-color: #fcb723;
+	height: 100%;
+	width: 100%;
+	text-align: right;
+}
+
+footer div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img {
+	width: 5%;
+}
+
+footer div p {
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+	margin-top: 4%;
+}
+
+.HuisVanVrede {
+	width: 20%;
+	height: 20%;
+	margin-top: 2%;
+	display: flex;
+}
+
+.HuisVanVrede img {
+	margin-top: 20px;
+}
+
+.HuisVanVrede p {
+	margin-right: 20.5%;
+	margin-top: 13%;
+}
+
+footer div img:first-child {
+	height: 30%;
+	width: 20%;
+	margin-top: 20px;
+}
+
+footer div img:last-child {
+	width: 18%;
+	height: 100px;
+	margin-top: 1.5%;
+	margin-right: 2%;
+}
