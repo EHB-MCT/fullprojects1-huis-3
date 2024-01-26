@@ -382,11 +382,12 @@ select {
 }
 
 .bovenstuk img {
-	width: 60%;
+	width: 50%;
 	align-self: center;
 }
 
 h1 {
+	font-family: "anago", sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 87px;
@@ -394,6 +395,8 @@ h1 {
 }
 
 h2 {
+	font-family: "anago", sans-serif;
+
 	font-weight: 700;
 	font-style: normal;
 	font-size: 65px;
@@ -401,5 +404,18 @@ h2 {
 }
 
 p {
+	font-family: "anago", sans-serif;
+
 	font-size: 34px;
+}
+
+.map {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.map iframe {
+	align-self: center;
+	margin-bottom: 100px;
 }
