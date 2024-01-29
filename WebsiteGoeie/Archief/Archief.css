@@ -5,6 +5,14 @@ body {
 	font-style: normal;
 }
 
+.frame {
+	background-color: #fff1d3;
+	height: 180px;
+	margin-top: 50px;
+	padding-top: 15px;
+	text-align: center;
+}
+
 h1 {
 	color: #833938;
 }
