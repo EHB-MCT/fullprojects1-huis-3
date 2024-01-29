@@ -175,4 +175,47 @@ p {
 
 .vrijwilligers {
 	background-color: #fff2d3;
+	padding: 30px;
+}
+
+.onderkantpagina a {
+	background-color: #fcb723;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.onderkantpagina {
+	display: flex;
+	justify-content: center;
+	gap: 150px;
+	margin-bottom: 200px;
+}
+
+.bovenkantpagina {
+	text-align: center;
+}
+
+.middenstuk {
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.afbeeldingenvw {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+}
+
+.afbeeldingenvw img {
+	width: 100%;
+}
+
+.bovenkantpagina img {
+	width: 100%;
 }

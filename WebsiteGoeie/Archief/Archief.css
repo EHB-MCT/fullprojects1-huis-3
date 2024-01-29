@@ -1,5 +1,26 @@
 body {
 	margin: 0;
+	font-family: "anago", sans-serif;
+
+	font-style: normal;
+}
+
+h1 {
+	color: #833938;
+}
+
+h2 {
+	color: #833938;
+}
+
+.button {
+	color: white;
+	font-size: 20px;
+}
+p {
+	font-size: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 
 .row1 {
@@ -8,25 +29,125 @@ body {
 }
 
 .row2 {
-	background-color: pink;
+	background-color: #fff1d3;
 	height: 250px;
 	margin-top: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.lijntje {
+	margin-top: 50px;
+	width: 100%;
 }
 
 .row3 {
-	background-color: red;
-	height: 250px;
+	height: 500px;
 	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .row4 {
-	background-color: red;
-	height: 250px;
-	margin-top: 10px;
+	height: 500px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.rounded-square {
+	width: 300px;
+	height: 500px;
+	background-color: #fff2d3;
+	border-radius: 30px; /* Adjust the value to control the roundness */
+	text-align: center;
+}
+
+.boxtext {
+	margin-top: 50px;
+}
+.knop {
+	margin-top: 150px;
+	display: inline-block;
+	padding: 25px 60px;
+	background-color: #fcb723;
+	color: white;
+	border-radius: 15px;
+}
+.knop a {
+	text-decoration: none;
 }
 
 .row5 {
 	background-color: yellow;
 	height: 100px;
 	margin-top: 50px;
+}
+
+/*header*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.Mobile {
+	display: none;
+}
+
+.Desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
+}
+
+.logo img {
+	max-height: 80px;
+}
+
+nav .Desktop ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+nav ul:first-of-type {
+	margin-right: 30%;
+}
+
+nav li {
+	margin-right: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+	font-weight: bold;
+}
+
+.Vacatuur {
+	border: solid 2px black;
+	border-radius: 15px;
+	color: black;
+	padding: 5px;
+}
+
+.Vacatuur:hover {
+	background-color: #ef9a1b;
+	text-decoration: none;
 }

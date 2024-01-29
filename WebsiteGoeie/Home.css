@@ -22,7 +22,7 @@ body {
 }
  
 .Desktop {
-  display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10%;
@@ -127,6 +127,7 @@ p{
 
 .TitelFoto img{
   border-radius: 10%;
+  border: #FCB723 solid 5px;
 }
 
 .Titel p{
@@ -159,6 +160,7 @@ p{
 .WieZijnWe img{
   max-width: 40%;
   border-radius: 10%;
+  border: #FCB723 solid 5px;
 }
 
 .WieZijnWeTekst{

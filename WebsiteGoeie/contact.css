@@ -1,0 +1,421 @@
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.Mobile {
+	display: none;
+}
+
+.Desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
+}
+
+.logo img {
+	max-height: 80px;
+}
+
+nav .Desktop ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+nav ul:first-of-type {
+	margin-right: 30%;
+}
+
+nav li {
+	margin-right: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+	font-weight: bold;
+}
+
+.Vacatuur {
+	border: solid 2px black;
+	border-radius: 15px;
+	color: black;
+	padding: 5px;
+}
+
+.Vacatuur:hover {
+	background-color: #ef9a1b;
+	text-decoration: none;
+}
+
+/*Footer*/
+.SkylinesFooter {
+	background-image: url(images/Path\ 1.png);
+	height: 250px;
+	display: flex;
+}
+
+.Adres p,
+.ContactUs p {
+	color: black;
+	margin-left: 225px;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+}
+
+.Adres p:first-child {
+	margin-top: 30%;
+}
+
+.ContactUs p:first-child {
+	margin-top: 22%;
+}
+
+footer {
+	background-color: #fcb723;
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img {
+	width: 5%;
+}
+
+footer div p {
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+	margin-top: 4%;
+}
+
+.HuisVanVrede {
+	width: 20%;
+	height: 20%;
+	margin-top: 2%;
+	display: flex;
+}
+
+.HuisVanVrede img {
+	margin-top: 20px;
+}
+
+.HuisVanVrede p {
+	margin-right: 20.5%;
+	margin-top: 13%;
+}
+
+footer div img:first-child {
+	height: 30%;
+	width: 20%;
+	margin-top: 20px;
+}
+
+footer div img:last-child {
+	width: 18%;
+	height: 100px;
+	margin-top: 1.5%;
+	margin-right: 2%;
+}
+
+/*----------------------------RESPONSIVE---------------------------*/
+
+@media only screen and (max-width: 480px) {
+	.Desktop {
+		display: none;
+	}
+
+	.Mobile {
+		display: flex;
+		background-color: #fcb723;
+		justify-content: space-between;
+	}
+
+	.logoMobile img {
+		max-height: 80px;
+		align-items: end;
+		flex: 1;
+	}
+
+	.Mobile .menuToggle {
+		display: block;
+		position: relative;
+		top: 30px;
+		left: 30px;
+
+		z-index: 1;
+
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	.Mobile .menuToggle a {
+		text-decoration: none;
+		color: white;
+
+		transition: color 0.3s ease;
+	}
+
+	.Mobile .menuToggle a:hover {
+		color: black;
+	}
+
+	.Mobile .menuToggle input {
+		display: block;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+
+		cursor: pointer;
+
+		opacity: 0;
+		z-index: 2;
+
+		-webkit-touch-callout: none;
+	}
+
+	.Mobile .menuToggle span {
+		display: block;
+		width: 33px;
+		height: 4px;
+		margin-bottom: 5px;
+		position: relative;
+
+		background: black;
+		border-radius: 3px;
+
+		z-index: 1;
+
+		transform-origin: 4px 0px;
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		background: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+	}
+
+	.Mobile .menuToggle span:first-child {
+		transform-origin: 0% 0%;
+	}
+
+	.Mobile .menuToggle span:nth-last-child(2) {
+		transform-origin: 0% 100%;
+	}
+
+	.Mobile .menuToggle input:checked ~ span {
+		opacity: 1;
+		transform: rotate(45deg) translate(-2px, -1px);
+		background: white;
+	}
+
+	.Mobile .menuToggle input:checked ~ span:nth-last-child(3) {
+		opacity: 0;
+		transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	.Mobile .menuToggle input:checked ~ span:nth-last-child(2) {
+		transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	.Mobile .menu {
+		position: absolute;
+		width: 300px;
+		margin: -100px 0 0 -50px;
+		padding: 50px;
+		padding-top: 125px;
+
+		background: #ef9a1b;
+		border-right: 5px solid white;
+		border-bottom: 5px solid white;
+		border-radius: 0px 0px 50px 0px;
+		list-style-type: none;
+		-webkit-font-smoothing: antialiased;
+
+		transform-origin: 0% 0%;
+		transform: translate(-100%, 0);
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		text-align: center;
+	}
+
+	.Mobile .menu li {
+		padding: 10px 0;
+		font-size: 22px;
+		border-bottom: 2px solid white;
+	}
+
+	.menu li.SteunMobile {
+		border-bottom: 2px solid #ef9a1b;
+	}
+
+	.Mobile .menuToggle input:checked ~ ul {
+		transform: none;
+	}
+
+	/*Adres & Contact*/
+	.SkylinesFooter {
+		margin-top: 50%;
+		padding-top: 7%;
+		width: 100%;
+		background-position: -180px;
+		background-repeat: no-repeat;
+	}
+
+	.Adres p,
+	.ContactUs p {
+		margin-left: 0px;
+		color: black;
+		font-size: 13pt;
+	}
+
+	.Adres p:first-child {
+		margin-top: 0px;
+		margin-top: 72%;
+	}
+
+	.Adres p {
+		margin-left: 20px;
+		margin-top: -10px;
+	}
+
+	.ContactUs p:first-child {
+		margin-top: 50%;
+	}
+
+	.ContactUs p {
+		margin-top: -10px;
+		margin-left: 50%;
+		margin-right: -40px;
+	}
+
+	/*Footer Mobile*/
+	footer {
+		border-top: 2px solid #ef9a1b;
+		width: 91%;
+	}
+
+	footer div {
+		display: block;
+	}
+
+	footer div img {
+		width: 100%;
+		justify-content: left;
+		margin-left: 0px;
+	}
+	.HuisVanVrede {
+		width: 100%;
+		text-align: left;
+		margin: 0;
+		align-items: center;
+	}
+
+	.HuisVanVrede img {
+		max-width: 100px;
+		flex: 1;
+	}
+
+	.HuisVanVrede p {
+		font-size: 24px;
+		margin: 0;
+		padding-top: 10%;
+		text-align: left;
+		flex: 4;
+	}
+
+	footer div img:first-child {
+		width: 90%;
+		margin-right: 7%;
+	}
+
+	footer div img:last-child {
+		width: 70%;
+		margin-top: 2%;
+		margin-right: 20%;
+	}
+}
+
+.formulier {
+	background-color: #fff2d3;
+	padding: 200px;
+}
+
+input[type="text"],
+select {
+	width: 70%;
+	border-radius: 10px;
+	height: 80px;
+}
+
+.bovenstuk {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.bovenstuk img {
+	width: 50%;
+	align-self: center;
+}
+
+h1 {
+	font-family: "anago", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87px;
+	color: #833938;
+}
+
+h2 {
+	font-family: "anago", sans-serif;
+
+	font-weight: 700;
+	font-style: normal;
+	font-size: 65px;
+	color: #833938;
+}
+
+p {
+	font-family: "anago", sans-serif;
+
+	font-size: 34px;
+}
+
+.map {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.map iframe {
+	align-self: center;
+	margin-bottom: 100px;
+}
