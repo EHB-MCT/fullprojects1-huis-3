@@ -159,3 +159,110 @@ nav a:hover {
 	background-color: #ef9a1b;
 	text-decoration: none;
 }
+
+/*Footer*/
+.SkylinesFooter {
+	background-image: url(images/Path\ 1.png);
+	height: 250px;
+	display: flex;
+}
+
+.Adres p,
+.ContactUs p {
+	color: black;
+	margin-left: 225px;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+}
+
+.Adres p:first-child {
+	margin-top: 30%;
+}
+
+.ContactUs p:first-child {
+	margin-top: 22%;
+}
+
+footer {
+	background-color: #fcb723;
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer div {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div img {
+	width: 5%;
+}
+
+footer div p {
+	font-family: "anago", sans-serif;
+	font-size: 20px;
+	color: black;
+	margin-top: 4%;
+}
+
+.HuisVanVrede {
+	width: 50%;
+	margin-left: 4%;
+}
+
+.HuisVanVrede img {
+	margin-top: 20px;
+	max-width: 25%;
+}
+
+.HuisVanVrede p {
+	margin-right: 20.5%;
+	margin-top: 13%;
+}
+
+footer div img:first-child {
+	height: 60%;
+	width: 40%;
+}
+
+.Comissie {
+	margin-top: 20px;
+}
+
+.fotogroep1 {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.fotogroep1 img {
+	width: 25%;
+	margin-top: 2%;
+}
+
+.fotogroep1 img:first-of-type {
+	width: 30%;
+	height: 50%;
+	margin-right: 20%;
+}
+
+.fotogroep2 {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.fotogroep2 img:first-of-type {
+	width: 50%;
+	height: 70%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+.fotogroep2 img {
+	width: 40%;
+}
