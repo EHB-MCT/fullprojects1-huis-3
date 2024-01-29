@@ -194,12 +194,11 @@ p {
 .onderkantpagina {
 	display: flex;
 	justify-content: center;
-	text-align: center;
-	gap: 150px;
+	gap: 400px;
 	margin-bottom: 100px;
 	margin-top: -60px;
 	background-color: #fff2d3;
-	padding: 10px;
+	padding: 40px;
 }
 
 .bovenkantpagina {
