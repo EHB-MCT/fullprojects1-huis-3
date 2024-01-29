@@ -175,7 +175,7 @@ p {
 
 .vrijwilligers {
 	background-color: #fff2d3;
-	padding: 100px;
+	padding: 50px;
 	margin-top: -5px;
 	margin-bottom: -50px;
 }
@@ -214,7 +214,7 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 60px;
+	gap: 40px;
 }
 
 .afbeeldingenvw img {
@@ -225,4 +225,15 @@ p {
 .bovenkantpagina img {
 	width: 100%;
 	margin-top: -100px;
+}
+
+.middenstuk a {
+	background-color: #fcb723;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
 }
