@@ -254,13 +254,9 @@ footer{
 }
 
 footer div{
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
 }
 
-footer div img{
-  width: 5%;
-}
 
 footer div p{
   font-family: "anago", sans-serif;
@@ -269,46 +265,42 @@ footer div p{
   margin-top: 4%;
 }
 
+.Comissie{
+	margin-top: 20px;
+  width: 90%;
+}
+
 .HuisVanVrede {
-	width: 50%;
-	margin-left: 4%;
+	width: 75%;
+	margin-left: 1px;
 }
 
 .HuisVanVrede img {
 	margin-top: 20px;
-	max-width: 25%;
+	max-width: 80%;
+  max-height: 70%;
 }
 
 .HuisVanVrede p {
 	margin-right: 20.5%;
-	margin-top: 13%;
+	margin-top: 20%;
 }
-
-footer div img:first-child {
-	height: 60%;
-	width: 40%;
-}
-
-.Comissie{
-	margin-top: 20px;
-}
-
 
 .fotogroep1{
 	display: block;
 	width: 100%;
 	text-align: center;
+  margin-top: 2%;
 }
 
 .fotogroep1 img{
-	width: 25%;
+	width: 30%;
 	margin-top: 2%;
 }
 
 .fotogroep1 img:first-of-type{
-	width: 30%;
+	width: 40%;
 	height: 50%;
-	margin-right: 20%;
 }
 
 .fotogroep2{
@@ -319,9 +311,8 @@ footer div img:first-child {
 
 .fotogroep2 img:first-of-type{
 	width: 50%;
-	height: 70%;
-	margin-right: 5%;
-	margin-bottom: 2%;
+	height: 60%;
+  margin-top: 4%;
 }
 
 .fotogroep2 img{
@@ -698,12 +689,6 @@ footer div img{
 footer div img:first-child {
   width: 90%;
   margin-right: 7%;
-}
-
-footer div img:last-child {
-  width: 70%;
-  margin-top: 2%;
-  margin-right: 20%;
 }
 
 .fotogroep1{
