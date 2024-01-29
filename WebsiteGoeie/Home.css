@@ -98,14 +98,13 @@ body {
 .FirstImpression{
     padding-left: 10%;
     margin-top: 1%;
-    display: flex;
+    display: inline-flex;
     background-image: url(images/Path\ 2330.png);
     background-repeat: no-repeat;
     background-position: 109.3% 89.5%;
     background-size: 95% 100;
     margin-right: 0.1%;
     margin-bottom: -5%;
-
 }
 
 h1{
@@ -127,7 +126,6 @@ p{
 
 .TitelFoto img{
   border-radius: 10%;
-  border: #FCB723 solid 5px;
 }
 
 .Titel p{
@@ -158,9 +156,8 @@ p{
 }
 
 .WieZijnWe img{
-  max-width: 40%;
+  max-width: 40%;d
   border-radius: 10%;
-  border: #FCB723 solid 5px;
 }
 
 .WieZijnWeTekst{
