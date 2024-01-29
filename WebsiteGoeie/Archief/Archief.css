@@ -46,9 +46,10 @@ p {
 
 .lijntje {
 	margin-top: 50px;
+}
+.lijntje img {
 	width: 100%;
 }
-
 .row3 {
 	height: 500px;
 	margin-top: 50px;
