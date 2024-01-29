@@ -316,6 +316,10 @@ footer div img:first-child {
 		transform: none;
 	}
 
+	.menu li.VacatuurMobile{
+		border-bottom: 2px solid #ef9a1b;
+	}
+
 	/*Adres & Contact*/
 	.SkylinesFooter {
 		margin-top: 50%;
