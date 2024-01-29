@@ -9,10 +9,11 @@ body {
 
 .Lijn{
   background-color: #FCB723;
-  width: 100%;
+  width: 95%;
   color: #FCB723;
   font-size: 4px;
-  margin-top: 3%;
+  margin-top: 0px;
+  margin-left: 2.25%;
 }
  
 
@@ -31,6 +32,14 @@ body {
   
   .logo img {
     max-height: 80px;
+  }
+
+  .logo{
+    animation-name: groter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
   }
   
   nav .Desktop ul {
@@ -76,6 +85,13 @@ body {
     text-decoration: none;
   }
 
+  @keyframes groter {
+    0%{rotate: 0deg;}
+    25%{rotate: 10deg;}
+    50%{rotate: 0deg;}
+    75%{rotate: -15deg;}
+    100%{rotate: 0deg;}
+  }
 
 /*First Impression*/
 
@@ -83,11 +99,12 @@ body {
     padding-left: 10%;
     margin-top: 1%;
     display: flex;
-    background-image: url(images/Path\ 188.png);
+    background-image: url(images/Path\ 2330.png);
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-position: 109.3% 89.5%;
+    background-size: 95% 100;
     margin-right: 0.1%;
-    padding-bottom: 4%;
+    margin-bottom: -5%;
 
 }
 
@@ -104,9 +121,12 @@ p{
 }
 
 .TitelFoto{
-    scale: 90%;
-    margin-bottom: 30px;
-    margin-right: -50px;
+    scale: 70%;
+    margin-right: -5.5%;
+}
+
+.TitelFoto img{
+  border-radius: 10%;
 }
 
 .Titel p{
@@ -128,15 +148,23 @@ p{
 /*Wie zijn we?*/
 .WieZijnWe{
   display: flex;
-  margin-top: 0%;
   background-color: #FFF0D2;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 95%;
+  border-right: #FCB723 5px solid;
+  padding-left: 2%;
+}
+
+.WieZijnWe img{
+  max-width: 40%;
+  border-radius: 10%;
 }
 
 .WieZijnWeTekst{
   margin-left: 5%;
   margin-top: 3%;
+  width: 80%;
 }
 
 .WieZijnWeTekst h2{
@@ -164,13 +192,15 @@ p{
 /*Contacteer Ons!*/
 .ContacteerOns{
   display: flex;
-  margin-top: 3%;
+  margin-top: -9px;
+  border-left: #FCB723 5px solid;
+  margin-left: 2%;
 }
 
 .ContacteerOnsTekst{
-  margin-left: 5%;
   margin-top: 3%;
   width: 90%;
+  margin-left: 3%;
 }
 
 .ContacteerOnsTekst h2{
@@ -196,8 +226,10 @@ p{
 }
 
 .ContacteerOns img{
-  width: 98%;
+  max-width: 45%;
   margin-right: 0.1%;
+  margin-top: 2%;
+  border-radius: 10%;
 }
 
 
@@ -207,6 +239,9 @@ p{
   background-image: url(images/Path\ 1.png);
   height: 250px;
   display: flex;
+  margin-left: 2%;
+  border-left: #FCB723 5px solid;
+  background-position: 85%;
 }
 
 .Adres p, .ContactUs p{
