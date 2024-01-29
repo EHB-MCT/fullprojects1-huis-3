@@ -66,6 +66,8 @@ nav a:hover {
 	text-decoration: none;
 }
 
+
+
 /*Footer*/
 .SkylinesFooter {
 	background-image: url(images/Path\ 1.png);
@@ -73,8 +75,7 @@ nav a:hover {
 	display: flex;
 }
 
-.Adres p,
-.ContactUs p {
+.Adres p, .ContactUs p {
 	color: black;
 	margin-left: 225px;
 	font-size: 16px;
@@ -110,20 +111,19 @@ footer div img {
 
 footer div p {
 	font-family: "anago", sans-serif;
-	font-size: 15pt;
+	font-size: 20px;
 	color: black;
 	margin-top: 4%;
 }
 
 .HuisVanVrede {
-	width: 20%;
-	height: 20%;
-	margin-top: 2%;
-	display: flex;
+	width: 50%;
+	margin-left: 4%;
 }
 
 .HuisVanVrede img {
 	margin-top: 20px;
+	max-width: 25%;
 }
 
 .HuisVanVrede p {
@@ -132,18 +132,55 @@ footer div p {
 }
 
 footer div img:first-child {
-	height: 30%;
-	width: 20%;
+	height: 60%;
+	width: 40%;
+}
+
+.Comissie{
 	margin-top: 20px;
 }
 
-footer div img:last-child {
-	width: 18%;
-	height: 100px;
-	margin-top: 1.5%;
-	margin-right: 2%;
+
+.fotogroep1{
+	display: block;
+	width: 100%;
+	text-align: center;
 }
 
+.fotogroep1 img{
+	width: 25%;
+	margin-top: 2%;
+}
+
+.fotogroep1 img:first-of-type{
+	width: 30%;
+	height: 50%;
+	margin-right: 20%;
+}
+
+.fotogroep2{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.fotogroep2 img:first-of-type{
+	width: 50%;
+	height: 70%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+.fotogroep2 img{
+	width: 40%;
+}
+
+
+
+
+
+
+  
 /*----------------------------RESPONSIVE---------------------------*/
 
 @media only screen and (max-width: 480px) {
@@ -161,6 +198,7 @@ footer div img:last-child {
 		max-height: 80px;
 		align-items: end;
 		flex: 1;
+		margin-left: -225%;
 	}
 
 	.Mobile .menuToggle {
@@ -300,7 +338,7 @@ footer div img:last-child {
 	}
 
 	.Adres p {
-		margin-left: 20px;
+		margin-left: 30px;
 		margin-top: -10px;
 	}
 
@@ -310,14 +348,14 @@ footer div img:last-child {
 
 	.ContactUs p {
 		margin-top: -10px;
-		margin-left: 50%;
+		margin-left: 30%;
 		margin-right: -40px;
 	}
 
 	/*Footer Mobile*/
 	footer {
-		border-top: 2px solid #ef9a1b;
 		width: 91%;
+		text-align: center;
 	}
 
 	footer div {
@@ -326,23 +364,29 @@ footer div img:last-child {
 
 	footer div img {
 		width: 100%;
-		justify-content: left;
 		margin-left: 0px;
 	}
+
+	.Comissie{
+		max-width: 60%;
+		margin-bottom: -30px;
+	}
+
 	.HuisVanVrede {
 		width: 100%;
-		text-align: left;
 		margin: 0;
+		margin-left: 15%;
 		align-items: center;
+		display: flex;
 	}
 
 	.HuisVanVrede img {
-		max-width: 100px;
+		max-width: 15%;
 		flex: 1;
 	}
 
 	.HuisVanVrede p {
-		font-size: 24px;
+		font-size: 17px;
 		margin: 0;
 		padding-top: 10%;
 		text-align: left;
@@ -359,4 +403,36 @@ footer div img:last-child {
 		margin-top: 2%;
 		margin-right: 20%;
 	}
+
+	.fotogroep1{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-left: 5%;
+	}
+	
+	.fotogroep1 img:first-of-type{
+		width: 30%;
+		margin-right: 0;
+	}
+	
+	.fotogroep1 img:last-of-type{
+		width: 25%;
+		margin-left: 0;
+	}
+
+	.fotogroep2{
+		text-align: center;
+		margin-left: 6%;
+	}
+	
+	.fotogroep2 img:first-of-type{
+		width: 30%;
+		margin-right: 0;
+	}
+
+	.fotogroep2 img:last-of-type{
+		width: 30%;
+	}
+
 }

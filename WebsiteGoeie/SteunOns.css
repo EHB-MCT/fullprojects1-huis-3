@@ -163,19 +163,21 @@ h1 {
 h2 {
 	font-weight: 700;
 	font-style: normal;
-	font-size: 65px;
+	font-size: 35px;
 	color: #833938;
 }
 
 p {
-	font-size: 34px;
+	font-size: 25px;
 }
 
 /*vrijwilligers*/
 
 .vrijwilligers {
 	background-color: #fff2d3;
-	padding: 30px;
+	padding: 50px;
+	margin-top: -5px;
+	margin-bottom: -50px;
 }
 
 .onderkantpagina a {
@@ -192,8 +194,11 @@ p {
 .onderkantpagina {
 	display: flex;
 	justify-content: center;
-	gap: 150px;
-	margin-bottom: 200px;
+	gap: 400px;
+	margin-bottom: 100px;
+	margin-top: -60px;
+	background-color: #fff2d3;
+	padding: 40px;
 }
 
 .bovenkantpagina {
@@ -209,13 +214,26 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 60px;
+	gap: 40px;
 }
 
 .afbeeldingenvw img {
 	width: 100%;
+	margin-top: -100px;
 }
 
 .bovenkantpagina img {
 	width: 100%;
+	margin-top: -100px;
+}
+
+.middenstuk a {
+	background-color: #fcb723;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
 }
