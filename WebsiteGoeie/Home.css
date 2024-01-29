@@ -99,10 +99,9 @@ p {
 	font-size: 34px;
 }
 
-.TitelFoto {
-	scale: 90%;
-	margin-bottom: 30px;
-	margin-right: -50px;
+.TitelFoto img{
+	width: 800px;
+	padding-top: 50px;
 }
 
 .Titel p {
@@ -136,6 +135,7 @@ p {
 }
 
 .WieZijnWeTekst h2 {
+	margin-left: 90px;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 65px;
@@ -144,9 +144,11 @@ p {
 
 .WieZijnWeTekst p {
 	padding-bottom: 60px;
+	margin-left: 90px;
 }
 
 .WieZijnWeTekst a {
+	margin-left: 90px;
 	background-color: #fcb723;
 	text-decoration: none;
 	color: white;
@@ -155,6 +157,9 @@ p {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-radius: 10px;
+}
+.WieZijnWe img{
+	width: 700px;
 }
 
 /*Contacteer Ons!*/
@@ -192,8 +197,7 @@ p {
 }
 
 .ContacteerOns img {
-	width: 98%;
-	margin-right: 0.1%;
+	width: 760px
 }
 
 /*Footer*/
@@ -353,18 +357,18 @@ footer div img:last-child {
 		transform-origin: 0% 100%;
 	}
 
-	.Mobile .menuToggle input:checked ~ span {
+	.Mobile .menuToggle input:checked~span {
 		opacity: 1;
 		transform: rotate(45deg) translate(-2px, -1px);
 		background: white;
 	}
 
-	.Mobile .menuToggle input:checked ~ span:nth-last-child(3) {
+	.Mobile .menuToggle input:checked~span:nth-last-child(3) {
 		opacity: 0;
 		transform: rotate(0deg) scale(0.2, 0.2);
 	}
 
-	.Mobile .menuToggle input:checked ~ span:nth-last-child(2) {
+	.Mobile .menuToggle input:checked~span:nth-last-child(2) {
 		transform: rotate(-45deg) translate(0, -1px);
 	}
 
@@ -399,7 +403,7 @@ footer div img:last-child {
 		border-bottom: 2px solid #ef9a1b;
 	}
 
-	.Mobile .menuToggle input:checked ~ ul {
+	.Mobile .menuToggle input:checked~ul {
 		transform: none;
 	}
 
@@ -551,6 +555,7 @@ footer div img:last-child {
 		justify-content: left;
 		margin-left: 13px;
 	}
+
 	.HuisVanVrede {
 		width: 100%;
 		text-align: center;
