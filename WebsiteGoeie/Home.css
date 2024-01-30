@@ -16,7 +16,62 @@ body {
   margin-left: 2.25%;
 }
  
+.Lijn2{
+  background-color: #FCB723;
+  width: 69.7%;
+  color: #FCB723;
+  font-size: 4px;
+  margin-top: -0px;
+  margin-left: 27.5%;
+}
 
+
+/*Back to Top knop*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 2px solid black;
+  outline: none;
+  background-color: #FCB723;
+  color: black;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  transition: 0.1s;
+
+  .Boven{
+    display: none;
+  }
+}
+
+.Pijl{
+  font-size: 16px;
+}
+
+.Boven{
+  font-size: 16px;
+}
+
+
+#myBtn:hover {
+  background-color: #833938; /* Add a dark-grey background on hover */
+  .Pijl{
+    display: none;
+  }
+
+  .Boven{
+    display: block;
+  }
+  
+}
+
+
+
+/*Navbar*/
 .Mobile{
   display: none;
 }
@@ -126,6 +181,12 @@ p{
   padding-bottom: 10px;
   border-radius: 10px;
   margin-left: 40%;
+  transition: 0.1s
+}
+
+.Titel a:hover{
+  font-size: 13pt;
+  background-color: #ef9a1b;
 }
 
 /*Wie zijn we?*/
@@ -158,7 +219,8 @@ p{
 }
 
 .WieZijnWeTekst p{
-  padding-bottom: 60px;
+  padding-bottom: 20px;
+  width: 90%;
 }
 
 .WieZijnWeTekst a{
@@ -170,6 +232,14 @@ p{
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
+  transition: 0.1s;
+  margin-bottom: 30px;
+}
+
+
+.WieZijnWeTekst a:hover{
+  font-size: 13pt;
+  background-color: #ef9a1b;
 }
 
 /*Contacteer Ons!*/
@@ -195,6 +265,7 @@ p{
 
 .ContacteerOnsTekst p{
   padding-bottom: 5%;
+  width: 90%;
 }
 
 .ContacteerOnsTekst a{
@@ -206,6 +277,13 @@ p{
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px; 
+  transition: 0.1s;
+}
+
+.ContacteerOnsTekst a:hover{
+  
+  font-size: 13pt;
+  background-color: #ef9a1b;
 }
 
 .ContacteerOns img{
@@ -224,7 +302,7 @@ p{
   display: flex;
   margin-left: 2%;
   border-left: #FCB723 5px solid;
-  background-position: 85%;
+  background-position: 85% 0%;
 }
 
 .Adres p, .ContactUs p{
@@ -267,7 +345,6 @@ footer div p{
 
 .Comissie{
 	margin-top: 20px;
-  margin-left: 17%;
   width: 93%;
 }
 
@@ -568,6 +645,12 @@ h1{
 
 .WieZijnWeTekst a{
   margin-bottom: -5%;
+  transition: 0.5s;
+}
+
+.WieZijnWeTekst a:hover{
+  font-size: 13pt;
+  background-color: #ef9a1b;
 }
 
 
@@ -664,6 +747,7 @@ footer div img{
 .Comissie{
   max-width: 60%;
   margin-bottom: -30px;
+  margin-left: 17%;
 }
 
 .HuisVanVrede {
@@ -728,5 +812,8 @@ footer div img:first-child {
   width: 100%;
 }
 
+.Lijn2{
+  display: none;
+}
 
 }
