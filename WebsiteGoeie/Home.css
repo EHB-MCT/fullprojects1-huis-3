@@ -135,6 +135,13 @@ body {
     text-decoration: none;
   }
 
+  
+  nav a img{
+    width: 50px;
+    margin-top: -3px;
+  
+  }
+
 /*First Impression*/
 
 .FirstImpression{

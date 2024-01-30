@@ -128,11 +128,18 @@ body {
     border-radius: 15px;
     color: black;
     padding: 5px;
+    width: 100%;
   }
 
   .Vacatuur:hover{
 	background-color: #ef9a1b;
     text-decoration: none;
+  }
+
+  nav a img{
+    width: 50px;
+    margin-top: -3px;
+  
   }
 
 /*First Impression*/
