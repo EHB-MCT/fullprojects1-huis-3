@@ -1,0 +1,57 @@
+<!--Header-->
+<nav>
+	<div class="Desktop">
+		<div class="logo">
+			<img src="../images/logoKlein.png" alt="" />
+		</div>
+		<ul>
+			<li><a href="../Home.html" class="uBentHier">Accueil</a></li>
+			<li>
+				<a href="../overons-page/overons.html">À propos de nous</a>
+			</li>
+			<li><a href="../contact.html">Contact</a></li>
+			<li><a href="../Archief/Archief.html">Archives</a></li>
+			<li><a href="../SteunOns.html">Soutenez-nous</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="../Archief/Archief.html">FR/NL</a></li>
+			<li>
+				<a href="../WerkBijOnsFrans.css" class="Vacatuur">Offres d'emploi</a>
+			</li>
+			<div class="logotaalfr">
+				<li>
+					<a href="../Archief/Archief.html"
+						><img src="../images/nl vlag .png" alt=""
+					/></a>
+				</li>
+			</div>
+		</ul>
+	</div>
+
+	<!--Header-->
+
+	<nav>
+		<div class="logo">
+			<img src="../images/Rectangle 143.png" alt="" />
+		</div>
+		<ul>
+			<li><a href="../Home.html" class="uBentHier">Accueil</a></li>
+			<li><a href="../OverOns.html">À propos de nou</a></li>
+			<li><a href="../SteunOns.html">Soutenez-nous</a></li>
+			<li><a href="../Archief/Archief.html">Archives</a></li>
+			<li><a href="../contact.html">Contact</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="WerkBijOns.html" class="Vacatuur">Offres d'emploi</a></li>
+			<div class="logotaal">
+				<li>
+					<a href="../Archief/ArchiefFR.html"
+						><img src="/WebsiteGoeie/images/fr vlag .png" alt=""
+					/></a>
+				</li>
+			</div>
+		</ul>
+	</nav>
+</nav>
