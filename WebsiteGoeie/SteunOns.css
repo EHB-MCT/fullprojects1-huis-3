@@ -275,3 +275,8 @@ p {
 .logotaal img {
 	width: 50px;
 }
+
+/*----------------------------RESPONSIVE---------------------------*/
+
+@media only screen and (max-width: 480px) {
+}
