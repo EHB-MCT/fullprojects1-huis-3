@@ -123,12 +123,6 @@ p {
 	height: auto;
 }
 
-.whitespace {
-	background-color: red;
-	height: 200px;
-	margin-top: 50px;
-	padding-top: 30px;
-}
 /*header----------------------------------------------------------------------------------------*/
 
 body {
@@ -202,6 +196,7 @@ nav a:hover {
 	background-image: url(../images/Path\ 1.png);
 	height: 250px;
 	display: flex;
+	margin-top: 50px;
 }
 
 .Adres p,
