@@ -8,52 +8,53 @@
 		<link rel="stylesheet" href="typo.css" />
 	</head>
 	<body>
-		<div class="background-color">
-			<div class="wrapper">
-				<div class="flex">
-					<div class="navigation">
-						<div class="logo">
-							<img src="image-overons/Rectangle 143.png" alt="vzw-logo" />
-						</div>
-						<div class="navigation-text">
-							<ul>
-								<li><a href="/WebsiteGoeie/Home.html" class="Home">Home</a></li>
-								<li><a href="overons.html" class="overOns">Over ons</a></li>
-								<li>
-									<a href="/WebsiteGoeie/contact.html" class="contactOns"
-										>Contact ons</a
-									>
-								</li>
-								<li>
-									<a href="/WebsiteGoeie/Archief/Archief.html" class="archief"
-										>Archief</a
-									>
-								</li>
-								<li>
-									<a href="/WebsiteGoeie/SteunOns.html" class="steun Ons"
-										>Steun Ons</a
-									>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="navigation-2">
-						<div class="navigation-text">
-							<ul>
-								<li><a href="#" class="taal">FR/NL</a></li>
-								<li><a href="#" class="vacatuur">Vacatuur</a></li>
-							</ul>
-						</div>
-					</div>
+		<nav>
+			<div class="Desktop">
+				<div class="logo">
+					<img src="image-overons/Rectangle 143.png" alt="" />
 				</div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#" class="uBentHier">Over ons</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Archief</a></li>
+					<li><a href="#">Steun Ons</a></li>
+				</ul>
+
+				<ul>
+					<li><a href="#">FR/NL</a></li>
+					<li><a href="#" class="Vacatuur">Vacatuur</a></li>
+				</ul>
 			</div>
-		</div>
-		<div class="flex2">
+
+			<nav role="navigation" class="Mobile">
+				<div class="menuToggle">
+					<input type="checkbox" />
+
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul class="menu">
+						<a href="#"><li>Home</li></a>
+						<a href="#"><li>Over ons</li></a>
+						<a href="#"><li>Contact</li></a>
+						<a href="#"><li>Archief</li></a>
+						<a href="#"><li class="SteunMobile">Steun Ons</li></a>
+					</ul>
+				</div>
+				<div class="logoMobile">
+					<img src="images/Rectangle 143.png" alt="" />
+				</div>
+			</nav>
+		</nav>
+
+		<div class="flex4">
 			<img
 				src="image-overons/339138781_741608753970470_4656585015327813299_n.png"
 				alt=""
 			/>
-			<div class="text">
+			<div class="text-2">
 				<h2>Over ons</h2>
 				<p>
 					In de regio Brussel richt Huis van Vrede <br />vzw zich op thuislozen
@@ -115,15 +116,14 @@
 				<img src="image-overons/Group 274.png" alt="" />
 			</div>
 		</div>
+
+		<!--Footer-->
+
 		<div class="SkylinesFooter">
 			<div class="Adres">
 				<p>Adres:</p>
-				<p>
-					<a href="Varkensmarkt 23 1000 Brussel"
-						>Varkensmarkt 23 <br />
-						Brussel</a
-					>
-				</p>
+				<p>Varkensmarkt 23</p>
+				<p>1000 Brussel</p>
 			</div>
 			<div class="ContactUs">
 				<p>Contact us:</p>
@@ -136,12 +136,19 @@
 		</div>
 		<footer>
 			<div>
-				<img src="image-overons/Comissie.png" alt="" />
+				<img src="image-overons/Comissie.png" alt="" class="Comissie" />
 				<div class="HuisVanVrede">
 					<img src="image-overons/Rectangle 143.png" alt="" />
 					<p>Huis van Vrede vzw</p>
 				</div>
-				<img src="image-overons/Caritas.png" alt="" />
+				<div class="fotogroep1">
+					<img src="image-overons/Caritas.png" alt="" />
+					<img src="image-overons/Febi.png" alt="" />
+				</div>
+				<div class="fotogroep2">
+					<img src="image-overons/Actiris.png" alt="" />
+					<img src="image-overons/KBS.png" alt="" />
+				</div>
 			</div>
 		</footer>
 	</body>

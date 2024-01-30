@@ -84,12 +84,11 @@ nav a:hover {
 	background-image: url(images/Path\ 1.png);
 	height: 250px;
 	display: flex;
-	margin-top: 3%;
 }
 
 .Adres p,
 .ContactUs p {
-	color: b;
+	color: black;
 	margin-left: 225px;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
@@ -107,7 +106,7 @@ nav a:hover {
 footer {
 	background-color: #fcb723;
 	height: 100%;
-	width: 97.9%;
+	width: 100%;
 	text-align: right;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -124,16 +123,19 @@ footer div img {
 
 footer div p {
 	font-family: "anago", sans-serif;
-	font-size: 15pt;
+	font-size: 20px;
 	color: black;
 	margin-top: 4%;
 }
 
 .HuisVanVrede {
-	width: 20%;
-	height: 20%;
-	margin-top: 2%;
-	display: flex;
+	width: 50%;
+	margin-left: 4%;
+}
+
+.HuisVanVrede img {
+	margin-top: 20px;
+	max-width: 25%;
 }
 
 .HuisVanVrede p {
@@ -142,15 +144,47 @@ footer div p {
 }
 
 footer div img:first-child {
+	height: 60%;
+	width: 40%;
+}
+
+.Comissie {
+	margin-top: 20px;
+}
+
+.fotogroep1 {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.fotogroep1 img {
+	width: 25%;
+	margin-top: 2%;
+}
+
+.fotogroep1 img:first-of-type {
 	width: 30%;
+	height: 50%;
+	margin-right: 20%;
 }
 
-footer div img:last-child {
-	width: 20%;
-	height: 20%;
-	margin-right: 2%;
+.fotogroep2 {
+	display: block;
+	width: 100%;
+	text-align: center;
 }
 
+.fotogroep2 img:first-of-type {
+	width: 50%;
+	height: 70%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+.fotogroep2 img {
+	width: 40%;
+}
 /*headings*/
 
 h1 {
@@ -175,7 +209,7 @@ p {
 
 .vrijwilligers {
 	background-color: #fff2d3;
-	padding: 50px;
+	padding: 100px;
 	margin-top: -5px;
 	margin-bottom: -50px;
 }
