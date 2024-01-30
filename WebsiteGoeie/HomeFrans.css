@@ -103,7 +103,7 @@ body {
   }
   
   nav li {
-    margin-right: 50px;
+    margin-right: 25px;
   }
   
   nav a {
@@ -756,7 +756,7 @@ footer div img{
 }
 
 .HuisVanVrede {
-  width: 80%;
+  width: 100%;
   margin: 0;
   margin-left: 15%;
   align-items: center;
@@ -769,7 +769,7 @@ footer div img{
 }
 
 .HuisVanVrede p {
-  font-size: 17px;
+  font-size: 16px;
   margin: 0;
   padding-top: 10%;
   text-align: left;
