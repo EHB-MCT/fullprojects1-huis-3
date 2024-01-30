@@ -66,6 +66,14 @@ nav a:hover {
 	text-decoration: none;
 }
 
+.skyline {
+	padding-top: 10%;
+	position: absolute;
+	top: 98.5%;
+	right: 12%;
+	z-index: -1;
+}
+
 /*Footer*/
 .SkylinesFooter {
 	background-image: url(images/Path\ 1.png);
@@ -95,8 +103,6 @@ footer {
 	height: 100%;
 	width: 100%;
 	text-align: right;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
 footer div {
@@ -362,15 +368,27 @@ footer div img:last-child {
 }
 
 .formulier {
-	background-color: #fff2d3;
-	padding: 200px;
+	padding-top: 5%;
+	padding-bottom: 10%;
 }
 
 input[type="text"],
 select {
 	width: 70%;
 	border-radius: 10px;
-	height: 80px;
+	height: 84px;
+}
+
+input[type="text-2"],
+select {
+	width: 70%;
+	border-radius: 10px;
+	height: 190px;
+}
+
+.form {
+	padding-left: 20%;
+	z-index: 2;
 }
 
 .bovenstuk {
@@ -379,6 +397,10 @@ select {
 	justify-content: center;
 	text-align: center;
 	margin-bottom: 100px;
+}
+
+.background-color {
+	background-color: #fcb72347;
 }
 
 .bovenstuk img {
@@ -396,16 +418,15 @@ h1 {
 
 h2 {
 	font-family: "anago", sans-serif;
-
 	font-weight: 700;
 	font-style: normal;
 	font-size: 65px;
 	color: #833938;
+	text-align: center;
 }
 
 p {
 	font-family: "anago", sans-serif;
-
 	font-size: 34px;
 }
 
