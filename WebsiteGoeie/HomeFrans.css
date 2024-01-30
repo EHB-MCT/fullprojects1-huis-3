@@ -647,6 +647,7 @@ h1{
 .WieZijnWeTekst p{
   font-size: 15pt;
   padding-bottom: 20px;
+  margin-left: 5%;
 }
 
 .WieZijnWeTekst a{
@@ -686,6 +687,7 @@ h1{
 
 .ContacteerOnsTekst p{
   font-size: 15pt;
+  margin-left: 5%;
 }
 
 .ContacteerOns img{
