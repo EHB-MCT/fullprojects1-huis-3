@@ -38,6 +38,12 @@ body {
 	background-color: #fcb723;
 }
 
+.Desktop-text {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
 .logo img {
 	max-height: 80px;
 }
@@ -119,6 +125,7 @@ nav a:hover {
 	margin-top: -250px;
 	width: 100%;
 	padding-bottom: 1.5%;
+	flex: 7;
 }
 
 .background-color2 {
@@ -368,10 +375,18 @@ footer div img:first-child {
 		display: none;
 	}
 
+	.Desktop-text {
+		display: none;
+	}
+
 	.Mobile {
 		display: flex;
 		background-color: #fcb723;
 		justify-content: space-between;
+	}
+
+	.Mobile-text {
+		text-align: center;
 	}
 
 	.logoMobile img {
@@ -390,6 +405,11 @@ footer div img:first-child {
 
 		-webkit-user-select: none;
 		user-select: none;
+	}
+
+	.image img {
+		padding: 0;
+		width: 1000%;
 	}
 
 	.Mobile .menuToggle a {
@@ -460,6 +480,13 @@ footer div img:first-child {
 		transform: rotate(-45deg) translate(0, -1px);
 	}
 
+	.image {
+		height: 10%;
+		width: 90%;
+		max-height: 40%;
+		width: 10%;
+	}
+
 	.Mobile .menu {
 		position: absolute;
 		width: 300px;
@@ -495,25 +522,71 @@ footer div img:first-child {
 		transform: none;
 	}
 
-	/*Adres & Contact*/
+	.flex4 {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.flex3 {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.flex2 {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.ContacteerOns {
+		display: block;
+		border: none;
+		width: 80%;
+		margin-left: 12%;
+		margin-top: 1%;
+	}
+
+	.ContacteerOnsTekst {
+		text-align: center;
+	}
+
+	.ContacteerOnsTekst h2 {
+		font-size: 30pt;
+	}
+
+	.ContacteerOnsTekst p {
+		font-size: 15pt;
+	}
+
+	.ContacteerOns img {
+		border: 3px solid #fcb723;
+		border-radius: 20%;
+		max-width: 70%;
+		margin-left: 13%;
+		margin-top: 15%;
+		margin-bottom: -45%;
+	}
+
+	/*Adres & Contact Mobile*/
 	.SkylinesFooter {
-		margin-top: 50%;
+		margin-top: 20%;
 		padding-top: 7%;
 		width: 100%;
 		background-position: -180px;
 		background-repeat: no-repeat;
+		border: none;
+		margin-left: 0;
 	}
 
 	.Adres p,
 	.ContactUs p {
 		margin-left: 0px;
 		color: black;
-		font-size: 13pt;
+		font-size: 12pt;
 	}
 
 	.Adres p:first-child {
 		margin-top: 0px;
-		margin-top: 72%;
+		margin-top: 68%;
 	}
 
 	.Adres p {
@@ -529,5 +602,103 @@ footer div img:first-child {
 		margin-top: -10px;
 		margin-left: 50%;
 		margin-right: -40px;
+		padding-right: -50px;
+	}
+
+	/*Footer Mobile*/
+	footer {
+		padding-right: -20%;
+	}
+
+	footer div {
+		display: block;
+	}
+
+	footer div img {
+		width: 100%;
+		justify-content: left;
+		margin-left: 13px;
+	}
+	.Comissie {
+		max-width: 60%;
+		margin-bottom: -30px;
+		margin-left: 17%;
+	}
+
+	.HuisVanVrede {
+		width: 80%;
+		margin: 0;
+		margin-left: 15%;
+		align-items: center;
+		display: flex;
+	}
+
+	.HuisVanVrede img {
+		max-width: 15%;
+		flex: 1;
+	}
+
+	.HuisVanVrede p {
+		font-size: 17px;
+		margin: 0;
+		padding-top: 10%;
+		text-align: left;
+		flex: 4;
+	}
+
+	footer div img:first-child {
+		width: 90%;
+		margin-right: 7%;
+	}
+
+	.fotogroep1 {
+		display: block;
+		width: 80%;
+		text-align: center;
+		margin-left: 5%;
+	}
+
+	.fotogroep1 img:first-of-type {
+		width: 30%;
+		margin-right: 0;
+	}
+
+	.fotogroep1 img:last-of-type {
+		width: 25%;
+		margin-left: 0;
+	}
+
+	.fotogroep2 {
+		text-align: center;
+		width: 80%;
+		margin-left: 6%;
+	}
+
+	.fotogroep2 img:first-of-type {
+		width: 30%;
+		margin-right: 0;
+	}
+
+	.fotogroep2 img:last-of-type {
+		width: 30%;
+	}
+
+	.Lijn {
+		width: 100%;
+	}
+
+	.Lijn2 {
+		display: none;
+	}
+	/*
+	.background-color2 {
+		display: none;
+	}
+	*/
+}
+
+@media only screen and (min-width: 480px) {
+	.Mobile-text {
+		display: none;
 	}
 }
