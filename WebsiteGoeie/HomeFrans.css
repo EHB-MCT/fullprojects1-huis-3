@@ -103,7 +103,7 @@ body {
   }
   
   nav li {
-    margin-right: 50px;
+    margin-right: 25px;
   }
   
   nav a {
@@ -154,7 +154,7 @@ h1{
 	font-style: normal;
 	font-size: 87px;
     color: #833938;
-    text-indent: 13%;
+    text-indent: 6%;
 }
 
 p{
@@ -311,7 +311,7 @@ p{
 
 .Adres p, .ContactUs p{
   color: black;
-  margin-left: 225px;
+  margin-left: 185px;
   font-size: 16px;
   font-family: "anago", sans-serif;
   font-size: 15pt;
@@ -322,7 +322,7 @@ margin-top: 30%;
 }
 
 .ContactUs p:first-child{
-margin-top: 22%;
+margin-top: 25%;
 }
 
 
@@ -353,7 +353,7 @@ footer div p{
 }
 
 .HuisVanVrede {
-	width: 72.5%;
+	width: 79%;
 	margin-left: 10px;
 }
 
@@ -647,6 +647,7 @@ h1{
 .WieZijnWeTekst p{
   font-size: 15pt;
   padding-bottom: 20px;
+  margin-left: 5%;
 }
 
 .WieZijnWeTekst a{
@@ -686,6 +687,7 @@ h1{
 
 .ContacteerOnsTekst p{
   font-size: 15pt;
+  margin-left: 5%;
 }
 
 .ContacteerOns img{
@@ -757,7 +759,7 @@ footer div img{
 }
 
 .HuisVanVrede {
-  width: 80%;
+  width: 100%;
   margin: 0;
   margin-left: 15%;
   align-items: center;
@@ -770,7 +772,7 @@ footer div img{
 }
 
 .HuisVanVrede p {
-  font-size: 17px;
+  font-size: 16px;
   margin: 0;
   padding-top: 10%;
   text-align: left;
