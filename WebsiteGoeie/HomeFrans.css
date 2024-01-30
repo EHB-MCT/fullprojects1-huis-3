@@ -154,7 +154,7 @@ h1{
 	font-style: normal;
 	font-size: 87px;
     color: #833938;
-    text-indent: 13%;
+    text-indent: 6%;
 }
 
 p{
@@ -212,6 +212,7 @@ p{
   margin-left: 5%;
   margin-top: 3%;
   width: 80%;
+  padding-bottom: 3%;
 }
 
 .WieZijnWeTekst h2{
@@ -310,7 +311,7 @@ p{
 
 .Adres p, .ContactUs p{
   color: black;
-  margin-left: 225px;
+  margin-left: 185px;
   font-size: 16px;
   font-family: "anago", sans-serif;
   font-size: 15pt;
@@ -321,7 +322,7 @@ margin-top: 30%;
 }
 
 .ContactUs p:first-child{
-margin-top: 22%;
+margin-top: 25%;
 }
 
 
@@ -352,7 +353,7 @@ footer div p{
 }
 
 .HuisVanVrede {
-	width: 72.5%;
+	width: 79%;
 	margin-left: 10px;
 }
 
