@@ -48,8 +48,8 @@ nav a {
 	color: black;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
-	font-size: 15pt;
-	color: rgb(0, 0, 0);
+	font-size: 15px;
+	color: black;
 }
 
 nav a:hover {
@@ -92,7 +92,7 @@ nav a:hover {
 	margin-left: 225px;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
-	font-size: 15pt;
+	font-size: 15px;
 }
 
 .Adres p:first-child {
