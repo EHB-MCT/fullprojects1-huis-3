@@ -509,65 +509,67 @@ footer div img:first-child {
 	.knop2 {
 		margin-bottom: 30px;
 	}
-}
+	/*Navigatie*/
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 10%;
+		padding-right: 10%;
+		background-color: #fcb723;
+	}
 
-/*Navbar*/
-.Mobile {
-	display: none;
-}
+	.logo img {
+		max-height: 80px;
+	}
 
-.Desktop {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: #fcb723;
-}
+	nav ul {
+		list-style: none;
+		padding: 0;
+		display: flex;
+	}
 
-.logo img {
-	max-height: 80px;
-}
+	nav ul:first-of-type {
+		margin-right: 30%;
+	}
 
-nav .Desktop ul {
-	list-style: none;
-	padding: 0;
-	display: flex;
-}
+	nav li {
+		margin-right: 50px;
+	}
 
-nav ul:first-of-type {
-	margin-right: 30%;
-}
+	nav a {
+		text-decoration: none;
+		color: black;
+		font-size: 16px;
+		font-family: "anago", sans-serif;
+		font-size: 20px;
+		color: black;
+	}
 
-nav li {
-	margin-right: 50px;
-}
+	nav a:hover {
+		text-decoration: underline solid 2px brown;
+	}
 
-nav a {
-	text-decoration: none;
-	color: black;
-	font-size: 16px;
-	font-family: "anago", sans-serif;
-	font-size: 15pt;
-	color: black;
-}
+	.uBentHier {
+		font-weight: bold;
+		font-size: 135%;
+	}
 
-nav a:hover {
-	text-decoration: underline solid 2px brown;
-}
+	.Vacatuur {
+		border: solid 2px black;
+		border-radius: 15px;
+		color: black;
+		padding: 5px;
+		transition: 0.2s;
+	}
 
-.uBentHier {
-	font-weight: bold;
-}
+	.Vacatuur:hover {
+		background-color: #ef9a1b;
+		text-decoration: none;
+	}
 
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-}
-
-.Vacatuur:hover {
-	background-color: #ef9a1b;
-	text-decoration: none;
+	.Vacatuur:active {
+		box-shadow: 0px 0px 8px #833938;
+		color: #833938;
+	}
 }
