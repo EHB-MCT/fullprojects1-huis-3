@@ -356,7 +356,7 @@ p {
 		gap: 20px;
 		display: flex;
 		flex-direction: column;
-		margin-bottom: 1px;
+		margin-bottom: 1-ppx;
 		margin-top: -20px;
 		padding: 20px;
 		text-align: center;
