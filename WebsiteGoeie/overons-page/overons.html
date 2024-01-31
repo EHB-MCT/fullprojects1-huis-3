@@ -8,22 +8,64 @@
 		<link rel="stylesheet" href="typo.css" />
 	</head>
 	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<p class="Pijl">↑</p>
+			<p class="Boven">Naar top</p>
+		</button>
+
+		<script>
+			let mybutton = document.getElementById("myBtn");
+
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
 		<nav>
 			<div class="Desktop">
 				<div class="logo">
 					<img src="image-overons/Rectangle 143.png" alt="" />
 				</div>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#" class="uBentHier">Over ons</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Archief</a></li>
-					<li><a href="#">Steun Ons</a></li>
+					<li><a href="/WebsiteGoeie/Home.html">Home</a></li>
+					<li>
+						<a href="/WebsiteGoeie/overons-page/overons.html" class="uBentHier"
+							>Over ons</a
+						>
+					</li>
+					<li><a href="/WebsiteGoeie/contact.html">Contact</a></li>
+					<li><a href="/WebsiteGoeie/Archief/Archief.html">Archief</a></li>
+					<li><a href="/WebsiteGoeie/SteunOns.html">Steun Ons</a></li>
 				</ul>
 
 				<ul>
-					<li><a href="#">FR/NL</a></li>
-					<li><a href="#" class="Vacatuur">Vacatuur</a></li>
+					<li>
+						<a href="/WebsiteGoeie/WerkBijOns.html" class="Vacatuur"
+							>Vacatuur</a
+						>
+					</li>
+					<div class="logotaal">
+						<li>
+							<a href="/WebsiteGoeie/overons-page/over-onsFR.html"
+								><img src="/WebsiteGoeie/images/fr vlag .png" alt=""
+							/></a>
+						</li>
+					</div>
 				</ul>
 			</div>
 
@@ -36,11 +78,15 @@
 					<span></span>
 
 					<ul class="menu">
-						<a href="#"><li>Home</li></a>
-						<a href="#"><li>Over ons</li></a>
-						<a href="#"><li>Contact</li></a>
-						<a href="#"><li>Archief</li></a>
-						<a href="#"><li class="SteunMobile">Steun Ons</li></a>
+						<a href="/WebsiteGoeie/Home.html"><li>Home</li></a>
+						<a href="/WebsiteGoeie/overons-page/overons.html"
+							><li>Over ons</li></a
+						>
+						<a href="/WebsiteGoeie/contact.html"><li>Contact</li></a>
+						<a href="/WebsiteGoeie/Archief/Archief.html"><li>Archief</li></a>
+						<a href="/WebsiteGoeie/SteunOns.html"
+							><li class="SteunMobile">Steun Ons</li></a
+						>
 					</ul>
 				</div>
 				<div class="logoMobile">
@@ -73,14 +119,12 @@
 						<article class="card">
 							<h2>Doel</h2>
 							<p class="cutoff-text">
-								Thuisbegeleidingsdienst Huis van Vrede vzw richt zich tot
-								thuislozen in de regio Brussel die vrijwillig voor
-								woonbegeleiding kiezen. Huis van Vrede biedt aan zijn cliënten:
-								individuele hulpverlening op maat (huisbezoeken, psychosociale
-								gesprekken, administratieve ondersteuning, budgetbegeleiding,
-								aanleren van woonvaardigden, harmreduction…),
-								groepsactiviteiten, permanentie, ontmoetingsruimte, een warme
-								thuis.
+								Huis van Vrede vzw, gericht op thuislozen in de regio Brussel
+								die vrijwillig voor woonbegeleiding kiezen, biedt individuele
+								hulp op maat (huisbezoeken, psychosociale gesprekken,
+								administratieve ondersteuning, budgetbegeleiding,
+								woonvaardigheden aanleren, harmreduction…), groepsactiviteiten,
+								permanentie, een ontmoetingsruimte en een warm thuis.
 							</p>
 							<input class="expand-btn" type="checkbox" />
 						</article>
@@ -100,11 +144,16 @@
 					<article class="card-2">
 						<h2>Werking</h2>
 						<p class="cutoff-text">
-							Huis van Vrede, opgericht in 1991, biedt al sinds 1996
-							ondersteuning aan thuislozen. Tussen 1998 en enkele jaren daarna
-							werkte de organisatie samen met CAW Brussel aan Puerto – begeleid
-							wonen voor thuislozen. Beide onthaaltehuizen zijn nu duurzame
-							woningen beheerd door externe
+							Sinds 1991 biedt Huis van Vrede actieve ondersteuning aan mensen
+							zonder een vast thuis, een inzet die teruggaat tot 1996. Tussen
+							1998 en enkele jaren daarna bundelde de organisatie krachten met
+							CAW Brussel voor het Puerto-initiatief - een programma voor
+							begeleid wonen dat specifiek is ontworpen voor mensen die met
+							dakloosheid te maken hebben. Ooit twee onthaaltehuizen, zijn deze
+							nu getransformeerd tot duurzame woonruimtes, beheerd door externe
+							partners. Hier vinden mensen niet alleen een veilige haven, maar
+							ook een ondersteunende omgeving voor stabiliteit en een nieuw
+							begin.
 						</p>
 						<input class="expand-btn" type="checkbox" />
 					</article>
