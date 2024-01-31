@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	background-color: white;
 }
+
 .logotaal img {
 	width: 50px;
 }
@@ -25,32 +26,34 @@ body {
 	padding-right: 20px;
 	border-radius: 50px;
 	transition: 0.1s;
-  
-	.Boven{
-	  display: none;
+
+	.Boven {
+		display: none;
 	}
-  }
-  
-  .Pijl{
+}
+
+.Pijl {
 	font-size: 16px;
-  }
-  
-  .Boven{
+}
+
+.Boven {
 	font-size: 16px;
-  }
-  
-  
-  #myBtn:hover {
-	background-color: #833938; /* Add a dark-grey background on hover */
-	.Pijl{
-	  display: none;
+}
+
+
+#myBtn:hover {
+	background-color: #833938;
+
+	/* Add a dark-grey background on hover */
+	.Pijl {
+		display: none;
 	}
-  
-	.Boven{
-	  display: block;
+
+	.Boven {
+		display: block;
 	}
-	
-  }
+
+}
 
 
 /*Navbar*/
@@ -116,108 +119,264 @@ nav a:hover {
 	width: 50%;
 	display: flex;
 }
-.footerbottom{
+
+.footerbottom {
 	display: flex;
 }
-.footerbottom-1{
+
+.footerbottom-1 {
 	display: flex;
-	background-color:#FCB723;
+	background-color: #FCB723;
 	width: 100%;
-	height:300px;
+	height: 300px;
 }
-.footerbottom-1 ul li{
+
+.footerbottom-1 ul li {
 	display: inline-flex;
-	margin-top:4%;	
+	margin-top: 4%;
 }
-.footerbottom-1 img{
+
+.footerbottom-1 img {
 	margin-left: 2%;
 	margin-top: 27%;
 }
 
-.comission{
+.comission {
 	width: 400px;
 }
-.LogoHuisVanVrede{
+
+.LogoHuisVanVrede {
 	width: 100px;
 	padding-left: 85%;
 }
 
-.footerbottom-1 p{
+.footerbottom-1 p {
 	font-family: "anago";
 	font-size: 24px;
 	margin-top: 23%;
 	margin-left: 9%;
-	
+
 }
-.footerbottom-2{
+
+.footerbottom-2 {
 	display: flex;
-	background-color:#FCB723;
+	background-color: #FCB723;
 	height: 150px;
 	list-style: none;
 }
 
-.Febi{
+.Febi {
 	margin-top: 8%;
-	width:40%;
+	width: 40%;
 	margin-left: 6%;
 }
-.carritas{
+
+.carritas {
 	margin-top: 20%;
-	margin-left:-100%;
+	margin-left: -100%;
 	width: 140%
 }
 
-.footerbottom-3{
+.footerbottom-3 {
 	display: flex;
-	background-color:#FCB723;
-	width:100%;
+	background-color: #FCB723;
+	width: 100%;
 	height: 150px;
 	list-style: none;
 }
-.actiris{
+
+.actiris {
 	margin-top: 9%;
 }
-.KBS{
+
+.KBS {
 	margin-top: 9%;
 }
-.text-footer{
+
+.text-footer {
 	background-color: #FCB723;
 	font-size: 14px;
 }
-.ContactUs, .Adres{
+
+.ContactUs,
+.Adres {
 	font-family: "Anago";
 	line-height: 4px;
 	margin-left: 28%;
 	margin-top: 23%;
 }
-.ContactUs{
-	margin-left:10%;
+
+.ContactUs {
+	margin-left: 10%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 /*----------------------------RESPONSIVE---------------------------*/
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+	.Desktop {
+		display: none;
+	}
+
+	.Mobile {
+		display: flex;
+		background-color: #fcb723;
+		justify-content: space-between;
+	}
+
+	.logoMobile img {
+		max-height: 80px;
+		align-items: end;
+		flex: 1;
+		margin-left: -225%;
+	}
+
+	.Mobile .menuToggle {
+		display: block;
+		position: relative;
+		top: 30px;
+		left: 30px;
+
+		z-index: 1;
+
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	.Mobile .menuToggle a {
+		text-decoration: none;
+		color: white;
+
+		transition: color 0.3s ease;
+	}
+
+	.Mobile .menuToggle a:hover {
+		color: black;
+	}
+
+	.Mobile .menuToggle input {
+		display: block;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+
+		cursor: pointer;
+
+		opacity: 0;
+		z-index: 2;
+
+		-webkit-touch-callout: none;
+	}
+
+	.Mobile .menuToggle span {
+		display: block;
+		width: 33px;
+		height: 4px;
+		margin-bottom: 5px;
+		position: relative;
+
+		background: black;
+		border-radius: 3px;
+
+		z-index: 1;
+
+		transform-origin: 4px 0px;
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		background: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+	}
+
+	.Mobile .menuToggle span:first-child {
+		transform-origin: 0% 0%;
+	}
+
+	.Mobile .menuToggle span:nth-last-child(2) {
+		transform-origin: 0% 100%;
+	}
+
+	.Mobile .menuToggle input:checked~span {
+		opacity: 1;
+		transform: rotate(45deg) translate(-2px, -1px);
+		background: white;
+	}
+
+	.Mobile .menuToggle input:checked~span:nth-last-child(3) {
+		opacity: 0;
+		transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	.Mobile .menuToggle input:checked~span:nth-last-child(2) {
+		transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	.Mobile .menu {
+		position: absolute;
+		width: 300px;
+		margin: -100px 0 0 -50px;
+		padding: 50px;
+		padding-top: 125px;
+
+		background: #ef9a1b;
+		border-right: 5px solid white;
+		border-bottom: 5px solid white;
+		border-radius: 0px 0px 50px 0px;
+		list-style-type: none;
+		-webkit-font-smoothing: antialiased;
+
+		transform-origin: 0% 0%;
+		transform: translate(-100%, 0);
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		text-align: center;
+	}
+
+	.Mobile .menu li {
+		padding: 10px 0;
+		font-size: 22px;
+		border-bottom: 2px solid white;
+	}
+
+	.menu li.SteunMobile {
+		border-bottom: 2px solid #ef9a1b;
+	}
+
+	.Mobile .menuToggle input:checked~ul {
+		transform: none;
+	}
+
+	.menu li.VacatuurMobile {
+		border-bottom: 2px solid #ef9a1b;
+	}
+}
+	/*Footer Mobile*/
+	@media only screen and (max-width: 480px){
+	.SkylinesFooter{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+		width: 80%;
+		margin-top: 90%;
+		
+	}
+	
+	.Adres{
+		
+		margin-top:28%;
+		margin-left: 40%;
+	}
+	.ContactUs{
+		margin-top: -1%;
+		margin-left: 40%;
+	}
+	.footerbottom{
+		display: block;
+		flex-direction: row;
+		justify-content:center;
+	}
+	.comission{
+		padding-top:px;
+		scale: 80%;
+	}
+	}	

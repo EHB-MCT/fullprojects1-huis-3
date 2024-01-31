@@ -28,47 +28,9 @@ img {
 .Mobile {
 	display: none;
 }
+/*header*/
 
-.Desktop {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: #fcb723;
-}
 
-.logo img {
-	max-height: 80px;
-}
-
-nav .Desktop ul {
-	list-style: none;
-	padding: 0;
-	display: flex;
-}
-
-nav ul:first-of-type {
-	margin-right: 30%;
-}
-
-nav li {
-	margin-right: 50px;
-}
-
-nav a {
-	text-decoration: none;
-	font-size: 16px;
-	color: rgb(0, 0, 0);
-}
-
-nav a:hover {
-	text-decoration: underline solid 2px brown;
-}
-
-.uBentHier {
-	font-weight: bold;
-}
 
 /* start*/
 
@@ -167,6 +129,71 @@ body {
 	display: none;
 }
 
+
+
+@import url("https://use.typekit.net/tvm5hyw.css");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.logotaal img {
+	width: 50px;
+}
+
+/*Back to Top knop*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: 2px solid black;
+	outline: none;
+	background-color: #FCB723;
+	color: black;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	transition: 0.1s;
+
+	.Boven {
+		display: none;
+	}
+}
+
+.Pijl {
+	font-size: 16px;
+}
+
+.Boven {
+	font-size: 16px;
+}
+
+
+#myBtn:hover {
+	background-color: #833938;
+
+	/* Add a dark-grey background on hover */
+	.Pijl {
+		display: none;
+	}
+
+	.Boven {
+		display: block;
+	}
+
+}
+
+
+/*Navbar*/
+.Mobile {
+	display: none;
+}
+
 .Desktop {
 	display: flex;
 	justify-content: space-between;
@@ -187,7 +214,7 @@ nav .Desktop ul {
 }
 
 nav ul:first-of-type {
-	margin-right: 30%;
+	margin-right: 20%;
 }
 
 nav li {
@@ -197,7 +224,10 @@ nav li {
 nav a {
 	text-decoration: none;
 	color: black;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
 	font-size: 15pt;
+	color: black;
 }
 
 nav a:hover {
@@ -208,95 +238,288 @@ nav a:hover {
 	font-weight: bold;
 }
 
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-}
-
 .Vacatuur:hover {
 	background-color: #ef9a1b;
 	text-decoration: none;
 }
-
 /*Footer*/
 .SkylinesFooter {
 	background-image: url(images/Path\ 1.png);
 	height: 250px;
+	width: 50%;
 	display: flex;
 }
 
-.Adres p,
-.ContactUs p {
-	color: black;
-	margin-left: 225px;
-}
-
-.Adres p:first-child {
-	margin-top: 30%;
-}
-
-.ContactUs p:first-child {
-	margin-top: 22%;
-}
-
-footer {
-	background-color: #fcb723;
-	height: 100%;
-
-	text-align: right;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-footer div {
+.footerbottom {
 	display: flex;
-	justify-content: space-between;
 }
 
-footer div img {
-	width: 5%;
+.footerbottom-1 {
+	display: flex;
+	background-color: #FCB723;
+	width: 100%;
+	height: 300px;
 }
 
-footer div p {
-	color: black;
+.footerbottom-1 ul li {
+	display: inline-flex;
 	margin-top: 4%;
 }
 
-.HuisVanVrede {
-	width: 20%;
-	height: 20%;
-	margin-top: 2%;
+.footerbottom-1 img {
+	margin-left: 2%;
+	margin-top: 27%;
+}
+
+.comission {
+	width: 400px;
+}
+
+.LogoHuisVanVrede {
+	width: 100px;
+	padding-left: 85%;
+}
+
+.footerbottom-1 p {
+	font-family: "anago";
+	font-size: 24px;
+	margin-top: 23%;
+	margin-left: 9%;
+
+}
+
+.footerbottom-2 {
 	display: flex;
+	background-color: #FCB723;
+	height: 150px;
+	list-style: none;
 }
 
-.HuisVanVrede img {
-	margin-top: 20px;
+.Febi {
+	margin-top: 8%;
+	width: 40%;
+	margin-left: 6%;
 }
 
-.HuisVanVrede p {
-	margin-right: 20.5%;
-	margin-top: 13%;
+.carritas {
+	margin-top: 20%;
+	margin-left: -100%;
+	width: 140%
 }
 
-footer div img:first-child {
-	height: 30%;
-	width: 20%;
-	margin-top: 20px;
+.footerbottom-3 {
+	display: flex;
+	background-color: #FCB723;
+	width: 100%;
+	height: 150px;
+	list-style: none;
 }
 
-footer div img:last-child {
-	width: 18%;
-	height: 100px;
-	margin-top: 1.5%;
-	margin-right: 2%;
+.actiris {
+	margin-top: 9%;
 }
 
-.commissie {
-	width: 10px;
+.KBS {
+	margin-top: 9%;
 }
 
+.text-footer {
+	background-color: #FCB723;
+	font-size: 14px;
+}
+
+.ContactUs,
+.Adres {
+	font-family: "Anago";
+	line-height: 4px;
+	margin-left: 28%;
+	margin-top: 23%;
+}
+
+.ContactUs {
+	margin-left: 10%;
+}
+
+.Adres p{
+	font-size: 14px;
+} 
+
+.ContactUs p{
+	font-size: 14px;
+}
+
+
+
+/*----------------------------RESPONSIVE---------------------------*/
+
+@media only screen and (max-width: 480px) {
+	.Desktop {
+		display: none;
+	}
+
+	.Mobile {
+		display: flex;
+		background-color: #fcb723;
+		justify-content: space-between;
+	}
+
+	.logoMobile img {
+		max-height: 80px;
+		align-items: end;
+		flex: 1;
+		margin-left: -225%;
+	}
+
+	.Mobile .menuToggle {
+		display: block;
+		position: relative;
+		top: 30px;
+		left: 30px;
+
+		z-index: 1;
+
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	.Mobile .menuToggle a {
+		text-decoration: none;
+		color: white;
+
+		transition: color 0.3s ease;
+	}
+
+	.Mobile .menuToggle a:hover {
+		color: black;
+	}
+
+	.Mobile .menuToggle input {
+		display: block;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+
+		cursor: pointer;
+
+		opacity: 0;
+		z-index: 2;
+
+		-webkit-touch-callout: none;
+	}
+
+	.Mobile .menuToggle span {
+		display: block;
+		width: 33px;
+		height: 4px;
+		margin-bottom: 5px;
+		position: relative;
+
+		background: black;
+		border-radius: 3px;
+
+		z-index: 1;
+
+		transform-origin: 4px 0px;
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		background: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+	}
+
+	.Mobile .menuToggle span:first-child {
+		transform-origin: 0% 0%;
+	}
+
+	.Mobile .menuToggle span:nth-last-child(2) {
+		transform-origin: 0% 100%;
+	}
+
+	.Mobile .menuToggle input:checked~span {
+		opacity: 1;
+		transform: rotate(45deg) translate(-2px, -1px);
+		background: white;
+	}
+
+	.Mobile .menuToggle input:checked~span:nth-last-child(3) {
+		opacity: 0;
+		transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	.Mobile .menuToggle input:checked~span:nth-last-child(2) {
+		transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	.Mobile .menu {
+		position: absolute;
+		width: 300px;
+		margin: -100px 0 0 -50px;
+		padding: 50px;
+		padding-top: 125px;
+
+		background: #ef9a1b;
+		border-right: 5px solid white;
+		border-bottom: 5px solid white;
+		border-radius: 0px 0px 50px 0px;
+		list-style-type: none;
+		-webkit-font-smoothing: antialiased;
+
+		transform-origin: 0% 0%;
+		transform: translate(-100%, 0);
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		text-align: center;
+	}
+
+	.Mobile .menu li {
+		padding: 10px 0;
+		font-size: 22px;
+		border-bottom: 2px solid white;
+	}
+
+	.menu li.SteunMobile {
+		border-bottom: 2px solid #ef9a1b;
+	}
+
+	.Mobile .menuToggle input:checked~ul {
+		transform: none;
+	}
+
+	.menu li.VacatuurMobile {
+		border-bottom: 2px solid #ef9a1b;
+	}
+}
+	/*Footer Mobile*/
+	@media only screen and (max-width: 480px){
+	.SkylinesFooter{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+		width: 80%;
+		margin-top: 90%;
+		
+	}
+	
+	.Adres{
+		
+		margin-top:28%;
+		margin-left: 40%;
+	}
+	.ContactUs{
+		margin-top: -1%;
+		margin-left: 40%;
+	}
+	.footerbottom{
+		display: block;
+		flex-direction: row;
+		justify-content:center;
+	}
+	.comission{
+		padding-top:px;
+		scale: 80%;
+	}
+	}	
 .solliciteer {
 	background-color: #fcb723;
 	padding: 12px 24px;
@@ -692,5 +915,6 @@ footer div img:last-child {
 }
 
 .logotaal img {
+	border-radius: 0%;
 	width: 50px;
 }
