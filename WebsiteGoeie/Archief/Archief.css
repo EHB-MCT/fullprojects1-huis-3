@@ -510,3 +510,64 @@ footer div img:first-child {
 		margin-bottom: 30px;
 	}
 }
+
+/*Navbar*/
+.Mobile {
+	display: none;
+}
+
+.Desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
+}
+
+.logo img {
+	max-height: 80px;
+}
+
+nav .Desktop ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+nav ul:first-of-type {
+	margin-right: 30%;
+}
+
+nav li {
+	margin-right: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline solid 2px brown;
+}
+
+.uBentHier {
+	font-weight: bold;
+}
+
+.Vacatuur {
+	border: solid 2px black;
+	border-radius: 15px;
+	color: black;
+	padding: 5px;
+}
+
+.Vacatuur:hover {
+	background-color: #ef9a1b;
+	text-decoration: none;
+}
