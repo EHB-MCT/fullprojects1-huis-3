@@ -454,7 +454,7 @@ footer div img:first-child {
 
 	.row4 {
 		height: 500px;
-		margin-top: 950px;
+		margin-top: 1000px;
 		flex-direction: column;
 		align-items: center;
 	}
@@ -496,7 +496,7 @@ footer div img:first-child {
 	}
 
 	.row3 {
-		height: 450px;
+		height: px;
 		margin-top: 500px;
 		display: flex;
 		justify-content: space-around;
