@@ -160,8 +160,7 @@ h1{
 	font-weight: 700;
 	font-style: normal;
 	font-size: 87px;
-    color: #833938;
-    text-indent: 13%;
+    color: #833938; 
 }
 
 p{
@@ -179,6 +178,7 @@ p{
 
 .Titel p{
   padding-bottom: 5%;
+  width: 90%;
 }
 
 .Titel a{
