@@ -16,7 +16,13 @@ body {
 }
 
 /*Navigatie*/
-nav {
+
+/*Navbar*/
+.Mobile {
+	display: none;
+}
+
+.Desktop {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -29,7 +35,7 @@ nav {
 	max-height: 80px;
 }
 
-nav ul {
+nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
@@ -48,7 +54,7 @@ nav a {
 	color: black;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
-	font-size: 20px;
+	font-size: 15pt;
 	color: black;
 }
 
@@ -58,7 +64,10 @@ nav a:hover {
 
 .uBentHier {
 	font-weight: bold;
-	font-size: 135%;
+}
+
+nav a img {
+	width: 50px;
 }
 
 .Vacatuur {
@@ -66,17 +75,11 @@ nav a:hover {
 	border-radius: 15px;
 	color: black;
 	padding: 5px;
-	transition: 0.2s;
 }
 
 .Vacatuur:hover {
 	background-color: #ef9a1b;
 	text-decoration: none;
-}
-
-.Vacatuur:active {
-	box-shadow: 0px 0px 8px #833938;
-	color: #833938;
 }
 
 /*Footer*/
