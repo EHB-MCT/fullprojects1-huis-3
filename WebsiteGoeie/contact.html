@@ -8,6 +8,34 @@
 		<title>Huis van Vrede - Contact</title>
 	</head>
 	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<p class="Pijl">↑</p>
+			<p class="Boven">Naar top</p>
+		</button>
+
+		<script>
+			let mybutton = document.getElementById("myBtn");
+
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
 		<!--Header-->
 		<nav>
 			<div class="Desktop">
@@ -23,8 +51,14 @@
 				</ul>
 
 				<ul>
-					<li><a href="#">FR/NL</a></li>
 					<li><a href="#" class="Vacatuur">Vacatuur</a></li>
+					<div class="logotaal">
+						<li>
+							<a href="contactfr.html"
+								><img src="/WebsiteGoeie/images/fr vlag .png" alt=""
+							/></a>
+						</li>
+					</div>
 				</ul>
 			</div>
 
@@ -61,19 +95,43 @@
 				<div class="formulier">
 					<h2>Vul het formulier in</h2>
 					<div class="form">
-						<label for="name">Naam :</label><br />
-
-						<input type="text" id="name" name="name" /><br />
-						<br />
-						<label for="email">Email :</label><br />
-						<input type="text" id="email" name="email" />
-						<br />
-						<br />
-						<label for="name">Telefoonnummer :</label><br />
-						<input type="text" id="name" name="name" /><br />
-						<br />
-						<label for="email">Boodschap :</label><br />
-						<input type="text-2" id="email" name="email" />
+						<form action="mailto:puerto@huisvanvrede.be" method="post" enctype="text/plain">
+							<div class="Namen">
+								<ul>
+									<li>Voornaam: </li>
+									<li><input type="text" name="Voornaam" size="45"  required></li>
+								</ul>
+								<ul>
+									<li>Achternaam: </li>
+									<li><input type="text" name="Achternaam" required size="45"></li>
+								</ul>
+							</div>
+							<br>
+							<div class="Namen">
+								<ul>
+									<li>E-mail: </li>
+									<li><input type="email" name="E-mail" required size="45 "></li>
+								</ul>
+								<ul>
+									<li>GSM nummer:</li>
+									<li><input type="tel" name="GSMnummer" required size="45"></li>
+								</ul>
+							</div>
+							<br>
+							<br>
+							<ul>
+								<li>Onderwerp:</li>
+								<li><input type="text" name="Onderwerp" required size="103" ></li>
+							</ul>
+							<br>
+							<br>
+							<div class="comments">
+								Commentaar:<br>
+								<textarea id="comments" name="comments" rows="5" cols="103" placeholder="Optioneel"></textarea>
+							</div> 
+							<input type="submit" value="Verzenden"> 
+							<br>
+						</form>
 					</div>
 				</div>
 			</div>
