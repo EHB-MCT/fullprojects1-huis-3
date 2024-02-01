@@ -498,11 +498,9 @@ input[type='submit']:active{
 }
 
 .bovenstuk {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	margin-bottom: 100px;
+	padding-left: 10%;
+    margin-top: 1%;
+    display: inline-flex;
 }
 
 .background-color {

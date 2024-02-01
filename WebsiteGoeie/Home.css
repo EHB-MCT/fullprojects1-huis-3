@@ -153,8 +153,12 @@ h1 {
 	font-weight: 700;
 	font-style: normal;
 	font-size: 87px;
+<<<<<<< HEAD
 	color: #833938;
 	text-indent: 13%;
+=======
+    color: #833938; 
+>>>>>>> 4b5d184d1bbd010f95e8101e27b6f6cd3b548486
 }
 
 p {
@@ -170,8 +174,14 @@ p {
 	border-radius: 10%;
 }
 
+<<<<<<< HEAD
 .Titel p {
 	padding-bottom: 5%;
+=======
+.Titel p{
+  padding-bottom: 5%;
+  width: 90%;
+>>>>>>> 4b5d184d1bbd010f95e8101e27b6f6cd3b548486
 }
 
 .Titel a {
