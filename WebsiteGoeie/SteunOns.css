@@ -70,14 +70,7 @@ nav a img {
 	width: 50px;
 }
 
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-}
-
-.Vacatuur:hover {
+.Vacatuur a:hover {
 	background-color: #ef9a1b;
 	text-decoration: none;
 }
@@ -245,14 +238,14 @@ a {
 
 .middenstuk {
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 220px;
 }
 
 .afbeeldingenvw {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 40px;
+	gap: 50px;
 }
 
 .afbeeldingenvw img {
