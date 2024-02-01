@@ -72,10 +72,11 @@ nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
+	align-items: center;
 }
 
 nav ul:first-of-type {
-	margin-right: 25%;
+	margin-right: 20%;
 }
 
 nav li {
@@ -85,7 +86,6 @@ nav li {
 nav a {
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
 	color: black;
@@ -95,13 +95,14 @@ nav a:hover {
 	text-decoration: underline solid 2px brown;
 }
 
-.uBentHier {
-	font-weight: bold;
+.Vacatuur a:hover {
+	align-items: center;
+	text-decoration: underline solid 2px brown;
+	text-decoration: none;
 }
-
-nav a img {
+.logotaal img {
+	border-radius: 0%;
 	width: 50px;
-	margin-top: -3px;
 }
 /*skyline*/
 .skyline img {

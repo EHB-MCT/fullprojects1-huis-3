@@ -69,28 +69,27 @@ body {
 	background-color: white;
 }
 
+/*Navbar*/
 .Mobile {
 	display: none;
 }
 
 .Desktop {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0 10%;
-	background-color: #fcb723;
-}
-
-.Desktop-text {
-	display: flex;
 	justify-content: space-between;
-	text-align: left;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
 }
 
 .logo img {
 	max-height: 80px;
 }
-
+.logotaal img {
+	border-radius: 0%;
+	width: 50px;
+}
 nav .Desktop ul {
 	list-style: none;
 	padding: 0;
@@ -99,7 +98,7 @@ nav .Desktop ul {
 }
 
 nav ul:first-of-type {
-	margin-right: 30%;
+	margin-right: 20%;
 }
 
 nav li {
@@ -114,24 +113,14 @@ nav a {
 	color: black;
 }
 
-.logotaal {
-	height: 10px;
-}
-
-.Desktop ul:last-child div li a img {
-	height: 50px;
-	padding-top: -1000px;
-}
-img.nederlandvlag {
-	height: 50px;
-}
-
 nav a:hover {
 	text-decoration: underline solid 2px brown;
 }
 
-.uBentHier {
-	font-weight: bold;
+.Vacatuur a:hover {
+	align-items: center;
+	text-decoration: underline solid 2px brown;
+	text-decoration: none;
 }
 
 .flex {

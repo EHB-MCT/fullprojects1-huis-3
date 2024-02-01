@@ -1,200 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="SteunOns.css" />
+		<link rel="icon" href="images/Rectangle 143.png" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="SteunOns.css" />
-	<link rel="icon" href="images/Rectangle 143.png" />
+		<title>Nous soutenir</title>
+	</head>
 
-	<title>Nous soutenir</title>
-</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<p class="Pijl">↑</p>
+			<p class="Boven">Naar top</p>
+		</button>
 
-<body>
+		<script>
+			let mybutton = document.getElementById("myBtn");
 
-	<button onclick="topFunction()" id="myBtn" title="Go to top">
-		<p class="Pijl">↑</p>
-		<p class="Boven">Naar top</p>
-	</button>
+			window.onscroll = function () {
+				scrollFunction();
+			};
 
-	<script>
-		let mybutton = document.getElementById("myBtn");
-
-		window.onscroll = function () {
-			scrollFunction();
-		};
-
-		function scrollFunction() {
-			if (
-				document.body.scrollTop > 20 ||
-				document.documentElement.scrollTop > 20
-			) {
-				mybutton.style.display = "block";
-			} else {
-				mybutton.style.display = "none";
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
 			}
-		}
 
-		function topFunction() {
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-		}
-	</script>
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
 
-	<!--Header-->
-	<nav>
-		<div class="Desktop">
-			<div class="logo">
-				<img src="images/Rectangle 143.png" alt="" />
-			</div>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li>
-					<a href="./overons-page/overons.html">À propos</a>
-				</li>
-				<li><a href="./Archief/Archief.html">Archive</a></li>
-				<li>
-					<a href="./Steunonsfr.html" class="uBentHier">Soutenez-nous</a>
-				</li>
-				<li><a href="./contactfr.html">Contactez-nous</a></li>
-			</ul>
+		<nav>
+			<div class="Desktop">
+				<div class="logo">
+					<img src="/docs/images/Rectangle 143.png" alt="" />
+				</div>
+				<ul>
+					<li><a href="/docs/HomeFrans.html" class="uBentHier">Acceuil</a></li>
+					<li><a href="/docs/overons-page/over-onsFR.html">À propos</a></li>
+					<li><a href="/docs/Archief/ArchiefFR.html">Archives</a></li>
+					<li>
+						<a href="/docs/Steunonsfr.html"><b>Soutenez-nous</b></a>
+					</li>
+					<li><a href="/docs/contactfr.html">Contact</a></li>
+				</ul>
 
-			<ul>
-				<li>
-					<a
-						href="./WerkBijOnsFrans.html"
-						class="Vacatuur"
-						>Emplois</a
-					>
-					<li><a href="./SteunOns.html"><img src="images/nl vlag .png" alt=""></a></li>
-				</li>
-			</ul>
-		</div>
-
-		<nav role="navigation" class="Mobile">
-			<div class="menuToggle">
-				<input type="checkbox" />
-
-				<span></span>
-				<span></span>
-				<span></span>
-
-				<ul class="menu">
-					<a href="index.html"><li>Home</li></a>
-					<a href="overons-page/overons.html"><li>Over ons</li></a>
-					<a href="Archief/Archief.html"><li>Archief</li></a>
-					<a href="SteunOns.html"><li>Steun Ons</li></a>
-					<a href="contact.html"><li class="SteunMobile">Contact</li></a>
-					<br />
-					<a href="WerkBijOns.html"><li>Vacatuur</li></a>
-					<a href="SteunOns.html"><li class="SteunMobile"><img src="images/nl vlag .png" alt=""></li></a>
+				<ul>
+					<li>
+						<a href="/docs/WerkBijOnsFrans.html" class="Vacatuur">Emplois</a>
+					</li>
+					<div class="logotaal">
+						<li>
+							<a href="/docs/SteunOns.html"
+								><img src="/docs/images/nl vlag .png" alt=""
+							/></a>
+						</li>
+					</div>
 				</ul>
 			</div>
-			<div class="logoMobile">
-				<img src="images/Rectangle 143.png" alt="" />
-			</div>
+
+			<nav role="navigation" class="Mobile">
+				<div class="menuToggle">
+					<input type="checkbox" />
+
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<ul class="menu">
+						<a href="#">
+							<li>Acceuil</li>
+						</a>
+						<a href="#">
+							<li>A propos</li>
+						</a>
+						<a href="#">
+							<li>Contact</li>
+						</a>
+						<a href="#">
+							<li>Archive</li>
+						</a>
+						<a href="#">
+							<li class="SteunMobile">Soutenez-nous</li>
+						</a>
+					</ul>
+				</div>
+				<div class="logoMobile">
+					<img src="/docs/images/Rectangle 143.png" alt="" />
+				</div>
+			</nav>
 		</nav>
-	</nav>
 
-	<!--bovenkant pagina -->
-	<div class="bovenkantpagina">
-		<h1 class="steunons">Soutenez-nous!</h1>
-		<p>
-			Contribuez à notre mission de construire un pont entre <br />
-			la rue et la communauté en participant au <br />
-			bénévolat ou en faisant un don. <br /><br />
-			Si vous avez des questions, nous sommes toujours là pour vous aider. <br />
-			Ensemble, nous pouvons renforcer la Maison de la Paix et <br />
-			contribuer à une société plus inclusive
-		</p>
-
-		<img src="images/Path 188 cropped.png" alt="" />
-	</div>
-
-	<!--donaties & fiscaal attest-->
-	<div class="onderkantpagina">
-		<div class="donaties">
-			<h2>Don</h2>
+		<!--bovenkant pagina -->
+		<div class="bovenkantpagina">
+			<h1 class="steunons">Soutenez-nous!</h1>
 			<p>
-				Ceux qui souhaitent apporter leur contribution <br> peuvent le faire en faisant un don sur le compte
-				<br> bancairede la Maison de la Paix asbl : <br />
-				BE07 7350 1343 2666.
+				Contribuez à notre mission de construire un pont entre <br />
+				la rue et la communauté en participant au <br />
+				bénévolat ou en faisant un don. <br /><br />
+				Si vous avez des questions, nous sommes toujours là pour vous aider.
+				<br />
+				Ensemble, nous pouvons renforcer la Maison de la Paix et <br />
+				contribuer à une société plus inclusive
 			</p>
-			<a href="#">Faire un don</a>
+
+			<img src="/docs/images/Path 188 cropped.png" alt="" />
 		</div>
 
-		<div class="fiscaalattest">
-			<h2>Reçu fiscal</h2>
-			<p>
-				Pour les dons effectués sur le numéro de compte <br />
-				BE80 7765 9023 3377 de l'ASBL Caritas <br />
-				Aide et Secours, avec la mention 'projet préféré <br />
-				nr. 2012 Maison de la Paix', et qui s'élèvent à <br />
-				40 € ou plus par an, le donateur recevra un <br />
-				reçu fiscal délivré par Caritas Aide et Secours ASBL.
-			</p>
-			<a href="#">Faire un don</a>
-			
-
-
-		</div>
-	</div>
-
-	<!--vrijwilliger en foto's -->
-	<div class="middenstuk">
-		<div class="afbeeldingenvw">
-			<div class="imglinks">
-				<img src="images/img1.jpg" alt="" />
+		<!--donaties & fiscaal attest-->
+		<div class="onderkantpagina">
+			<div class="donaties">
+				<h2>Don</h2>
+				<p>
+					Ceux qui souhaitent apporter leur contribution <br />
+					peuvent le faire en faisant un don sur le compte <br />
+					bancairede la Maison de la Paix asbl : <br />
+					BE07 7350 1343 2666.
+				</p>
+				<a href="#">Faire un don</a>
 			</div>
-			<div class="imgrechts">
-				<img src="images/img2.jpg" alt="" />
-			</div>
-		</div>
-		<div class="vrijwilligers">
-			<h2>Bénévole</h2>
 
-			<p>
-				Vous souhaitez vous engager en tant que bénévole <br> ou contribuer d'une autre manière? N'hésitez pas à
-				nous contacter via <br> secretariaat@huisvanvrede.be.
-			</p>
-			<a href="/WebsiteGoeie/WerkBijOnsFrans.html">Postuler</a>
-		</div>
-	</div>
-	<!--Footer-->
-
-	<div class="SkylinesFooter">
-		<div class="Adres">
-			<p>Adresse:</p>
-			<p>Rue du Marché aux Porcs 23</p>
-			<p>1000 Brussel</p>
-		</div>
-		<div class="ContactUs">
-			<p>Contactez-nous:</p>
-			<p>Tel.: 02 455 17 95</p>
-			<p>
-				E-mail:
-				<a href="mailto:puerto@huisvanvrede.be">puerto@huisvanvrede.be</a>
-			</p>
-		</div>
-	</div>
-	<footer>
-		<div>
-			<img src="images/Comissie.png" alt="" class="Comissie" />
-			<div class="HuisVanVrede">
-				<img src="images/Rectangle 143.png" alt="" />
-				<p>Maison de la Paix ASBL</p>
-			</div>
-			<div class="fotogroep1">
-				<img src="images/Caritas.png" alt="" />
-				<img src="images/Febi.png" alt="" />
-			</div>
-			<div class="fotogroep2">
-				<img src="images/Actiris.png" alt="" />
-				<img src="images/KBS.png" alt="" />
+			<div class="fiscaalattest">
+				<h2>Reçu fiscal</h2>
+				<p>
+					Pour les dons effectués sur le numéro de compte <br />
+					BE80 7765 9023 3377 de l'ASBL Caritas <br />
+					Aide et Secours, avec la mention 'projet préféré <br />
+					nr. 2012 Maison de la Paix', et qui s'élèvent à <br />
+					40 € ou plus par an, le donateur recevra un <br />
+					reçu fiscal délivré par Caritas Aide et Secours ASBL.
+				</p>
+				<a href="#">Faire un don</a>
 			</div>
 		</div>
-	</footer>
-</body>
 
+		<!--vrijwilliger en foto's -->
+		<div class="middenstuk">
+			<div class="afbeeldingenvw">
+				<div class="imglinks">
+					<img src="images/img1.jpg" alt="" />
+				</div>
+				<div class="imgrechts">
+					<img src="images/img2.jpg" alt="" />
+				</div>
+			</div>
+			<div class="vrijwilligers">
+				<h2>Bénévole</h2>
+
+				<p>
+					Vous souhaitez vous engager en tant que bénévole <br />
+					ou contribuer d'une autre manière? N'hésitez pas à nous contacter via
+					<br />
+					secretariaat@huisvanvrede.be.
+				</p>
+				<a href="/WebsiteGoeie/WerkBijOnsFrans.html">Postuler</a>
+			</div>
+		</div>
+		<!--Footer-->
+
+		<div class="SkylinesFooter">
+			<div class="Adres">
+				<p>Adresse:</p>
+				<p>Rue du Marché aux Porcs 23</p>
+				<p>1000 Brussel</p>
+			</div>
+			<div class="ContactUs">
+				<p>Contactez-nous:</p>
+				<p>Tel.: 02 455 17 95</p>
+				<p>
+					E-mail:
+					<a href="mailto:puerto@huisvanvrede.be">puerto@huisvanvrede.be</a>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<div>
+				<img src="images/Comissie.png" alt="" class="Comissie" />
+				<div class="HuisVanVrede">
+					<img src="images/Rectangle 143.png" alt="" />
+					<p>Maison de la Paix ASBL</p>
+				</div>
+				<div class="fotogroep1">
+					<img src="images/Caritas.png" alt="" />
+					<img src="images/Febi.png" alt="" />
+				</div>
+				<div class="fotogroep2">
+					<img src="images/Actiris.png" alt="" />
+					<img src="images/KBS.png" alt="" />
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

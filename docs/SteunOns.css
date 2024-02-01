@@ -15,7 +15,6 @@ body {
 	margin-top: 5%;
 }
 
-/*Navigatie*/
 /*Back to Top knop*/
 #myBtn {
 	display: none;
@@ -81,10 +80,11 @@ nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
+	align-items: center;
 }
 
 nav ul:first-of-type {
-	margin-right: 25%;
+	margin-right: 20%;
 }
 
 nav li {
@@ -94,7 +94,6 @@ nav li {
 nav a {
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
 	color: black;
@@ -104,16 +103,9 @@ nav a:hover {
 	text-decoration: underline solid 2px brown;
 }
 
-.uBentHier {
-	font-weight: bold;
-}
-
-nav a img {
-	width: 50px;
-}
-
 .Vacatuur a:hover {
-	background-color: #ef9a1b;
+	align-items: center;
+	text-decoration: underline solid 2px brown;
 	text-decoration: none;
 }
 

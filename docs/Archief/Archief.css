@@ -59,7 +59,6 @@ h2 {
 .uBentHier {
 	font-weight: bold;
 }
-
 p {
 	font-size: 20px;
 	margin-left: 250px;
@@ -181,30 +180,33 @@ p {
 
 /*header----------------------------------------------------------------------------------------*/
 
-/*Navigatie*/
-nav {
-	align-items: center;
-	padding-left: 14%;
-
-	background-color: #fcb723;
+/*Navbar*/
+.Mobile {
+	display: none;
 }
 
-.nederlandvlag {
-	width: 50px;
+.Desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
 }
 
 .logo img {
 	max-height: 80px;
 }
 
-nav ul {
+nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
+	align-items: center;
 }
 
 nav ul:first-of-type {
-	margin-right: 25%;
+	margin-right: 20%;
 }
 
 nav li {
@@ -214,24 +216,19 @@ nav li {
 nav a {
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
-	color: rgb(0, 0, 0);
+	color: black;
 }
 
 nav a:hover {
 	text-decoration: underline solid 2px brown;
 }
 
-.homePage {
-	font-weight: bold;
-	font-size: 135%;
-}
-
-.Vacatuur:active {
-	box-shadow: 0px 0px 8px #833938;
-	color: #833938;
+.Vacatuur a:hover {
+	align-items: center;
+	text-decoration: underline solid 2px brown;
+	text-decoration: none;
 }
 
 /*Footer*/
