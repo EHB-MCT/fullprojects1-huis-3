@@ -17,6 +17,7 @@ h1 {
 	width: 85%;
 	margin: 0 auto;
 }
+
 @import url("https://use.typekit.net/tvm5hyw.css");
 
 /*Back to Top knop*/
@@ -31,8 +32,7 @@ h1 {
 	background-color: #fcb723;
 	color: black;
 	cursor: pointer;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 15.5px 20px;
 	border-radius: 50px;
 	transition: 0.1s;
 
@@ -75,10 +75,9 @@ body {
 
 .Desktop {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding: 0 10%;
 	background-color: #fcb723;
 }
 
@@ -96,6 +95,7 @@ nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
+	align-items: center;
 }
 
 nav ul:first-of-type {
@@ -109,14 +109,21 @@ nav li {
 nav a {
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
 	color: black;
 }
 
 .logotaal {
-	width: 10px;
+	height: 10px;
+}
+
+.Desktop ul:last-child div li a img {
+	height: 50px;
+	padding-top: -1000px;
+}
+img.nederlandvlag {
+	height: 50px;
 }
 
 nav a:hover {
@@ -125,18 +132,6 @@ nav a:hover {
 
 .uBentHier {
 	font-weight: bold;
-}
-
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-}
-
-.Vacatuur:hover {
-	background-color: #ef9a1b;
-	text-decoration: none;
 }
 
 .flex {
@@ -158,9 +153,8 @@ nav a:hover {
 
 .flex2 img {
 	margin-top: 100px;
-	margin-bottom: 100px;
-	width: 40%;
-	flex: 5;
+	margin-bottom: 50px;
+	width: 30%;
 	border-radius: 54px;
 	border-color: #ef9a1b;
 }
@@ -172,7 +166,8 @@ nav a:hover {
 .skyline img {
 	margin-top: -250px;
 	width: 100%;
-	padding-bottom: 1.5%;
+	transform: scaleX(-1);
+	padding-top: 4%;
 	flex: 7;
 }
 
@@ -268,12 +263,12 @@ h2 {
 }
 
 .expand-btn::before {
-	content: "Lees Meer";
+	content: "Read more";
 	font-size: 155%;
 	font-weight: 700;
 }
 .expand-btn:checked::before {
-	content: "Lees Minder";
+	content: "Read less";
 	font-size: 155%;
 	font-weight: 700;
 }
@@ -296,14 +291,18 @@ h2 {
 	padding-top: 3%;
 }
 
+.Desktop ul li {
+	margin-top: 0;
+}
+
 h2 {
 	text-align: left;
 }
 
 .image {
 	width: 100%;
-	padding-top: 4%;
-	margin-bottom: 10%;
+	padding-top: 2%;
+	margin-bottom: 5%;
 	border-radius: 54px;
 }
 
@@ -423,24 +422,14 @@ footer div img:first-child {
 		display: none;
 	}
 
-	.Desktop-text {
-		display: none;
-	}
-
 	.Mobile {
 		display: flex;
 		background-color: #fcb723;
-		justify-content: space-between;
-	}
-
-	.Mobile-text {
-		text-align: center;
 	}
 
 	.logoMobile img {
 		max-height: 80px;
-		align-items: end;
-		flex: 1;
+		margin-left: 200%;
 	}
 
 	.Mobile .menuToggle {
@@ -453,11 +442,6 @@ footer div img:first-child {
 
 		-webkit-user-select: none;
 		user-select: none;
-	}
-
-	.image img {
-		padding: 0;
-		width: 1000%;
 	}
 
 	.Mobile .menuToggle a {
@@ -501,8 +485,8 @@ footer div img:first-child {
 
 		transform-origin: 4px 0px;
 
-		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-		background: 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+			background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 	}
 
 	.Mobile .menuToggle span:first-child {
@@ -526,13 +510,6 @@ footer div img:first-child {
 
 	.Mobile .menuToggle input:checked ~ span:nth-last-child(2) {
 		transform: rotate(-45deg) translate(0, -1px);
-	}
-
-	.image {
-		height: 10%;
-		width: 90%;
-		max-height: 40%;
-		width: 10%;
 	}
 
 	.Mobile .menu {
@@ -569,6 +546,34 @@ footer div img:first-child {
 	.Mobile .menuToggle input:checked ~ ul {
 		transform: none;
 	}
+	.logoMobile img {
+		max-height: 80px;
+		align-items: end;
+		flex: 1;
+	}
+	.image img {
+		padding: 0;
+		width: 1000%;
+		margin-top: 0px;
+		margin-bottom: -50px;
+	}
+	.flex2 img {
+		width: 40%;
+		margin-top: 0;
+	}
+	.expand-btn {
+		font-size: 10px;
+		background-color: #fcb723;
+		padding: 15px 24px;
+		border-radius: 15px;
+		margin-left: 32%;
+	}
+	.image {
+		height: 10%;
+		width: 90%;
+		max-height: 40%;
+		width: 10%;
+	}
 
 	.flex4 {
 		flex-direction: column-reverse;
@@ -576,7 +581,7 @@ footer div img:first-child {
 	}
 
 	.flex3 {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		align-items: center;
 	}
 
@@ -738,11 +743,56 @@ footer div img:first-child {
 	.Lijn2 {
 		display: none;
 	}
-	/*
+	/* .background-color2 {
+        display: none;
+    } */
+	.card h2 {
+		font-size: 50px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.cutoff-text {
+		text-align: center;
+		margin-top: -30px;
+	}
+	.flex3 img {
+		margin-top: -10px;
+	}
+	.flex4 img {
+		margin-top: 0px;
+	}
+	.text-2 h2 {
+		font-size: 50px;
+		text-align: center;
+	}
+	.text {
+		margin-top: -20px;
+	}
+	.text-2 {
+		margin-top: 150px;
+	}
+	.flex2 img {
+		margin-top: -50px;
+		margin-right: 0px;
+	}
 	.background-color2 {
+		margin-top: -10px;
+		margin-bottom: -70px;
+	}
+	.skyline img {
+		padding-bottom: 6%;
+	}
+	.flex4 {
+		margin-top: -150px;
+	}
+	h2.Desktop-text {
+		margin-left: 80px;
+		margin-top: -50px;
+		padding-bottom: 20px;
+	}
+	.Desktop-text {
 		display: none;
 	}
-	*/
 }
 
 @media only screen and (min-width: 480px) {

@@ -28,6 +28,7 @@ img {
 .Mobile {
 	display: none;
 }
+
 /*header*/
 
 
@@ -36,6 +37,7 @@ img {
 
 .intro {
 	display: flex;
+	padding-bottom: 80px;
 }
 
 .intro img {
@@ -59,8 +61,9 @@ img {
 }
 
 .skyline img {
+	position: absolute;
 	transform: scaleX(-1);
-	margin-top: -80px;
+	margin-top: -180px;
 	width: 100%;
 }
 
@@ -69,7 +72,7 @@ img {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
-	padding: 3%;
+	padding: 5%;
 }
 
 .kookvrijwilleger img {
@@ -78,7 +81,7 @@ img {
 }
 
 .kookvrijwilleger-text {
-	margin-right: 15.5%;
+	margin-right:14.20%;
 }
 
 .assistent {
@@ -227,6 +230,9 @@ nav a {
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
 	color: black;
+}
+.uBentHier {
+	font-weight: bold;
 }
 
 nav a:hover {
@@ -528,6 +534,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
+	z-index: 90;
 }
 
 .solliciteer-2 {
@@ -539,6 +546,7 @@ nav a:hover {
 	display: inline-block;
 	text-decoration: none;
 	margin-top: 20px;
+	z-index: 90;
 }
 
 @media only screen and (max-width: 480px) {
@@ -770,7 +778,7 @@ nav a:hover {
 	.kookvrijwilleger-text {
 		width: 80%;
 		margin-top: 15px;
-		margin-right: 110px;
+		margin-right: 0px;
 	}
 
 	.assistent {
@@ -788,6 +796,7 @@ nav a:hover {
 		width: 80%;
 		margin-left: 60px;
 		margin-top: 15px;
+		padding-bottom: 30px;
 	}
 
 	.vrijwillig {

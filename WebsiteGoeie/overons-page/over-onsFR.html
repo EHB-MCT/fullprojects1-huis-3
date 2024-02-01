@@ -6,25 +6,63 @@
 		<title>À propos de nous</title>
 		<link rel="stylesheet" href="overons.css" />
 		<link rel="stylesheet" href="typo.css" />
+		<link rel="icon" href="/WebsiteGoeie/images/Rectangle 143.png" />
 	</head>
 	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<p class="Pijl">↑</p>
+			<p class="Boven">Naar top</p>
+		</button>
+
+		<script>
+			let mybutton = document.getElementById("myBtn");
+
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
 		<nav>
 			<div class="Desktop">
 				<div class="logo">
 					<img src="image-overons/Rectangle 143.png" alt="" />
 				</div>
 				<ul>
-					<li><a href="#">Accueil</a></li>
-					<li><a href="#" class="uBentHier">À propos</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Archives</a></li>
-					<li><a href="#">Soutenez-nous</a></li>
+					<li><a href="/WebsiteGoeie/HomeFrans.html">Accueil</a></li>
+					<li>
+						<a
+							href="/WebsiteGoeie/overons-page/over-onsFR.html"
+							class="uBentHier"
+							>À propos</a
+						>
+					</li>
+					<li><a href="/WebsiteGoeie/Archief/Archief.html">Archives</a></li>
+					<li><a href="/WebsiteGoeie/Steunonsfr.html">Soutenez-nous</a></li>
+					<li><a href="/WebsiteGoeie/Steunonsfr.html">Contact</a></li>
 				</ul>
 
 				<ul>
-					<li><a href="#" class="Vacatuur">emploi</a></li>
+					<li><a href="#" class="Vacatuur">Emplois</a></li>
 					<a href="/WebsiteGoeie/overons-page/overons.html"
-						><img src="/WebsiteGoeie/images/nl vlag .png" alt=""
+						><img
+							class="nederlandvlag"
+							src="/WebsiteGoeie/images/nl vlag .png"
+							alt=""
 					/></a>
 				</ul>
 			</div>
@@ -46,7 +84,7 @@
 					</ul>
 				</div>
 				<div class="logoMobile">
-					<img src="images/Rectangle 143.png" alt="" />
+					<img src="/WebsiteGoeie/images/Rectangle 143.png" alt="" />
 				</div>
 			</nav>
 		</nav>
@@ -66,7 +104,7 @@
 			</div>
 		</div>
 		<div class="skyline">
-			<img src="image-overons/Path 1635.png" alt="" />
+			<img src="/WebsiteGoeie/images/Path 188 cropped.png" alt="" />
 		</div>
 		<div class="background-color2">
 			<div class="flex3">
@@ -124,7 +162,7 @@
 		</div>
 		<div class="background-color2">
 			<div class="image">
-				<img src="image-overons/Group 274.png" alt="" />
+				<img src="/WebsiteGoeie/images/Historique.png" alt="" />
 			</div>
 		</div>
 
@@ -133,7 +171,10 @@
 		<div class="SkylinesFooter">
 			<div class="Adres">
 				<p>Adresse :</p>
-				<p>Varkensmarkt 23</p>
+				<p>
+					Rue du Marché <br />
+					aux Porcs 23
+				</p>
 				<p>1000 Bruxelles</p>
 			</div>
 			<div class="ContactUs">
@@ -150,7 +191,7 @@
 				<img src="image-overons/Comissie.png" alt="" class="Comissie" />
 				<div class="HuisVanVrede">
 					<img src="image-overons/Rectangle 143.png" alt="" />
-					<p>Huis van Vrede vzw</p>
+					<p>Maison de la Paix asbl</p>
 				</div>
 				<div class="fotogroep1">
 					<img src="image-overons/Caritas.png" alt="" />
