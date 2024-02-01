@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: white;
-	
+
 	font-family: "anago", sans-serif;
 }
 
@@ -17,39 +17,37 @@ body {
 	z-index: 99;
 	border: 2px solid black;
 	outline: none;
-	background-color: #FCB723;
+	background-color: #fcb723;
 	color: black;
 	cursor: pointer;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 50px;
 	transition: 0.1s;
-  
-	.Boven{
-	  display: none;
+
+	.Boven {
+		display: none;
 	}
-  }
-  
-  .Pijl{
+}
+
+.Pijl {
 	font-size: 16px;
-  }
-  
-  .Boven{
+}
+
+.Boven {
 	font-size: 16px;
-  }
-  
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
 	background-color: #833938; /* Add a dark-grey background on hover */
-	.Pijl{
-	  display: none;
+	.Pijl {
+		display: none;
 	}
-  
-	.Boven{
-	  display: block;
+
+	.Boven {
+		display: block;
 	}
-	
-  }
+}
 
 .Mobile {
 	display: none;
@@ -75,7 +73,7 @@ nav .Desktop ul {
 }
 
 nav ul:first-of-type {
-	margin-right: 30%;
+	margin-right: 25%;
 }
 
 nav li {
@@ -97,18 +95,6 @@ nav a:hover {
 
 .uBentHier {
 	font-weight: bold;
-}
-
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-}
-
-.Vacatuur:hover {
-	background-color: #ef9a1b;
-	text-decoration: none;
 }
 
 .skyline {
@@ -413,65 +399,71 @@ footer div img:last-child {
 }
 
 .formulier {
-	padding-top: 0.2%; 
-	padding-bottom: 0.8%;
+	padding-top: 0.2%;
+	background-image: url(/WebsiteGoeie/images/Group\ 332.svg);
+	padding-left: 3%;
+	padding-top: 2%;
 }
 
-form div{
-	padding-bottom: -20px;
+.formulier h1 {
+	text-align: center;
 }
- 
-input, textarea{
-	font-size: 16pt
+
+form div {
+	margin-top: 1%;
+}
+
+input,
+textarea {
+	font-size: 16pt;
 }
 
 /*Voornaam & Achternaam*/
-.Namen{
+.Namen {
 	display: flex;
-	text-decoration: none; 
+	text-decoration: none;
 	margin-bottom: 5px;
 }
 
-.Namen ul{
+.Namen ul {
 	list-style: none;
 }
 
-.Namen ul li input{
+.Namen ul li input {
 	height: 50px;
 }
- 
-.Namen ul:last-child{
+
+.Namen ul:last-child {
 	margin-left: 6%;
 }
- 
 
 /*Email & GSM*/
-.Namen:nth-child(3) { 
+.Namen:nth-child(3) {
 	margin-top: -10px;
 }
 
-.Namen:last-of-type ul:last-of-type li{ 
+.Namen:last-of-type ul:last-of-type li {
 }
 
 /*Onderwerp*/
-form ul:nth-child(6){
+form ul:nth-child(6) {
 	list-style: none;
 	margin-top: -20px;
-} 
+}
 
-form ul:nth-child(6) li input{ 
+form ul:nth-child(6) li input {
 	height: 50px;
 }
 
 /*comments*/
-.comments{
+.comments {
 	margin-left: 2.5%;
 	margin-top: -10px;
 	padding-bottom: 10px;
 }
 
 /*Verzenden*/
-input[type="submit"]{
+input[type="submit"] {
 	margin-left: 2.5%;
 	background-color: #fcb723;
 	padding: 10px;
@@ -485,8 +477,7 @@ input[type="submit"]{
 	transition: 0.1s;
 }
 
-
-input[type='submit']:active{
+input[type="submit"]:active {
 	background-color: #ef9a1b;
 	font-size: 15pt;
 }
@@ -498,9 +489,25 @@ input[type='submit']:active{
 }
 
 .bovenstuk {
-	padding-left: 10%;
-    margin-top: 1%;
-    display: inline-flex;
+	margin-top: 1%;
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 6%;
+	margin-bottom: 3%;
+}
+
+.bovenstukFR {
+	margin-top: 1%;
+	display: inline-flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	margin-top: 6%;
+	margin-bottom: 3%;
+}
+
+.text-2 {
+	padding: 10%;
+	padding-top: 3%;
 }
 
 .background-color {
@@ -508,8 +515,15 @@ input[type='submit']:active{
 }
 
 .bovenstuk img {
-	width: 50%;
+	width: 45%;
 	align-self: center;
+	border-radius: 50px;
+}
+
+.bovenstukFR img {
+	width: 45%;
+	align-self: center;
+	border-radius: 50px;
 }
 
 h1 {
@@ -526,7 +540,7 @@ h2 {
 	font-style: normal;
 	font-size: 65px;
 	color: #833938;
-	text-align: center;
+	text-align: left;
 }
 
 p {
@@ -537,6 +551,10 @@ p {
 .map {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
+}
+
+.map h2 {
 	text-align: center;
 }
 

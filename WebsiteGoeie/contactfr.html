@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./contact.css" />
+		<link rel="stylesheet" href="typo.css" />
 		<title>Contact</title>
 	</head>
 	<body>
@@ -56,35 +57,83 @@
 			</nav>
 		</nav>
 		<main>
-			<div class="skyline">
-				<img src="images/Group 327.svg" alt="" />
-			</div>
-			<div class="bovenstuk">
-				<h1>Contactez-nous!</h1>
+			<div class="bovenstukFR">
+				<div class="text-2">
+					<h1>Contactez-nous</h1>
+					<p>
+						Pour poser des questions ou nous contacter, veuillez remplir le
+						formulaire.
+					</p>
+				</div>
+
 				<img src="./images/img2.jpg" alt="" />
 			</div>
 			<div class="background-color">
 				<div class="formulier">
-					<h2>Remplissez le formulaire</h2>
+					<h1>Remplissez le formulaire</h1>
 					<div class="form">
-						<label for="name">Nom :</label><br />
-
-						<input type="text" id="name" name="name" /><br />
-						<br />
-						<label for="email">E-mail :</label><br />
-						<input type="text" id="email" name="email" />
-						<br />
-						<br />
-						<label for="name">Numéro de téléphone :</label><br />
-						<input type="text" id="name" name="name" /><br />
-						<br />
-						<label for="email">Message :</label><br />
-						<input type="text-2" id="email" name="email" />
+						<form
+							action="mailto:puerto@huisvanvrede.be"
+							method="post"
+							enctype="text/plain"
+						>
+							<div class="Namen">
+								<ul>
+									<li>Prénom:</li>
+									<li>
+										<input type="text" name="Voornaam" size="45" required />
+									</li>
+								</ul>
+								<ul>
+									<li>Nom de famille:</li>
+									<li>
+										<input type="text" name="Achternaam" required size="45" />
+									</li>
+								</ul>
+							</div>
+							<br />
+							<div class="Namen">
+								<ul>
+									<li>E-mail:</li>
+									<li>
+										<input type="email" name="E-mail" required size="45 " />
+									</li>
+								</ul>
+								<ul>
+									<li>Numéro de GSM:</li>
+									<li>
+										<input type="tel" name="GSMnummer" required size="45" />
+									</li>
+								</ul>
+							</div>
+							<br />
+							<br />
+							<ul>
+								<li>Sujet:</li>
+								<li>
+									<input type="text" name="Onderwerp" required size="103" />
+								</li>
+							</ul>
+							<br />
+							<br />
+							<div class="comments">
+								Commentaire:<br />
+								<textarea
+									id="comments"
+									name="comments"
+									rows="5"
+									cols="85"
+									placeholder="optionnelle"
+								></textarea>
+							</div>
+							<input type="submit" value="Envoyer" />
+							<br />
+						</form>
 					</div>
 				</div>
 			</div>
 			<div class="map">
-				<h2>Où sommes-nous?</h2>
+				<h1>Où sommes-nous?</h1>
 				<p>Rue du Marché aux Porcs 23 1000 Bruxelles</p>
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.8032338834437!2d4.343814376885375!3d50.85332787167197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c388acd08689%3A0x51126aeec1927cf!2sHuis%20Van%20Vrede-%20Bruxelles!5e0!3m2!1snl!2sbe!4v1706265340661!5m2!1snl!2sbe"
