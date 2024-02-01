@@ -108,79 +108,8 @@ nav a:hover {
 }
 
 /*Footer*/
-.SkylinesFooter {
-	background-image: url(images/Path\ 1.png);
-	height: 250px;
-	display: flex;
-}
-
-.Adres p,
-.ContactUs p {
-	color: black;
-	margin-left: 225px;
-	font-size: 16px;
-	font-family: "anago", sans-serif;
-	font-size: 15pt;
-}
-
-.Adres p:first-child {
-	margin-top: 30%;
-}
-
-.ContactUs p:first-child {
-	margin-top: 22%;
-}
-
-footer {
-	background-color: #fcb723;
-	height: 100%;
+.imagefooter img {
 	width: 100%;
-	text-align: right;
-}
-
-footer div {
-	display: flex;
-	justify-content: space-between;
-}
-
-footer div img {
-	width: 5%;
-}
-
-footer div p {
-	font-family: "anago", sans-serif;
-	font-size: 15pt;
-	color: black;
-	margin-top: 4%;
-}
-
-.HuisVanVrede {
-	width: 20%;
-	height: 20%;
-	margin-top: 2%;
-	display: flex;
-}
-
-.HuisVanVrede img {
-	margin-top: 20px;
-}
-
-.HuisVanVrede p {
-	margin-right: 20.5%;
-	margin-top: 13%;
-}
-
-footer div img:first-child {
-	height: 30%;
-	width: 20%;
-	margin-top: 20px;
-}
-
-footer div img:last-child {
-	width: 18%;
-	height: 100px;
-	margin-top: 1.5%;
-	margin-right: 2%;
 }
 
 /*----------------------------RESPONSIVE---------------------------*/
@@ -402,7 +331,7 @@ footer div img:last-child {
 
 .formulier {
 	padding-top: 0.2%;
-	background-image: url(/WebsiteGoeie/images/Group\ 332.svg);
+	background-image: url(/docs/images/Group\ 332.svg);
 	padding-left: 3%;
 	padding-top: 2%;
 }

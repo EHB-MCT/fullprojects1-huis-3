@@ -14,49 +14,57 @@ h1 {
 	margin: 0;
 	margin-bottom: 20px;
 }
-
-.wrapper {
-	width: 85%;
-	margin: 0 auto;
+.Mobile {
+	display: none;
 }
 
-.navigation {
-	width: 100%;
-	flex: 10;
+.Desktop {
 	display: flex;
-	justify-content: left;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #fcb723;
+}
+
+.logo img {
+	max-height: 80px;
+}
+
+nav .Desktop ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
 	align-items: center;
 }
 
-.navigation-2 {
-	width: 100%;
-	flex: 4;
-	display: flex;
-	justify-content: right;
-	align-items: center;
+nav ul:first-of-type {
+	margin-right: 20%;
 }
 
-.navigation-text ul li {
-	display: inline-block;
+nav li {
 	margin-right: 50px;
 }
 
-.navigation-text ul li a {
+nav a {
 	text-decoration: none;
 	color: black;
+	font-family: "anago", sans-serif;
+	font-size: 15pt;
 }
 
-.flex {
-	display: flex;
+nav a:hover {
+	text-decoration: underline solid 2px brown;
+}
+
+.Vacatuur a:hover {
 	align-items: center;
+	text-decoration: underline solid 2px brown;
+	text-decoration: none;
 }
-
-.overOns {
-	border-bottom: 5px solid #833938;
-}
-
-.background-color {
-	background-color: #fcb723;
+.logotaal img {
+	border-radius: 0%;
+	width: 50px;
 }
 
 /*title*/
