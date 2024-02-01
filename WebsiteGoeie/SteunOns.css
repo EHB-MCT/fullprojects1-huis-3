@@ -16,6 +16,48 @@ body {
 }
 
 /*Navigatie*/
+/*Back to Top knop*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	z-index: 99;
+	border: 2px solid black;
+	outline: none;
+	background-color: #fcb723;
+	color: black;
+	cursor: pointer;
+	padding: 1px 15px;
+	border-radius: 50px;
+	transition: 0.1s;
+
+	.Boven {
+		display: none;
+		border-radius: 7px;
+	}
+}
+
+.Pijl {
+	font-size: 16px;
+}
+
+.Boven {
+	font-size: 16px;
+}
+
+#myBtn:hover {
+	background-color: #833938;
+	.Pijl {
+		display: none;
+	}
+
+	.Boven {
+		display: block;
+	}
+	border-radius: 20px;
+	transition: 0.1s;
+}
 
 /*Navbar*/
 .Mobile {
@@ -42,7 +84,7 @@ nav .Desktop ul {
 }
 
 nav ul:first-of-type {
-	margin-right: 30%;
+	margin-right: 25%;
 }
 
 nav li {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
    <link rel="stylesheet" a href="WerkBijOns.css">
    <link rel="icon" href="images/Rectangle 143.png" />
 </head>
-
+ 
 <body>
    <nav>
       <div class="Desktop">
@@ -22,26 +22,26 @@
             <li><a href="Archief/ArchiefFR.html">Archives</a></li>
             <li><a href="Steunonsfr.html">Soutener-nous</a></li>
          </ul>
-
+ 
          <ul>
-
-            <li><a href="#" class="Vacatuur">Emploies</a></li>
+ 
+            <li><a href="#" class="Vacatuur"><b>Emploies</b></a></li>
             <div class="logotaal">
                <li><a href="WerkBijOns.html"><img src="./images/nl vlag .png" alt=""></a></li>
             </div>
          </ul>
       </div>
-
-
-
+ 
+ 
+ 
       <nav role="navigation" class="Mobile">
          <div class="menuToggle">
             <input type="checkbox" />
-
+ 
             <span></span>
             <span></span>
             <span></span>
-
+ 
             <ul class="menu">
                <a href="#">
                   <li>Acceuiles</li>
@@ -68,7 +68,7 @@
    <div class="intro">
       <img src="./34855885_473039543131505_4983795254739075072_n.jpg">
       <div class="intro-text">
-         <h1>Travaillez avec nous ?</h1>
+         <h1>Travaillez avec nous</h1>
          <h2>Assistant(e) administratif(ve) (M/F/X)</h2>
          <p>Vous êtes responsable du soutien administratif<br> de l'équipe de direction et de vos collègues.<br>Vous
             souhaitez contribuer à à la fluidité de l'administration ?<br>
@@ -107,10 +107,10 @@
          <a href="./Vacature logistiek vrijwilliger.pdf" download class="solliciteer-2">Download</a>
       </div>
    </div>
-
-
+ 
+ 
    <!--Footer-->
-
+ 
    <div class="SkylinesFooter">
       <div class="Adres">
          <h3>Adres</h3>
@@ -144,9 +144,36 @@
             <li><img class="KBS" src="images/KBS.png"></li>
          </div>
       </div>
+ 
    </div>
+   <!--Back to Top knop-->
+   <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <p class="Pijl">↑</p>
+      <p class="Boven">Naar top</p>
+   </button>
+ 
+   <script>
+      let mybutton = document.getElementById("myBtn");
+ 
+      window.onscroll = function () {
+         scrollFunction()
+      };
+ 
+      function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+         } else {
+            mybutton.style.display = "none";
+         }
+      }
+ 
+      function topFunction() {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+      }
+   </script>
 </body>
-
+ 
 </body>
-
+ 
 </html>

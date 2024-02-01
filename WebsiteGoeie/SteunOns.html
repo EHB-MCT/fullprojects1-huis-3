@@ -11,6 +11,34 @@
 	</head>
 	<body>
 		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<p class="Pijl">↑</p>
+			<p class="Boven">Naar top</p>
+		</button>
+
+		<script>
+			let mybutton = document.getElementById("myBtn");
+
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
 
 		<!--Header-->
 		<nav>
@@ -19,15 +47,15 @@
 					<img src="images/Rectangle 143.png" alt="" />
 				</div>
 				<ul>
-					<li><a href="Home.html" class="uBentHier">Home</a></li>
+					<li><a href="Home.html">Home</a></li>
 					<li>
 						<a href="/WebsiteGoeie/overons-page/overons.html">Over ons</a>
 					</li>
 					<li><a href="/WebsiteGoeie/Archief/Archief.html">Archief</a></li>
 					<li>
-						<a href="SteunOns.html">Steun Ons</a>
+						<a href="SteunOns.html" class="uBentHier">Steun Ons</a>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="/WebsiteGoeie/contact.html">Contact</a></li>
 				</ul>
 
 				<ul>
@@ -128,7 +156,7 @@
 					andere manier bijdragen? Neem gerust contact op via <br />
 					secretariaat@huisvanvrede.be
 				</p>
-				<a href="#">Solliciteer</a>
+				<a href="/WebsiteGoeie/WerkBijOns.html">Solliciteer</a>
 			</div>
 		</div>
 		<!--Footer-->

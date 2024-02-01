@@ -29,9 +29,36 @@ img {
 	display: none;
 }
 
-/*header*/
+.solliciteer {
+	background-color: #fcb723;
+	padding: 12px 24px;
+	border-radius: 15px;
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	margin-left: 300px;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
 
+.solliciteer-2 {
+	background-color: #fcb723;
+	padding: 12px 24px;
+	border-radius: 15px;
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
 
+.solliciteer-2 {
+	margin-left: 0px;
+}
 
 /* start*/
 
@@ -43,27 +70,28 @@ img {
 .intro img {
 	margin-top: 11%;
 	margin-left: 10.5%;
-	Height: 320px;
+	height: 320px;
 }
 
 .intro-text h2 {
 	margin-top: 7%;
-	margin-left: 190px;
+	margin-left: 300px;
 }
 
 .intro-text p {
-	margin-left: 190px;
+	margin-left: 300px;
 }
 
 .intro-text h1 {
 	margin-top: 6%;
-	margin-left:-58%;
+	margin-left: -50%;
 }
 
 .skyline img {
 	position: absolute;
+	z-index: -3;
 	transform: scaleX(-1);
-	margin-top: -180px;
+	margin-top: -194px;
 	width: 100%;
 }
 
@@ -81,7 +109,7 @@ img {
 }
 
 .kookvrijwilleger-text {
-	margin-right:14.20%;
+	margin-right: 22%;
 }
 
 .assistent {
@@ -98,7 +126,7 @@ img {
 
 .assistent-text {
 	margin-top: 140px;
-	margin-left: 10.25%;
+	margin-left: 16%;
 }
 
 .vrijwillig {
@@ -111,14 +139,15 @@ img {
 
 .vrijwillig img {
 	height: 310px;
-	margin-right:10.75%;
+	margin-right: 10.75%;
 	margin-top: 2%;
+	margin-right: 16%;
 }
 
 .vrijwillig-text {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	margin-right:14%;
+	margin-right: 14%;
 }
 
 body {
@@ -130,8 +159,6 @@ body {
 .Mobile {
 	display: none;
 }
-
-
 
 @import url("https://use.typekit.net/tvm5hyw.css");
 
@@ -154,7 +181,7 @@ body {
 	z-index: 99;
 	border: 2px solid black;
 	outline: none;
-	background-color: #FCB723;
+	background-color: #fcb723;
 	color: black;
 	cursor: pointer;
 	padding-left: 20px;
@@ -175,7 +202,6 @@ body {
 	font-size: 16px;
 }
 
-
 #myBtn:hover {
 	background-color: #833938;
 
@@ -187,9 +213,7 @@ body {
 	.Boven {
 		display: block;
 	}
-
 }
-
 
 /*Navbar*/
 .Mobile {
@@ -231,9 +255,6 @@ nav a {
 	font-size: 15pt;
 	color: black;
 }
-.uBentHier {
-	font-weight: bold;
-}
 
 nav a:hover {
 	text-decoration: underline solid 2px brown;
@@ -244,6 +265,7 @@ nav a:hover {
 	text-decoration: underline solid 2px brown;
 	text-decoration: none;
 }
+
 /*Footer*/
 .SkylinesFooter {
 	background-image: url(images/Path\ 1.png);
@@ -258,7 +280,7 @@ nav a:hover {
 
 .footerbottom-1 {
 	display: flex;
-	background-color: #FCB723;
+	background-color: #fcb723;
 	width: 100%;
 	height: 300px;
 }
@@ -287,12 +309,11 @@ nav a:hover {
 	font-size: 24px;
 	margin-top: 23%;
 	margin-left: 9%;
-
 }
 
 .footerbottom-2 {
 	display: flex;
-	background-color: #FCB723;
+	background-color: #fcb723;
 	height: 150px;
 	list-style: none;
 }
@@ -306,12 +327,12 @@ nav a:hover {
 .carritas {
 	margin-top: 20%;
 	margin-left: -100%;
-	width: 140%
+	width: 140%;
 }
 
 .footerbottom-3 {
 	display: flex;
-	background-color: #FCB723;
+	background-color: #fcb723;
 	width: 100%;
 	height: 150px;
 	list-style: none;
@@ -326,7 +347,7 @@ nav a:hover {
 }
 
 .text-footer {
-	background-color: #FCB723;
+	background-color: #fcb723;
 	font-size: 14px;
 }
 
@@ -341,16 +362,6 @@ nav a:hover {
 .ContactUs {
 	margin-left: 10%;
 }
-
-.Adres p{
-	font-size: 14px;
-} 
-
-.ContactUs p{
-	font-size: 14px;
-}
-
-
 
 /*----------------------------RESPONSIVE---------------------------*/
 
@@ -437,18 +448,18 @@ nav a:hover {
 		transform-origin: 0% 100%;
 	}
 
-	.Mobile .menuToggle input:checked~span {
+	.Mobile .menuToggle input:checked ~ span {
 		opacity: 1;
 		transform: rotate(45deg) translate(-2px, -1px);
 		background: white;
 	}
 
-	.Mobile .menuToggle input:checked~span:nth-last-child(3) {
+	.Mobile .menuToggle input:checked ~ span:nth-last-child(3) {
 		opacity: 0;
 		transform: rotate(0deg) scale(0.2, 0.2);
 	}
 
-	.Mobile .menuToggle input:checked~span:nth-last-child(2) {
+	.Mobile .menuToggle input:checked ~ span:nth-last-child(2) {
 		transform: rotate(-45deg) translate(0, -1px);
 	}
 
@@ -483,7 +494,7 @@ nav a:hover {
 		border-bottom: 2px solid #ef9a1b;
 	}
 
-	.Mobile .menuToggle input:checked~ul {
+	.Mobile .menuToggle input:checked ~ ul {
 		transform: none;
 	}
 
@@ -491,228 +502,65 @@ nav a:hover {
 		border-bottom: 2px solid #ef9a1b;
 	}
 }
-	/*Footer Mobile*/
-	@media only screen and (max-width: 480px){
-	.SkylinesFooter{
+
+/*Footer Mobile*/
+@media only screen and (max-width: 480px) {
+	.SkylinesFooter {
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		font-size: 15px;
 		width: 80%;
 		margin-top: 90%;
-		
 	}
-	
-	.Adres{
-		
-		margin-top:28%;
+
+	.Adres {
+		margin-top: 48%;
 		margin-left: 40%;
 	}
-	.ContactUs{
+
+	.ContactUs {
 		margin-top: -1%;
 		margin-left: 40%;
 	}
-	.footerbottom{
+
+	.footerbottom {
 		display: block;
-		flex-direction: row;
-		justify-content:center;
+		justify-content: center;
 	}
-	.comission{
-		padding-top:px;
+
+	.comission {
+		padding-top: -200px;
 		scale: 80%;
 	}
-	}	
-.solliciteer {
-	background-color: #fcb723;
-	padding: 12px 24px;
-	border-radius: 15px;
-	color: white;
-	font-size: 20px;
-	display: inline-block;
-	margin-left: 190px;
-	text-decoration: none;
-	justify-content: center;
-	align-items: center;
-	margin-top: 20px;
-	z-index: 90;
-}
 
-.solliciteer-2 {
-	background-color: #fcb723;
-	padding: 12px 24px;
-	border-radius: 15px;
-	color: white;
-	font-size: 20px;
-	display: inline-block;
-	text-decoration: none;
-	margin-top: 20px;
-	z-index: 90;
-}
-
-@media only screen and (max-width: 480px) {
-	.Desktop {
-		display: none;
+	.Febi {
+		justify-content: center;
+		margin-left: 90px;
+		margin-top: -90px;
 	}
 
-	.Mobile {
-		display: flex;
-		background-color: #fcb723;
+	.carritas {
+		margin-top: -100px;
 	}
 
-	.logoMobile img {
-		max-height: 80px;
-		margin-left: 200%;
+	.LogoHuisVanVrede {
+		margin-right: 80px;
+		padding-top: -100px;
 	}
 
-	.Mobile .menuToggle {
+	.actiris {
+		margin-left: 100px;
+		margin-top: -40px;
+	}
+
+	.KBS {
+		margin-left: 120px;
+		margin-top: -20px;
+	}
+
+	.footerbottom-3 {
 		display: block;
-		position: relative;
-		top: 30px;
-		left: 30px;
-
-		z-index: 1;
-
-		-webkit-user-select: none;
-		user-select: none;
-	}
-
-	.Mobile .menuToggle a {
-		text-decoration: none;
-		color: white;
-
-		transition: color 0.3s ease;
-	}
-
-	.Mobile .menuToggle a:hover {
-		color: black;
-	}
-
-	.Mobile .menuToggle input {
-		display: block;
-		width: 40px;
-		height: 32px;
-		position: absolute;
-		top: -7px;
-		left: -5px;
-
-		cursor: pointer;
-
-		opacity: 0;
-		z-index: 2;
-
-		-webkit-touch-callout: none;
-	}
-
-	.Mobile .menuToggle span {
-		display: block;
-		width: 33px;
-		height: 4px;
-		margin-bottom: 5px;
-		position: relative;
-
-		background: black;
-		border-radius: 3px;
-
-		z-index: 1;
-
-		transform-origin: 4px 0px;
-
-		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-			background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-	}
-
-	.Mobile .menuToggle span:first-child {
-		transform-origin: 0% 0%;
-	}
-
-	.Mobile .menuToggle span:nth-last-child(2) {
-		transform-origin: 0% 100%;
-	}
-
-	.Mobile .menuToggle input:checked~span {
-		opacity: 1;
-		transform: rotate(45deg) translate(-2px, -1px);
-		background: white;
-	}
-
-	.Mobile .menuToggle input:checked~span:nth-last-child(3) {
-		opacity: 0;
-		transform: rotate(0deg) scale(0.2, 0.2);
-	}
-
-	.Mobile .menuToggle input:checked~span:nth-last-child(2) {
-		transform: rotate(-45deg) translate(0, -1px);
-	}
-
-	.Mobile .menu {
-		position: absolute;
-		width: 300px;
-		margin: -100px 0 0 -50px;
-		padding: 50px;
-		padding-top: 125px;
-
-		background: #ef9a1b;
-		border-right: 5px solid white;
-		border-bottom: 5px solid white;
-		border-radius: 0px 0px 50px 0px;
-		list-style-type: none;
-		-webkit-font-smoothing: antialiased;
-
-		transform-origin: 0% 0%;
-		transform: translate(-100%, 0);
-
-		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-		text-align: center;
-	}
-
-	.Mobile .menu li {
-		padding: 10px 0;
-		font-size: 22px;
-		border-bottom: 2px solid white;
-	}
-
-	.menu li.SteunMobile {
-		border-bottom: 2px solid #ef9a1b;
-	}
-
-	.Mobile .menuToggle input:checked~ul {
-		transform: none;
-	}
-
-	/*Adres & Contact*/
-	.SkylinesFooter {
-		margin-top: 50%;
-		padding-top: 7%;
-		width: 100%;
-		background-position: -180px;
-		background-repeat: no-repeat;
-	}
-
-	.Adres p,
-	.ContactUs p {
-		margin-left: 0px;
-		color: black;
-		font-size: 13pt;
-	}
-
-	.Adres p:first-child {
-		margin-top: 0px;
-		margin-top: 72%;
-	}
-
-	.Adres p {
-		margin-left: 30px;
-		margin-top: -10px;
-	}
-
-	.ContactUs p:first-child {
-		margin-top: 50%;
-	}
-
-	.ContactUs p {
-		margin-top: -10px;
-		margin-left: 30%;
-		margin-right: -40px;
 	}
 }
 
@@ -736,16 +584,6 @@ nav a:hover {
 		width: 280px;
 		height: 205px;
 		margin-left: 90px;
-	}
-
-	.solliciteer {
-		font-size: 16px;
-		margin-left: 300px;
-	}
-
-	.solliciteer-2 {
-		font-size: 16px;
-		margin-left: 100px;
 	}
 
 	.intro-text {
@@ -829,97 +667,52 @@ nav a:hover {
 	.SkylinesFooter {
 		margin-top: 15%;
 	}
-
-	/*Footer Mobile*/
-	footer {
-		padding-right: -20%;
-	}
-
-	footer div {
-		display: block;
-	}
-
-	footer div img {
-		width: 100%;
-		justify-content: left;
-		margin-left: 13px;
-	}
-
-	.Comissie {
-		max-width: 60%;
-		margin-bottom: -30px;
-		margin-left: 17%;
-	}
-
-	.HuisVanVrede {
-		width: 80%;
-		margin: 0;
-		margin-left: 15%;
-		align-items: center;
-		display: flex;
-	}
-
-	.HuisVanVrede img {
-		max-width: 15%;
-		flex: 1;
-	}
-
-	.HuisVanVrede p {
-		font-size: 17px;
-		margin: 0;
-		padding-top: 10%;
-		text-align: left;
-		flex: 4;
-	}
-
-	footer div img:first-child {
-		width: 90%;
-		margin-right: 7%;
-	}
-
-	.fotogroep1 {
-		display: block;
-		width: 80%;
-		text-align: center;
-		margin-left: 5%;
-	}
-
-	.fotogroep1 img:first-of-type {
-		width: 30%;
-		margin-right: 0;
-	}
-
-	.fotogroep1 img:last-of-type {
-		width: 25%;
-		margin-left: 0;
-	}
-
-	.fotogroep2 {
-		text-align: center;
-		width: 80%;
-		margin-left: 6%;
-	}
-
-	.fotogroep2 img:first-of-type {
-		width: 30%;
-		margin-right: 0;
-	}
-
-	.fotogroep2 img:last-of-type {
-		width: 30%;
-	}
-
-	.Lijn {
-		width: 100%;
-	}
-
-	.Lijn2 {
-		display: none;
-	}
-
 }
 
 .logotaal img {
 	border-radius: 0%;
 	width: 50px;
+}
+
+/*Back to Top knop*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: 2px solid black;
+	outline: none;
+	background-color: #fcb723;
+	color: black;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 50px;
+	transition: 0.1s;
+
+	.Boven {
+		display: none;
+	}
+}
+
+.Pijl {
+	font-size: 16px;
+}
+
+.Boven {
+	font-size: 16px;
+}
+
+#myBtn:hover {
+	background-color: #833938;
+
+	/* Add a dark-grey background on hover */
+	.Pijl {
+		display: none;
+	}
+
+	.Boven {
+		display: block;
+	}
 }

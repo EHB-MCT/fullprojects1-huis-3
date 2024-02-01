@@ -258,22 +258,54 @@ h2 {
 	margin-left: 0;
 }
 
+.expand-btnFR {
+	appearance: none;
+	background-color: #fcb723;
+	padding: 18px 25px;
+	color: white;
+	border-radius: 20.26px;
+	margin-left: 35%;
+	cursor: pointer;
+	margin: 5%;
+	margin-left: 0;
+}
+
+.expand-btnFR:hover {
+	background-color: #ef9a1b;
+}
+
+.expand-btnFR::before {
+	content: "Lire plus";
+	font-size: 155%;
+	font-weight: 700;
+}
+
+.expand-btnFR:checked::before {
+	content: "Lire moins";
+	font-size: 155%;
+	font-weight: 700;
+}
+
 .expand-btn:hover {
 	background-color: #ef9a1b;
 }
 
 .expand-btn::before {
-	content: "Read more";
+	content: "Lees meer";
 	font-size: 155%;
 	font-weight: 700;
 }
 .expand-btn:checked::before {
-	content: "Read less";
+	content: "Lees minder";
 	font-size: 155%;
 	font-weight: 700;
 }
 
 .cutoff-text:has(+ .expand-btn:checked) {
+	--max-lines: auto;
+}
+
+.cutoff-text:has(+ .expand-btnFR:checked) {
 	--max-lines: auto;
 }
 

@@ -5,6 +5,20 @@ body {
 	font-style: normal;
 }
 
+.movebox {
+	margin-top: 10px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 34px;
+}
+
+.title h1 {
+	margin-bottom: -20px;
+}
+
 .logotaal img {
 	width: 50px;
 }
@@ -15,6 +29,10 @@ body {
 	margin-top: 50px;
 	padding-top: 15px;
 	text-align: center;
+}
+
+.frame h2 {
+	font-size: 34px;
 }
 
 h1 {
@@ -28,6 +46,18 @@ h2 {
 .knop {
 	color: white;
 	font-size: 20px;
+}
+
+.title h2 {
+	font-size: 20px;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+	color: black;
+}
+
+.uBentHier {
+	font-weight: bold;
 }
 
 p {
@@ -49,11 +79,9 @@ p {
 	text-align: center;
 }
 
-.lijntje {
-	margin-top: 50px;
-}
 .lijntje img {
 	width: 100%;
+	margin-bottom: -115px;
 }
 .row3 {
 	height: 500px;
@@ -89,23 +117,47 @@ p {
 	margin-top: 50px;
 }
 .knop {
-	margin-top: 20px;
-	display: inline-block;
-	padding: 15px 60px;
 	background-color: #fcb723;
-	color: white;
+
+	padding: 12px 24px;
+
 	border-radius: 15px;
+
+	color: white;
+
 	font-size: 20px;
+
+	display: inline-block;
+
+	text-decoration: none;
+
+	justify-content: center;
+
+	align-items: center;
+
+	margin-top: 20px;
 }
 
 .knop2 {
-	margin-top: 20px;
-	display: inline-block;
-	padding: 15px 60px;
 	background-color: #fcb723;
+
+	padding: 12px 24px;
+
 	border-radius: 15px;
+
 	color: white;
+
 	font-size: 20px;
+
+	display: inline-block;
+
+	text-decoration: none;
+
+	justify-content: center;
+
+	align-items: center;
+
+	margin-top: 20px;
 }
 .knop a {
 	text-decoration: none;
@@ -131,12 +183,14 @@ p {
 
 /*Navigatie*/
 nav {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 14%;
+
 	background-color: #fcb723;
+}
+
+.nederlandvlag {
+	width: 50px;
 }
 
 .logo img {
@@ -150,7 +204,7 @@ nav ul {
 }
 
 nav ul:first-of-type {
-	margin-right: 30%;
+	margin-right: 25%;
 }
 
 nav li {
@@ -175,35 +229,23 @@ nav a:hover {
 	font-size: 135%;
 }
 
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-	transition: 0.2s;
-}
-
-.Vacatuur:hover {
-	background-color: #ef9a1b;
-	text-decoration: none;
-}
-
 .Vacatuur:active {
 	box-shadow: 0px 0px 8px #833938;
 	color: #833938;
 }
 
 /*Footer*/
+
 .SkylinesFooter {
 	background-image: url(../images/Path\ 1.png);
-	height: 250px;
+	height: 283px;
 	display: flex;
 }
 
 .Adres p,
 .ContactUs p {
 	color: black;
-	margin-left: 225px;
+	margin-left: -61px;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
@@ -219,22 +261,8 @@ nav a:hover {
 
 /* footer*/
 
-footer {
-	background-color: #fcb723;
-	height: 100%;
+.imagefooter img {
 	width: 100%;
-	text-align: right;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-footer div {
-	display: flex;
-	justify-content: space-between;
-}
-
-footer div img {
-	width: 5%;
 }
 
 footer div p {
@@ -261,7 +289,7 @@ footer div p {
 
 footer div img:first-child {
 	height: 60%;
-	width: 40%;
+	width: 100%;
 }
 
 .Comissie {
@@ -300,6 +328,18 @@ footer div img:first-child {
 
 .fotogroep2 img {
 	width: 40%;
+}
+
+.Mobile {
+	display: none;
+}
+
+.Desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 10%;
+	background-color: #fcb723;
 }
 
 @media only screen and (max-width: 480px) {
@@ -447,7 +487,7 @@ footer div img:first-child {
 	.frame {
 		background-color: #fff1d3;
 		height: 250px;
-		margin-top: 50px;
+		margin-top: 10px;
 		padding-top: 15px;
 		text-align: center;
 	}
@@ -517,6 +557,8 @@ footer div img:first-child {
 		padding-left: 10%;
 		padding-right: 10%;
 		background-color: #fcb723;
+		padding-bottom: 25px;
+		margin-left: -50px;
 	}
 
 	.logo img {
@@ -571,5 +613,258 @@ footer div img:first-child {
 	.Vacatuur:active {
 		box-shadow: 0px 0px 8px #833938;
 		color: #833938;
+	}
+
+	.title h2 {
+		font-size: 20px;
+		text-align: center;
+		color: black;
+		margin-bottom: 250px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.lijntje img {
+		width: 100%;
+		margin-bottom: -30px;
+	}
+
+	.movebox {
+		margin-top: -220px;
+	}
+
+	Desktop {
+		display: none;
+	}
+
+	.Mobile {
+		display: flex;
+		background-color: #fcb723;
+	}
+
+	.logoMobile img {
+		max-height: 80px;
+		margin-left: 190%;
+	}
+
+	.Mobile .menuToggle {
+		display: block;
+		position: relative;
+		top: 30px;
+		left: 30px;
+
+		z-index: 1;
+
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	.Mobile .menuToggle a {
+		text-decoration: none;
+		color: white;
+
+		transition: color 0.3s ease;
+	}
+
+	.Mobile .menuToggle a:hover {
+		color: black;
+	}
+
+	.Mobile .menuToggle input {
+		display: block;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+
+		cursor: pointer;
+
+		opacity: 0;
+		z-index: 2;
+
+		-webkit-touch-callout: none;
+	}
+
+	.Mobile .menuToggle span {
+		display: block;
+		width: 33px;
+		height: 4px;
+		margin-bottom: 5px;
+		position: relative;
+
+		background: black;
+		border-radius: 3px;
+
+		z-index: 1;
+
+		transform-origin: 4px 0px;
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+			background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+	}
+
+	.Mobile .menuToggle span:first-child {
+		transform-origin: 0% 0%;
+	}
+
+	.Mobile .menuToggle span:nth-last-child(2) {
+		transform-origin: 0% 100%;
+	}
+
+	.Mobile .menuToggle input:checked ~ span {
+		opacity: 1;
+		transform: rotate(45deg) translate(-2px, -1px);
+		background: white;
+	}
+
+	.Mobile .menuToggle input:checked ~ span:nth-last-child(3) {
+		opacity: 0;
+		transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	.Mobile .menuToggle input:checked ~ span:nth-last-child(2) {
+		transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	.Mobile .menu {
+		position: absolute;
+		width: 300px;
+		margin: -100px 0 0 -50px;
+		padding: 50px;
+		padding-top: 125px;
+		margin-left: -30px;
+
+		background: #ef9a1b;
+		border-right: 5px solid white;
+		border-bottom: 5px solid white;
+		border-radius: 0px 0px 50px 0px;
+		list-style-type: none;
+		-webkit-font-smoothing: antialiased;
+
+		transform-origin: 0% 0%;
+		transform: translate(-100%, 0);
+
+		transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+		text-align: center;
+	}
+
+	.Mobile .menu li {
+		padding: 10px 0;
+		font-size: 22px;
+		border-bottom: 2px solid white;
+	}
+
+	.menu li.SteunMobile {
+		border-bottom: 2px solid #ef9a1b;
+	}
+
+	.Mobile .menuToggle input:checked ~ ul {
+		transform: none;
+	}
+
+	ul.menu {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.title p {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.movebox {
+		margin-top: 100px;
+	}
+
+	.logoMobile img {
+		margin-bottom: -50px;
+		margin-right: 15px;
+	}
+
+	/*Footer Mobile*/
+	footer {
+		padding-right: -20%;
+	}
+
+	footer div {
+		display: block;
+	}
+
+	footer div img {
+		width: 100%;
+		justify-content: left;
+		margin-left: 13px;
+	}
+	.Comissie {
+		max-width: 60%;
+		margin-bottom: -30px;
+		margin-left: 17%;
+	}
+
+	.HuisVanVrede {
+		width: 80%;
+		margin: 0;
+		margin-left: 15%;
+		align-items: center;
+		display: flex;
+	}
+
+	.HuisVanVrede img {
+		max-width: 15%;
+		flex: 1;
+	}
+
+	.HuisVanVrede p {
+		font-size: 17px;
+		margin: 0;
+		padding-top: 10%;
+		text-align: left;
+		flex: 4;
+	}
+
+	footer div img:first-child {
+		width: 90%;
+		margin-right: 7%;
+	}
+
+	.fotogroep1 {
+		display: block;
+		width: 80%;
+		text-align: center;
+		margin-left: 5%;
+	}
+
+	.fotogroep1 img:first-of-type {
+		width: 30%;
+		margin-right: 0;
+	}
+
+	.fotogroep1 img:last-of-type {
+		width: 25%;
+		margin-left: 0;
+	}
+
+	.fotogroep2 {
+		text-align: center;
+		width: 80%;
+		margin-left: 6%;
+	}
+
+	.fotogroep2 img:first-of-type {
+		width: 30%;
+		margin-right: 0;
+	}
+
+	.fotogroep2 img:last-of-type {
+		width: 30%;
+	}
+
+	.Lijn {
+		width: 100%;
+	}
+
+	.Lijn2 {
+		display: none;
 	}
 }

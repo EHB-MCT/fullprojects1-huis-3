@@ -6,25 +6,6 @@ body {
 	background-color: white;
 	font-family: "anago", sans-serif;
 }
-
-.Lijn {
-	background-color: #fcb723;
-	width: 95%;
-	color: #fcb723;
-	font-size: 4px;
-	margin-top: 0px;
-	margin-left: 2.25%;
-}
-
-.Lijn2 {
-	background-color: #fcb723;
-	width: 69.7%;
-	color: #fcb723;
-	font-size: 4px;
-	margin-top: -0px;
-	margin-left: 27.5%;
-}
-
 /*Back to Top knop*/
 #myBtn {
 	display: none;
@@ -94,7 +75,7 @@ nav .Desktop ul {
 }
 
 nav ul:first-of-type {
-	margin-right: 30%;
+	margin-right: 25%;
 }
 
 nav li {
@@ -118,21 +99,15 @@ nav a:hover {
 	font-weight: bold;
 }
 
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-}
-
-.Vacatuur:hover {
-	background-color: #ef9a1b;
-	text-decoration: none;
-}
-
 nav a img {
 	width: 50px;
 	margin-top: -3px;
+}
+/*skyline*/
+.skyline img {
+	width: 100%;
+	margin-top: -10%;
+	margin-bottom: -3.4%;
 }
 
 /*First Impression*/
@@ -141,60 +116,41 @@ nav a img {
 	padding-left: 10%;
 	margin-top: 1%;
 	display: inline-flex;
-	background-image: url(images/Path\ 2330.png);
-	background-repeat: no-repeat;
-	background-position: 109.3% 89.5%;
-	background-size: 95% 100;
-	margin-right: 0.1%;
+	margin-right: 0%;
 	margin-bottom: -5%;
 }
 
 h1 {
 	font-weight: 700;
 	font-style: normal;
-	font-size: 87px;
-<<<<<<< HEAD
+	font-size: 65px;
 	color: #833938;
-	text-indent: 13%;
-=======
-    color: #833938; 
->>>>>>> 4b5d184d1bbd010f95e8101e27b6f6cd3b548486
+	margin-top: 15%;
+	margin-bottom: 0px;
 }
 
 p {
-	font-size: 34px;
+	font-size: 20px;
+	line-height: 25px;
 }
-
+.Titel {
+	padding-left: 0.2%;
+	padding-top: -10%;
+}
 .TitelFoto {
 	scale: 70%;
-	margin-right: -5.5%;
+	margin-right: -2.5%;
 }
 
 .TitelFoto img {
 	border-radius: 10%;
+	margin-left: 6.2%;
 }
 
-<<<<<<< HEAD
 .Titel p {
 	padding-bottom: 5%;
-=======
-.Titel p{
-  padding-bottom: 5%;
-  width: 90%;
->>>>>>> 4b5d184d1bbd010f95e8101e27b6f6cd3b548486
-}
-
-.Titel a {
-	background-color: #fcb723;
-	text-decoration: none;
-	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-radius: 10px;
-	margin-left: 40%;
-	transition: 0.1s;
+	width: 80%;
+	line-height: 25px;
 }
 
 .Titel a:hover {
@@ -206,23 +162,22 @@ p {
 .WieZijnWe {
 	display: flex;
 	background-color: #fff0d2;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	width: 95%;
-	border-right: #fcb723 5px solid;
-	padding-left: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .WieZijnWe img {
 	max-width: 40%;
+	margin-left: 4%;
 	border-radius: 10%;
 }
 
 .WieZijnWeTekst {
-	margin-left: 5%;
+	margin-left: 17%;
 	margin-top: 3%;
-	width: 80%;
+	width: 33%;
 	padding-bottom: 3%;
+	line-height: 35px;
 }
 
 .WieZijnWeTekst h2 {
@@ -239,19 +194,17 @@ p {
 
 .WieZijnWeTekst a {
 	background-color: #fcb723;
-	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 15px;
 	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-radius: 10px;
+	font-size: 20px;
+	display: inline-block;
+	text-decoration: none;
 	transition: 0.1s;
-	margin-bottom: 30px;
 }
 
 .WieZijnWeTekst a:hover {
-	font-size: 13pt;
+	font-size: 22px;
 	background-color: #ef9a1b;
 }
 
@@ -259,14 +212,14 @@ p {
 .ContacteerOns {
 	display: flex;
 	margin-top: -9px;
-	border-left: #fcb723 5px solid;
 	margin-left: 2%;
 }
 
 .ContacteerOnsTekst {
 	margin-top: 3%;
-	width: 90%;
-	margin-left: 3%;
+	margin-left: 9%;
+	margin-right: 10%;
+	line-height: 35px;
 }
 
 .ContacteerOnsTekst h2 {
@@ -283,19 +236,18 @@ p {
 
 .ContacteerOnsTekst a {
 	background-color: #fcb723;
-	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 15px;
 	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-radius: 10px;
+	font-size: 20px;
+	display: inline-block;
+	text-decoration: none;
 	transition: 0.1s;
 }
 
 .ContacteerOnsTekst a:hover {
-	font-size: 13pt;
 	background-color: #ef9a1b;
+	font-size: 22px;
 }
 
 .ContacteerOns img {
@@ -309,100 +261,98 @@ p {
 .SkylinesFooter {
 	background-image: url(images/Path\ 1.png);
 	height: 250px;
-	display: flex;
-	margin-left: 2%;
-	border-left: #fcb723 5px solid;
-	background-position: 85% 0%;
-}
-
-.Adres p,
-.ContactUs p {
-	color: black;
-	margin-left: 225px;
-	font-size: 16px;
-	font-family: "anago", sans-serif;
-	font-size: 15pt;
-}
-
-.Adres p:first-child {
-	margin-top: 30%;
-}
-
-.ContactUs p:first-child {
-	margin-top: 22%;
-}
-
-footer {
-	background-color: #fcb723;
-	height: 100%;
-	padding-left: 20px;
-}
-
-footer div {
-	display: inline-flex;
-}
-
-footer div p {
-	font-family: "anago", sans-serif;
-	font-size: 15pt;
-	color: black;
-	margin-top: 4%;
-}
-
-.Comissie {
-	margin-top: 20px;
-	width: 93%;
-}
-
-.HuisVanVrede {
-	width: 72.5%;
-	margin-left: 10px;
-}
-
-.HuisVanVrede img {
-	margin-top: 20px;
-	max-width: 80%;
-	max-height: 70%;
-}
-
-.HuisVanVrede p {
-	margin-right: 20.5%;
-	margin-top: 20%;
-}
-
-.fotogroep1 {
-	display: block;
-	width: 100%;
-	text-align: center;
-	margin-top: 2%;
-}
-
-.fotogroep1 img {
-	width: 30%;
-	margin-top: 2%;
-}
-
-.fotogroep1 img:first-of-type {
-	width: 40%;
-	height: 50%;
-	margin-right: 60px;
-}
-
-.fotogroep2 {
-	display: block;
-	width: 100%;
-	text-align: center;
-}
-
-.fotogroep2 img:first-of-type {
 	width: 50%;
-	height: 60%;
-	margin-top: 4%;
-	margin-right: 40px;
+	display: flex;
 }
 
-.fotogroep2 img {
+.footerbottom {
+	display: flex;
+}
+
+.footerbottom-1 {
+	display: flex;
+	background-color: #fcb723;
+	width: 100%;
+	height: 300px;
+	z-index: -1;
+}
+
+.footerbottom-1 ul li {
+	display: inline-flex;
+	margin-top: 4%;
+}
+
+.footerbottom-1 img {
+	margin-left: 2%;
+	margin-top: 27%;
+}
+
+.comission {
+	width: 400px;
+}
+
+.LogoHuisVanVrede {
+	width: 100px;
+	padding-left: 85%;
+}
+
+.footerbottom-1 p {
+	font-family: "anago";
+	font-size: 24px;
+	margin-top: 23%;
+	margin-left: 9%;
+}
+
+.footerbottom-2 {
+	display: flex;
+	background-color: #fcb723;
+	height: 150px;
+	list-style: none;
+}
+
+.Febi {
+	margin-top: 8%;
 	width: 40%;
+	margin-left: 6%;
+}
+
+.carritas {
+	margin-top: 20%;
+	margin-left: -100%;
+	width: 140%;
+}
+
+.footerbottom-3 {
+	display: flex;
+	background-color: #fcb723;
+	width: 100%;
+	height: 150px;
+	list-style: none;
+}
+
+.actiris {
+	margin-top: 9%;
+}
+
+.KBS {
+	margin-top: 9%;
+}
+
+.text-footer {
+	background-color: #fcb723;
+	font-size: 14px;
+}
+
+.ContactUs,
+.Adres {
+	font-family: "Anago";
+	line-height: 4px;
+	margin-left: 28%;
+	margin-top: 23%;
+}
+
+.ContactUs {
+	margin-left: 10%;
 }
 
 /*----------------------------RESPONSIVE---------------------------*/

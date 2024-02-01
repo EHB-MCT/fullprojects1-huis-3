@@ -3,31 +3,39 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="HomeFrans.css" />
+		<link rel="stylesheet" href="Home.css" />
 		<link rel="icon" href="images/Rectangle 143.png" />
 		<title>Maison de la Paix - Page d'accueil</title>
 	</head>
 	<body>
-		<button onclick="topFunction()" id="myBtn" title="Go to top"><p class="Pijl">↑</p> <p class="Boven">Naar top</p></button> 
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<p class="Pijl">↑</p>
+			<p class="Boven">Naar top</p>
+		</button>
 
 		<script>
 			let mybutton = document.getElementById("myBtn");
-			
-			window.onscroll = function() {scrollFunction()};
-			
+
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
 			function scrollFunction() {
-			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				mybutton.style.display = "block";
-			  } else {
-				mybutton.style.display = "none";
-			  }
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					mybutton.style.display = "block";
+				} else {
+					mybutton.style.display = "none";
+				}
 			}
-			
+
 			function topFunction() {
-			  document.body.scrollTop = 0;
-			  document.documentElement.scrollTop = 0;
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
 			}
-			</script>
+		</script>
 
 		<!--Header-->
 		<nav>
@@ -36,24 +44,26 @@
 					<img src="images/Rectangle 143.png" alt="" />
 				</div>
 				<ul>
-					<li><a href="HomeFrans.html" class="uBentHier">Page d'accueil</a></li>
+					<li><a href="HomeFrans.html" class="uBentHier">Accueil</a></li>
 					<li>
-						<a href="#">À propos</a>
+						<a href="/WebsiteGoeie/overons-page/over-onsFR.html">À propos</a>
 					</li>
-					<li><a href="Archief/Archief.html">Archive</a></li>
+					<li><a href="/WebsiteGoeie/Archief/ArchiefFR.html">Archive</a></li>
 					<li>
-						<a href="Steunonsfr.html">Soutenez-nous</a>
+						<a href="/WebsiteGoeie/Steunonsfr.html">Soutenez-nous</a>
 					</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="/WebsiteGoeie/contactfr.html">Contact</a></li>
 				</ul>
 
 				<ul>
 					<li>
-						<a
-							href="WerkBijOnsFrans.html"
-							class="Vacatuur">Poste vacant</a>
+						<a href="/WebsiteGoeie/WerkBijOnsFrans.html" class="Vacatuur"
+							>Emplois</a
+						>
 					</li>
-					<li><a href="Home.html"><img src="images/nl vlag .png" alt=""></a></li>
+					<li>
+						<a href="Home.html"><img src="images/nl vlag .png" alt="" /></a>
+					</li>
 				</ul>
 			</div>
 
@@ -73,7 +83,10 @@
 						<a href="#"><li class="SteunMobile">Contact</li></a>
 						<br />
 						<a href="#"><li>Poste vacant</li></a>
-						<a href="Home.html"><li class="SteunMobile"><img src="images/nl vlag .png" alt=""></li></a>
+						<a href="Home.html"
+							><li class="SteunMobile">
+								<img src="images/nl vlag .png" alt="" /></li
+						></a>
 					</ul>
 				</div>
 				<div class="logoMobile">
@@ -89,14 +102,17 @@
 					de la Paix
 				</h1>
 				<p>
-					Aide au logement Maison de la Paix aide les sans-abri qui souhaitent devenir indépendants
-					en direct. Nous proposons à cet effet un accompagnement individuel au logement sur mesure.
+					Aide au logement Maison de la Paix aide les sans-abri qui souhaitent
+					devenir indépendants en direct. Nous proposons à cet effet un
+					accompagnement individuel au logement sur mesure.
 				</p>
-				<a href="OverOns.html">Lire plus</a>
 			</div>
 			<div class="TitelFoto">
 				<img src="images/Mask Group 27.png" alt="" />
 			</div>
+		</div>
+		<div class="skyline">
+			<img src="/WebsiteGoeie/images/Path 188 cropped.png" alt="" />
 		</div>
 
 		<!--Wie zijn we?-->
@@ -105,24 +121,26 @@
 			<div class="WieZijnWeTekst">
 				<h2>Qui sommes nous?</h2>
 				<p>
-					Située au cœur de Bruxelles, l'asbl Maison de la Paix vient en aide aux personnes sans abri,
-					célibataires ou couples, avec ou sans enfants indépendants
-					vouloir vivre. Nous proposons à cet effet un accompagnement individuel au logement sur mesure.
+					Située au cœur de Bruxelles, l'asbl Maison de la Paix vient en aide
+					aux personnes sans abri, célibataires ou couples, avec ou sans enfants
+					indépendants vouloir vivre. Nous proposons à cet effet un
+					accompagnement individuel au logement sur mesure.
 				</p>
-				<a href="OverOns.html">À propos de nous</a>
+				<a href="/WebsiteGoeie/overons-page/over-onsFR.html"
+					>À propos de nous</a
+				>
 			</div>
 		</div>
-
-		<p class="Lijn">Bonjour ☻</p>
-
 		<!--Contacteer ons-->
 		<div class="ContacteerOns">
 			<div class="ContacteerOnsTekst">
 				<h2>Contact</h2>
-				<p>Nous apprécions votre intérêt et sommes prêts à répondre à vos questions et
-					pour vous contacter ! Vos retours nous sont précieux
-					valeur!</p>
-				<a href="#">Contactez-nous!</a>
+				<p>
+					Nous apprécions votre intérêt et sommes prêts à répondre à vos
+					questions et pour vous contacter ! Vos retours nous sont précieux
+					valeur!
+				</p>
+				<a href="/WebsiteGoeie/contactfr.html">Contactez-nous!</a>
 			</div>
 			<img
 				src="images/419195199_1829796054159165_2979587113043944051_n.jpg"
@@ -133,12 +151,12 @@
 		<!--Footer-->
 		<div class="SkylinesFooter">
 			<div class="Adres">
-				<p>Adresse:</p>
-				<p>Marché aux cochons 23</p>
-				<p>1000 Bruxelles</p>
+				<h3>Adres</h3>
+				<p>Varkensmarkt 23</p>
+				<p>1000 Brussel</p>
 			</div>
 			<div class="ContactUs">
-				<p>Contactez-nous:</p>
+				<h3>Contact us</h3>
 				<p>Tel.: 02 455 17 95</p>
 				<p>
 					Email:
@@ -146,22 +164,24 @@
 				</p>
 			</div>
 		</div>
-		<footer>
-			<div>
-				<img src="images/Comissie.png" alt="" class="Comissie" />
-				<div class="HuisVanVrede">
-					<img src="images/Rectangle 143.png" alt="" />
-					<p>asbl Maison de la Paix</p>
+		<div class="footerbottom">
+			<div class="footerbottom-1">
+				<ul>
+					<li><img class="comission" src="./images/Comissie.png" /></li>
+					<li><img class="LogoHuisVanVrede" src="./images/logoKlein.png" /></li>
+				</ul>
+				<p>Huis Van vrede VZW</p>
+			</div>
+			<div class="column">
+				<div class="footerbottom-2">
+					<li><img class="Febi" src="./images/Febi.png" /></li>
+					<li><img class="carritas" src="./images/Caritas.png" /></li>
 				</div>
-				<div class="fotogroep1">
-					<img src="images/Caritas.png" alt="" />
-					<img src="images/Febi.png" alt="" />
-				</div>
-				<div class="fotogroep2">
-					<img src="images/Actiris.png" alt="" />
-					<img src="images/KBS.png" alt="" />
+				<div class="footerbottom-3">
+					<li><img class="actiris" src="./images/Actiris.png" /></li>
+					<li><img class="KBS" src="images/KBS.png" /></li>
 				</div>
 			</div>
-		</footer>
+		</div>
 	</body>
 </html>
