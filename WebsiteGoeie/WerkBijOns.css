@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-	font-size: 55px;
+	font-size: 65px;
 	color: #833938;
 }
 
@@ -18,7 +18,7 @@ h2 {
 }
 
 p {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 img {
@@ -28,6 +28,7 @@ img {
 .Mobile {
 	display: none;
 }
+
 /*header*/
 
 
@@ -36,16 +37,17 @@ img {
 
 .intro {
 	display: flex;
+	padding-bottom: 80px;
 }
 
 .intro img {
-	margin-top: 210px;
-	margin-left: 10%;
-	height: 413px;
+	margin-top: 11%;
+	margin-left: 10.5%;
+	Height: 320px;
 }
 
 .intro-text h2 {
-	margin-top: 80px;
+	margin-top: 7%;
 	margin-left: 190px;
 }
 
@@ -54,13 +56,14 @@ img {
 }
 
 .intro-text h1 {
-	margin-top: 110px;
-	margin-left: -545px;
+	margin-top: 6%;
+	margin-left:-58%;
 }
 
 .skyline img {
+	position: absolute;
 	transform: scaleX(-1);
-	margin-top: -80px;
+	margin-top: -180px;
 	width: 100%;
 }
 
@@ -69,7 +72,7 @@ img {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
-	padding: 3%;
+	padding: 5%;
 }
 
 .kookvrijwilleger img {
@@ -78,27 +81,24 @@ img {
 }
 
 .kookvrijwilleger-text {
-	margin-right: 16%;
+	margin-right:14.20%;
 }
 
 .assistent {
 	display: flex;
-	padding-top: 70px;
-	padding-bottom: 90px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .assistent img {
-	width: 280px;
-	margin-left: 180px;
+	scale: 80%;
+	margin-left: 7.25%;
+	width: 510px;
 }
 
 .assistent-text {
 	margin-top: 140px;
-	margin-left: 270px;
-}
-
-.assistent img {
-	width: 510px;
+	margin-left: 10.25%;
 }
 
 .vrijwillig {
@@ -110,13 +110,15 @@ img {
 }
 
 .vrijwillig img {
-	height: 350px;
-	margin-right: 220px;
+	height: 310px;
+	margin-right:10.75%;
+	margin-top: 2%;
 }
 
 .vrijwillig-text {
-	padding-top: 20px;
-	margin-right: 7%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-right:14%;
 }
 
 body {
@@ -211,6 +213,7 @@ nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
+	align-items: center;
 }
 
 nav ul:first-of-type {
@@ -224,22 +227,21 @@ nav li {
 nav a {
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 15pt;
 	color: black;
+}
+.uBentHier {
+	font-weight: bold;
 }
 
 nav a:hover {
 	text-decoration: underline solid 2px brown;
 }
 
-.uBentHier {
-	font-weight: bold;
-}
-
-.Vacatuur:hover {
-	background-color: #ef9a1b;
+.Vacatuur a:hover {
+	align-items: center;
+	text-decoration: underline solid 2px brown;
 	text-decoration: none;
 }
 /*Footer*/
@@ -532,6 +534,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
+	z-index: 90;
 }
 
 .solliciteer-2 {
@@ -543,6 +546,7 @@ nav a:hover {
 	display: inline-block;
 	text-decoration: none;
 	margin-top: 20px;
+	z-index: 90;
 }
 
 @media only screen and (max-width: 480px) {
@@ -750,11 +754,11 @@ nav a:hover {
 
 	.intro-text h1 {
 		margin-left: 35%;
-		margin-top: 5%;
+		margin-top: 10%;
 	}
 
 	.intro-text h2 {
-		margin-top: 0px;
+		margin-top: 1%;
 	}
 
 	.skyline img {
@@ -774,7 +778,7 @@ nav a:hover {
 	.kookvrijwilleger-text {
 		width: 80%;
 		margin-top: 15px;
-		margin-right: 110px;
+		margin-right: 0px;
 	}
 
 	.assistent {
@@ -792,6 +796,7 @@ nav a:hover {
 		width: 80%;
 		margin-left: 60px;
 		margin-top: 15px;
+		padding-bottom: 30px;
 	}
 
 	.vrijwillig {

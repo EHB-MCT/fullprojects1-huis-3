@@ -16,7 +16,13 @@ body {
 }
 
 /*Navigatie*/
-nav {
+
+/*Navbar*/
+.Mobile {
+	display: none;
+}
+
+.Desktop {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -29,7 +35,7 @@ nav {
 	max-height: 80px;
 }
 
-nav ul {
+nav .Desktop ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
@@ -48,7 +54,7 @@ nav a {
 	color: black;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
-	font-size: 20px;
+	font-size: 15pt;
 	color: black;
 }
 
@@ -58,25 +64,15 @@ nav a:hover {
 
 .uBentHier {
 	font-weight: bold;
-	font-size: 135%;
 }
 
-.Vacatuur {
-	border: solid 2px black;
-	border-radius: 15px;
-	color: black;
-	padding: 5px;
-	transition: 0.2s;
+nav a img {
+	width: 50px;
 }
 
-.Vacatuur:hover {
+.Vacatuur a:hover {
 	background-color: #ef9a1b;
 	text-decoration: none;
-}
-
-.Vacatuur:active {
-	box-shadow: 0px 0px 8px #833938;
-	color: #833938;
 }
 
 /*Footer*/
@@ -89,7 +85,7 @@ nav a:hover {
 .Adres p,
 .ContactUs p {
 	color: black;
-	margin-left: 225px;
+	margin-left: 210px;
 	font-size: 16px;
 	font-family: "anago", sans-serif;
 	font-size: 20px;
@@ -188,21 +184,24 @@ footer div img:first-child {
 h1 {
 	font-weight: 700;
 	font-style: normal;
-	font-size: 87px;
+	font-size: 65px;
 	color: #833938;
 }
 
 h2 {
 	font-weight: 700;
 	font-style: normal;
-	font-size: 35px;
+	font-size: 34px;
 	color: #833938;
 }
 
 p {
-	font-size: 25px;
+	font-size: 20px;
 }
 
+a {
+	font-size: 15pt;
+}
 /*vrijwilligers*/
 
 .vrijwilligers {
@@ -239,14 +238,14 @@ p {
 
 .middenstuk {
 	text-align: center;
-	margin-bottom: 150px;
+	margin-bottom: 220px;
 }
 
 .afbeeldingenvw {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 40px;
+	gap: 50px;
 }
 
 .afbeeldingenvw img {
@@ -295,12 +294,6 @@ p {
 
 	nav li {
 		margin-right: 20px;
-	}
-
-	.bovenkantpagina,
-	.onderkantpagina,
-	.middenstuk {
-		padding: 10px;
 	}
 
 	.bovenkantpagina img,
@@ -357,9 +350,12 @@ p {
 
 	.onderkantpagina {
 		gap: 20px;
-		margin-bottom: -10px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: -1px;
 		margin-top: -20px;
 		padding: 20px;
+		text-align: center;
 	}
 
 	.afbeeldingenvw {
@@ -723,7 +719,6 @@ p {
 
 	/*Adres & Contact Mobile*/
 	.SkylinesFooter {
-		margin-top: 50%;
 		padding-top: 7%;
 		width: 100%;
 		background-position: -180px;
